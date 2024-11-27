@@ -4,21 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Creative UX Portfolio</title>
-    <link rel="stylesheet" href="project.css">
+    <title>Design for Understanding</title>
+    
+    <link rel="stylesheet" href="projectd.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <!-- navbar -->
-   <nav class="navbar">
+    <nav class="navbar">
         <div class="logo"></div>
         <ul class="nav-links">
             <li><a href="#home" onclick="navigateToindex()" class="link__text">Home</a></li>
-            <li><a href="#home" onclick="navigateToindex()" class="link__text">About</a></li>
-            <li><a href="#home" onclick="navigateToindex()" class="link__text">Portfolio</a></li>
-            <li><a href="#home" onclick="navigateToindex()" class="link__text">Skills</a></li>
-            <li><a href="#home" onclick="navigateToindex()" class="link__text">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
 
         </ul>
         <div class="burger">
@@ -29,536 +30,579 @@
     </nav>
 
 <!-- center img -->
-    <section class="portfolio">
-        <div class="container">
-            <section class="project-overview">
-                <!-- <div class="title text-center"> -->
-                <img src="./Case study dissertation/cover pg.jpg" class="work__image" alt="Project 1" style="width:100%"
-                    ; />
-                </sectrion>
+    <!-- hero page -->
+    <div class="hero">
+        <div class="hero-content">
+            <!-- <h1>Welcome to Parallax Hero</h1>
+            <p>A responsive hero section with parallax effect</p> -->
         </div>
+    </div>
 
-    </section>
-
-    <!-- project overview --> 
-    <section class="about">
-        <div class="container">
-            <section class="project-overview">
-                <h1 style="text-align: center;">Project Overview</h1>
-                <p style="text-align: center;">
-                    This study explored methods to enhance the engagement and comprehension of
-                    digital Terms and Conditions (T&C) among elderly individuals in India. It
-                    investigated the reasons behind the gap between older adults and digital
-                    technologies, focusing on privacy concerns as a key barrier.
-                </p>
-                
-            </section>
+    <!-- project overview -->
+    <div class="content">
+        <div class="overview-container">
+            <h2 style="text-align: center;">Project Overview</h2>
+            <!-- <div class="shape circle"></div> -->
+            <!-- <div class="shape square"></div> -->
+            <!-- <div class="shape triangle"></div> -->
+            <p style="text-align: center;">
+                This study explored methods to enhance the engagement and comprehension of
+                digital Terms and Conditions (T&C) among elderly individuals in India. It
+                investigated the reasons behind the gap between older adults and digital
+                technologies, focusing on privacy concerns as a key barrier.
+            </p>
         </div>
-    </section>
-      
-
+    </div>
     <!-- problem and solution -->
-    <section class="about">
+    <section class="problem-solution">
         <div class="container">
-            <div class="problem-solution-wrapper">
-                <section class="problem">
-                    <h2>Problem</h2>
-                    <p>Bridging the gap between elderly users and safe online experiences
-                        requires tackling the complexity and accessibility of Terms & Conditions (T&Cs).
-                        These terms are crucial for
-                        informed decision making, yet current challenges pose significant hurdles:
-                    </p>
-                    <br>
-                    <ul>
-                        <li><b>Dense Legal Jargon: </b> Current T&Cs are often filled with complex legal
-                            language,
-                            making them difficult for anyone, especially older adults, to understand.</li>
-                        <br>
-                        <li><b>Accessibility for Impaired Vision: </b> Many elderly users experience vision
-                            problems. The current format of
-                            T&Cs, often lengthy and dense with text, can make them difficult to read.</li>
-                        <br>
-                        <li><b>Lack of Engagement: </b> The sheer length and dry presentation of T&Cs can be
-                            disengaging, leading users to
-                            skip them entirely, potentially putting themselves at risk.</li>
-                        <br>
-                    </ul>                </section>
-                <section class="solution">
-                    <h2>Solution</h2>
-                    <p>The study proposes a multi-pronged approach:
-                    </p>
-                    <br>
-                    <ul>
-                        <li><b>Revamping T&C Design: </b> This involves making the terms themselves
-                            easier to understand. We can achieve this by simplifying the language,
-                            using clear formatting, and incorporating visuals like icons or flowcharts.
-                            Additionally,
-                            summaries of key points and the ability to customize settings can further empower
-                            users.</li>
-                        <br>
-                        <li><b>Building Collaboration: </b> To truly bridge the digital divide, a
-                            combined effort is needed. Legal teams and designers should work together to
-                            create user-friendly T&Cs. Educating users about commonly used legal terms can
-                            also be beneficial. Finally, policymakers have a role to play in
-                            ensuring transparency and protecting user rights, further empowering elderly users
-                            online.</li>
-                        <br>
-                    </ul>                </section>
-            </div>
-    </section>
+          <div class="problem animate-item">
+            <h2>Problem</h2>
+            <p>The study highlights the challenges elderly users face in navigating the
+                complexity and ac-cessibility of Terms & Conditions
+                (T&Cs), which are crucial for informed decision-making and those
+                significant hurdles are:
+            </p>
+            <ul>
+              <li>Current T&Cs are often filled with complex legal
+                language, making them difficult for anyone, especially
+                older adults, to understand.</li>
+              <li>•	Many elderly users experience vision problems.
+                The current format of T&Cs, often lengthy and dense
+                with text, can make them difficult to read.</li>
+              <li>The sheer length and dry presentation of T&Cs can be disengaging,
+                leading users to skip them entirely, potentially putting themselves at risk.</li>
+            </ul>
+          </div>
+          <div class="solution animate-item">
+            <h2>Solution</h2>
+            <p>The study proposes a multi-pronged approach to make the elderly
+                face the hurdles which they face in navigating the Terms & Conditions (T&Cs), they are:
+            </p>
+            <ul>
+              <li>Simplifying the language, using clear formatting, and
+                incorporating visuals like icons or flowcharts can make them easier to understand.</li>
+              <li>Additionally, summaries of key points and the ability to customize
+                settings can further empower users to make decisions wisely.</li>
+              <li>Creating user-friendly T&Cs, Educating users about commonly used legal terms, ensuring
+                transparency and protecting user rights, further helps in empowering elderly users online.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
    
 
-   <!-- research process -->
-    <!-- literature review -->
-    <section class="about">
-        <div class="container">
-            <section class="project-overview">
-                <h1 style="text-align: center;">Research Process</h1>
-                <h2 style="text-align: center;"> Literature Review </h2>
-                <p>
-                    To understand the reasons behind the gap between older adults and
-                    digital technologies, researchers conducted a
-                    literature analysis. This analysis revealed three key concerns that can act as barriers:
-                </p>
-                <br>
-                <ul>
-                    <li><b>The Digital Divide: </b>This refers to the lack of access, skills, or
-                        knowledge needed to effectively use digital tools. Older adults may face challenges
-                        due to limited internet connectivity,
-                        affordability of devices, or a lack of training opportunities.</li>
-                    <li><b>Psychological Hurdles: </b>Beyond technical limitations, psychological factors
-                        can also play a role. Fear of failure, a perceived lack of technical ability, or a
-                        sense of being overwhelmed
-                        by the constant technological advancements can all contribute to discouragement.</li>
-                    <li><b>Privacy Concerns: </b>Data security and privacy issues are a growing concern for
-                        everyone, but can be especially worrisome for older adults who may be less familiar
-                        with online threats. Understanding how their data is collected
-                        and used can be a significant hurdle to adopting new technologies.</li>
-                </ul>
-                <br>
-                
-            </section>
+<!-- research process -->
+<div class="content">
+    <div class="overview-container">
+        <h2 style="text-align: center;">Research Process</h2>
+    </div>
+</div>
+
+<!-- process slider -->
+
+<div class="process-slider">
+    <div class="progress-bar"></div>
+    <nav class="steps">
+      <a href="#step1" class="step active">
+        <div class="step-icon">1</div>
+        <span class="step-label">Literature Review</span>
+      </a>
+      <a href="#step2" class="step">
+        <div class="step-icon">2</div>
+        <span class="step-label">Survey</span>
+      </a>
+      <a href="#step3" class="step">
+        <div class="step-icon">3</div>
+        <span class="step-label">Design Process</span>
+      </a>
+      <a href="#step4" class="step">
+        <div class="step-icon">4</div>
+        <span class="step-label">User Testing</span>
+      </a>
+    </nav>
+  </div>
+  
+<!-- Literature review -->
+  <div class="content">
+    <div class="overview-container" id="step1">
+        <div>
+            <h2 class="fancy-heading">
+              <span class="number">01</span>
+              <span class="text">Literature Review</span>
+            </h2>
+          </div>
+        <p>
+            As a initial stage of research a literature analysis was conducted,
+            to understand the reasons behind the gap between older
+            adults and digital technologies which then narrowed down to
+            three key concerns that can act as barriers:
+        </p>
+        <ul>
+            <li>
+                <b>The Digital Divide:</b>This refers to the lack of access, skills,
+                or knowledge to effectively use digital tools and they may also face
+                challenges due to limited internet connectivity, affordability of
+                devices, or a lack of training opportunities.
+            </li>
+            <li>
+                <b>Psychological Hurdles:</b>Beyond technical limitations, psychological
+                factors can also play a role such as Fear of failure, a perceived
+                lack of technical ability, or a sense of being overwhelmed by the constant
+                technological advancements.
+            </li>
+            <li>
+                <b>Privacy Concerns:</b>Not Understanding how their data is collected
+                and used can be a significant hurdle to adopting new
+                technologies which leads to Data security and privacy concerns who
+                are less familiar with online threats.
+            </li>
+        </ul>
+    </div>
+</div>
+ 
+<!-- survey -->
+<div class="content">
+    <div class="overview-container" id="step2">
+        <div>
+            <h2 class="fancy-heading">
+              <span class="number">02</span>
+              <span class="text">Survey</span>
+            </h2>
+          </div>
+    
+        <p>
+            From these three factors Privacy concerns has been considered as the
+            major issue by most of the literature papers which was analysed and a
+            survey which was named as “Senior Digital Inclusion & Security Survey”
+            was conducted targeting the Indian elderly
+            demographic to understand their privacy concerns, technological challenges, and their preferences.
+        </p>
+    
+    </div>
+    <img src="./Case study dissertation/survey.png" alt="Image 1" id="img1" class="responsive-image">
+</div>
+    
+
+<!-- design Process -->
+<section class="problem-solution1" id="step3">
+    <div class="container">
+      <div class="problem1 animate-item">
+        <div>
+            <h2 class="fancy-heading">
+              <span class="number">03</span>
+              <span class="text">Design Process</span>
+            </h2>
+          </div>
+        <p>From the survey, it has been found out that the older adults have significant
+            privacy fears regarding digital technologies, including identity theft,
+            data breaches, and financial loss. Despite of this either happening to
+            them or hearing this news, they often neglect to read T&Cs that could
+            possibly explain the future risks. Based on this, three prototypes for
+            payment gateway app named Gpay, a commonly used app among participants
+            (which was known by interviewing them online) using Figma. Before testing,
+            a survey was again conducted to ensure that they are familiar with Gpay.
+            Finally, researchers presented the prototypes to participants via WhatsApp links and Google Meet video calls.
+        </p>
+      </div>
+      <div class="solution1 animate-item">
+        <img src="./Case study dissertation/Prototypes.png" width="100%" alt="Image 1" id="img2" class="responsive-image">
+    </div>
+    </div>
+  </section>
+
+
+ <!-- user testing -->
+  <div>
+ <div>
+    <h2 class="fancy-heading" id="step4">
+      <span class="number">04</span>
+      <span class="text">User Testing</span>
+    </h2>
+  </div>
+
+ <section class="problem-solution1" id="step4">
+    <div class="container">
+      <div class="problem1 animate-item">
+     <h2>Pilot Testing</h2>
+        <p>The pilot testing stage aimed to identify and address any
+            initial usability issues with the prototypes before presenting
+            them to a wider audience. Here's a closer look:
+        </p>
+        <ul>
+            <li>
+                <b>Sample Size:</b>A small group of participants was chosen for the pilot test.
+                This allows for focused observation and detailed feedback on each user's interaction
+                with the prototypes.
+            </li>
+            <li>
+                <b>Focus:</b>The primary goal was to assess usability and observed how
+                participants navigated the prototypes,
+                identified any confusing elements, and ensured smooth functionality
+                and also to identify any issues.
+            </li>
+            <li>
+                <b>Outcome:</b>The pilot test revealed a single issue, that the background
+                color of Prototype 2 was found to be distracting and impacted the readability and based on
+                the feedback it was then changed from Yellow (#FDBD00) to a more user-friendly peach (#F3CEB1).
+            </li>
+        </ul>
+      </div>
+      <div class="solution1 animate-item">
+        <h2>Actual Testing</h2>
+        <p>Following the pilot test, the research shifted to more comprehensive user testing phase:
+        </p>
+        <ul>
+            <li>
+                <b>Sample Size:</b>With a group of fifteen participants, the updated prototypes
+                were tested to know how the user experiences and perspectives regarding the T&Cs of the app.
+            </li>
+            <li>
+                <b>Individual Sessions: </b>Unlike the pilot test, user testing was conducted
+                individually via Google Meet. This led to
+                tailor the testing experience to each participant's needs and preferences,
+                leading to richer data.
+            </li>
+            <li>
+                <b>Data Collection:</b>During each testing session the audio was recorded instead of
+                video since few of the participants were not comfortable in recording video. Analyzing
+                these recordings can revealed user hesitations, thought patterns, and emotional responses
+                to the prototypes, providing valuable feedback beyond what
+                simple observations can captured to gain deeper insights into user behaviour and thought processes. 
+            </li>
+        </ul>
         </div>
-    </section>
-
-    <!-- survey -->
-    <section class="about">
-        <div class="container">
-            <section class="project-overview">
-                <h2 style="text-align: center;"> Survey </h2>
-                <p style="text-align: center;">
-                    From these three factors Privacy concerns has been identified as the major
-                    issue and a survey which was named as “Senior Digital Inclusion & Security Survey”
-                    was conducted targeting the Indian elderly demographic to
-                    understand their privacy concerns, technological challenges, and preferences.
-                </p>
-                <br>
-                <img src="./Case study dissertation/survey.png" class="work__image" width="100%" alt="Project 1" />
-
-            </section>
-        </div>
-    </section>
-
-    <!-- Design Process -->
-    <section class="about">
-        <div class="container">
-            <div class="problem-solution-wrapper">
-                <section class="problem">
-                    <h2>Design Process</h2>
-                    <p>
-                        A survey found older adults have significant privacy fears regarding digital
-                        technologies, including identity theft, data breaches, and financial loss. However,
-                        they often neglect to read T&Cs that could explain these risks.
-
-                        Building on this and prior research, the study designed three prototypes for payment
-                        gateway apps (like Gpay, a commonly used app among participants) using Figma, an
-                        online prototyping tool. Before testing, a survey gauged participants' familiarity
-                        with Gpay. Finally,
-                        researchers presented the prototypes to participants via WhatsApp links and Google
-                        Meet video calls.
-                    </p>        </section>
-                <section class="solution">
-                    <img src="./Case study dissertation/Prototypes.png" width="100%" alt='lofi' />
-                </section>
-            </div>
-    </section>
-
-    <!-- user testing -->
-    <section class="about">
-        <div class="container">
-            <div class="problem-solution-wrapper">
-                <section class="problem">
-                    <h2>Pilot Testing</h2><br>
-                            <p>The pilot testing stage aimed to identify and address any initial usability issues with
-                                the
-                                prototypes before presenting them to a wider audience. Here's a closer look:
-                            </p>
-                            <br>
-                            <ul>
-                                <li><b>Sample Size:</b> A small group of two participants was chosen for the pilot test.
-                                    This allows for focused observation
-                                    and detailed feedback on each user's interaction with the prototypes.</li>
-                                <br>
-                                <li><b>Focus:</b> The primary goal was to assess usability. Researchers observed how
-                                    participants navigated the
-                                    prototypes, identified any confusing elements, and ensured smooth functionality.
-                                </li>
-                                <br>
-                                <li><b>Outcome:</b> The pilot test revealed a single issue: the background color of
-                                    Prototype
-                                    2 was found to be distracting and negatively impacted usability. Based on this
-                                    feedback,
-                                    the researchers promptly addressed the problem by
-                                    changing the background color from Yellow (#FDBD00) to a more user-friendly peach
-                                    (#F3CEB1).</li>
-                            </ul>       </section>
-                <section class="solution">
-                    <h2>User Testing</h2><br>
-                    <p>Following the pilot test, the research shifted to
-                        more comprehensive user testing phase:
-                    </p>
-                    <br>
-                    <ul>
-                        <li><b>Sample Size: </b> The team recruited a larger group of fifteen participants. This
-                            broader
-                            sample size allows for a wider range of user experiences and perspectives to be
-                            captured.</li>
-                        <br>
-                        <li><b>Individual Sessions:</b> Unlike the pilot test, user testing was conducted
-                            individually via Google Meet. This allows researchers to tailor the testing
-                            experience to each participant's needs and preferences, leading to richer data.</li>
-                        <br>
-                        <li><b>Data Collection:</b> To gain deeper insights into user behavior and thought
-                            processes,
-                            the researchers recorded audio during each testing session. Analyzing these
-                            recordings can
-                            reveal user hesitations, thought patterns, and emotional responses to the
-                            prototypes,
-                            providing valuable feedback beyond what simple observations can capture.</li>
-                    </ul>                </section>
-            </div>
-    </section>
+    </div>
+  </section>
+  </div>
 
     <!-- Qualitative analysis -->
-    <section class="about">
-        <div class="container">
-            <section class="project-overview">
-                <h2 style="text-align: center;">Qualitative analysis</h2>
-                <p>
-                    After the testing the participants were asked few questions and
-                    based on that answers, the qualitative analysis was done. The questions are as follows:
-                </p>
-                <br>
-                <ul>
-                    <li>Do you usually read the Terms and Conditions (T&C) before starting using apps or websites? </li>
-                    <li>What factors influence you to read the T&Cs more or less? </li>
-                    <li>What was your feeling about the length of each T&C format? </li>
-                    <li>Were you able to understand the information given in the T&Cs?  </li>
-                    <li>If you knew that our data is being used for third party service enhancement would you continue
-                        using the app?  </li>
-                    <li>Would you be inclined to read T&Cs if they were simpler and shorter to understand? </li>
-                    <li>Would you usually click on any of the sub-links within the T&Cs? If not, why? </li>
-                    <li>Any suggestions that would make you more likely to read sub-links within T&Cs? </li>
-                    <li>Any feedback or suggestions from your side to improve the T&Cs pages? </li>
-                </ul>
-
-                <br>
-                <br>
-
-                <br>
-
-
-                <img src="./Case study dissertation/Thematic Analysis.png" width="100%" 
-                class="work__image" alt="Project 1" /> 
-
-                
-            </section>
+    <div class="content">
+        <div class="overview-container">
+            <h2 style="text-align: center;">Qualitative Analysis</h2>
+           
+            <p style="text-align: center;">
+                After the testing the participants were asked few questions and based on those answers,
+                the qualitative analysis was done using Thematic Analysis method. The questions are as follows:
+            </p>
+            <ul>
+                <li>Do you usually read the Terms and Conditions (T&C) before starting using apps or websites? </li>
+                <li>What factors influence you to read the T&Cs more or less? </li>
+                <li>What was your feeling about the length of each T&C format? </li>
+                <li>Were you able to understand the information given in the T&Cs?  </li>
+                <li>If you knew that our data is being used for third party service enhancement would you continue
+                    using the app?  </li>
+                <li>Would you be inclined to read T&Cs if they were simpler and shorter to understand? </li>
+                <li>Would you usually click on any of the sub-links within the T&Cs? If not, why? </li>
+                <li>Any suggestions that would make you more likely to read sub-links within T&Cs? </li>
+                <li>Any feedback or suggestions from your side to improve the T&Cs pages? </li>
+            </ul>
         </div>
-    </section>
+
+        <img src="./Case study dissertation/Thematic Analysis.png" alt="Image 1" id="img3" class="responsive-image">
+    </div>
 
     <!-- Quantitative analysis -->
-    <section class="about">
-        <div class="container">
-            <section class="project-overview">
-                <h2 style="text-align: center;">Quantitative analysis</h2>
-                <p>
-                    The quantitative analysis is done by measuring the time taken by each participant while
-                    testing and also by asking them to rate each prototype out of 5 based on readability
-                    and engagement using Likert scale rating method and calculated using the Spss software.
-                </p>
-                <br>
-                <br>
-                <br>
-                <img src="./Case study dissertation/Thematic Analysis.png" width="100%" class="work__image" alt="Project 1" /> >
-
-                          </section>
+    <div class="content">
+        <div class="overview-container">
+            <h2 style="text-align: center;">Qualitative Analysis</h2>
+           
+            <p style="text-align: center;">
+                The quantitative analysis is done by measuring the time taken by each participant while testing and also by asking them to rate each prototype out of 5 based on readability and engagement using Likert
+                scale rating method which was calculated and anlyzed by three different types using the SPSS software.
+            </p>
+          
+        </div>
+    </div>
         </div>
 
-        <!-- Descriptive Statistics -->
-        <div class="container">
-            <div class="problem-solution-wrapper">
-                <section class="problem">
-                    <h3>Descriptive Statistics</h3>
-                    <p>
-                        The primary objective of performing Descriptive Statistics is to get a basic
-                        understanding
-                        of distribution of time, engagement and readability ratings. The process and
-                        interpretation are:
-                    </p>
-                    <ul>
-                        <li><b>Mean and Median: </b> Identities the average and middle value for
-                            the time spent, readability and engagement for each prototype. </li>
-                        <li><b>Range and Standard Deviation:</b> Used to understand the spread and
-                            variability of areas. </li>       </section>
-                <section class="solution">
-                    <img src="./Case study dissertation/Descriptive Statistics 1.png" width="100%" alt='lofi' />
-                </section>
-            </div>
-            </div>
+ <!-- Descriptive Statistics -->
+ <section class="problem-solution1" id="step3">
+    <div class="container">
+      <div class="problem1 animate-item">
+        
+        <h3>Descriptive Statistics</h3>
+        <p>
+            The primary objective of performing Descriptive Statistics is to get a basic
+            understanding of distribution of time, engagement and readability ratings.
+            The process and interpretation are:
+        </p>
+        <ul>
+            <li><b>Mean and Median: </b> Identities the average and middle value for the time spent,
+                readability and engagement for each prototype.  </li>
+            <li><b>Range and Standard Deviation:</b> Used to understand the
+                spread and variability of areas.  </li> 
+                </ul>
+                <p>
+                    This test reveals that prototype 3 has a higher mean value, indicating it
+                    is the best design for users. However, it is not statistically evident that
+                    prototype 2 is a good design, and Kruskal Wallis and Mann Whitney tests are
+                    performed to test the significance.
+                </p>
+      </div>
+      <div class="solution1 animate-item">
+        <img src="./Case study dissertation/Descriptive Statistics 1.png" width="100%" alt="Image 1" id="img4" class="responsive-image">
+    </div>
+    </div>
+  </section>        
+        
+<!-- Kruskal-Wallis -->
+<section class="problem-solution1" id="step3">
+    <div class="container">
+      <div class="problem1 animate-item">
+        
+        <img src="./Case study dissertation/Kruskal Walli.png" width="100%" alt="Kruskal-Wallis" id="img5" class="responsive-image">
 
-            <!-- Kruskal-Wallis -->
-            <div class="container">
-                <div class="problem-solution-wrapper">
-                    
-                    <section class="solution">
-                        <img src="./Case study dissertation/Kruskal Walli.png" width="100%" alt='lofi' />
-                    </section>
-
-                    <section class="problem">
-                        <h3>Kruskal-Wallis</h3><br>
-                                <p>
-                                    After that Kruskal-Wallis Test was performed to find if there is any
-                                    difference in significance statistically in Readability
-                                    and Engagement ratings between the three prototypes is the main objective of
-                                    performing this.
-                                </p>     </section>
-                </div>
-                </div>
-
-                <!-- Mann- Whitney Test -->
-                <div class="container">
-                    <div class="problem-solution-wrapper">
-                        <section class="problem">
-                            <h3>Mann- Whitney Test</h3>
-                            <p>
-                                After getting to know that there is actually a significantly different
-                                one, Mann- Whitney Test was conducted pairwise comparisons between the three
-                                different Terms and Conditions page prototypes, which is one
-                                of the most suitable tests for testing and comparing two independent groups for
-                                non-parametric data.
-                            </p>       </section>
-                        <section class="solution">
-                            <img src="./Case study dissertation/Mann Whitney.png" width="100%" alt='lofi' />
-                        </section>
-                    </div>
-                    </div>
-
-
-    </section>
+      </div>
+      <div class="solution1 animate-item">
+        <h3>Kruskal-Wallis</h3><br>
+        <p>
+            The histogram graph for Readability and Engagement ratings
+            indicates a need for a non-parametric test. The study has three
+            designs, each rated by three participants. To confirm whether there
+            is a statistically significant prototype, the Kruskal Wallis H test,
+            a rank-based nonparametric test, is used. The results show a p value less than 0.05,
+            confirming that there is a significant one in both readability and engagement ratings.
+        </p> 
+        </div>
+    </div>
+  </section> 
+<!-- Mann- Whitney Test -->
+<section class="problem-solution1" id="step3">
+    <div class="container">
+      <div class="problem1 animate-item">
+        
+        <h3>Mann- Whitney Test</h3>
+        <p>
+            To determine the most significant prototype, a post-hoc test was
+            conducted using the Mann-Whitney U test. The results showed that design 3
+            was more engaging than design 1 & 2, design 2 & 3, and design 1 & 3. However,
+            design 2 & 3 were not statistically significant enough to determine which was
+            more engaging. In terms of readability, design 3 was found to be more effective
+            than design 1 & 2, but design 2 was more effective. Overall,
+            the comprehensive text combined with graphical elements was found to be easier to read for participants.
+        </p> 
+      </div>
+      <div class="solution1 animate-item">
+        <img src="./Case study dissertation/Mann Whitney.png" width="100%" alt="Image 1" id="img6" class="responsive-image">
+    </div>
+    </div>
+  </section>    
 
     <!-- Key Findings -->
-    <section class="about">
-        <h1 style="text-align: center;">Key Findings</h1>
+
+    <section class="problem-solution1" id="step4">
+        <h2 style="text-align: center;">Key Findings</h2>
         <div class="container">
-            <div class="problem-solution-wrapper">
-                <section class="problem">
-                    
-                    <h2>Quantitative analysis</h2>
-                    <p>According to quantitative analysis it has been found out that according to
-                        Readability the Prototype 3 is considered to be the significant one and
-                        according to engagement both second and third are considered to be the significant one.
-                    </p>
-                    <br>
-                    <ul>
-                        <li><b>Privacy Concerns and T&C Disconnect:</b> Older adults express significant privacy
-                            anxieties regarding data breaches, identity theft, and financial loss when using
-                            digital
-                            technologies. However, they often neglect to read
-                            Terms & Conditions (T&C) documents that could address these very concerns.</li>
-                        <br>
-                        <li><b>Need for Multidisciplinary Solutions:</b> Bridging the privacy gap for older
-                            adults requires a collaborative effort from various fields. Designers can create
-                            innovative T&C presentations, legal experts can simplify legal jargon, educators can
-                            explain legal
-                            terminology, and policymakers can ensure transparency and user rights protection.
-                        </li>
-                        <br>
-                        <li><b>Importance of User-Friendly T&Cs:</b> Complex legal language and unengaging
-                            presentation formats in traditional T&Cs discourage many older adults from reading
-                            them.
-                            Innovative design approaches that utilize interactive
-                            elements, clear visuals, and concise summaries are crucial for improving T&C
-                            engagement.</li>
-                        <br>
-                        <li><b>Educating Older Users:</b> Educational programs and resources specifically
-                            aimed at older adults can empower them to understand commonly used legal terms
-                            found in T&Cs. This knowledge can equip them to make informed decisions regarding
-                            their online privacy.</li>
-                        <br>
-                        <li><b>Policymakers' Role in Transparency:</b> Policymakers have a responsibility to
-                            advocate for clearer and more user-friendly T&Cs. Additionally, establishing strong
-                            regulations
-                            to protect user data privacy is essential for creating a secure digital environment
-                            for
-                            older adults.</li>
-                    </ul>       </section>
-                <section class="solution">
-                    <h2>Qualitative analysis</h2><br>
-                    <p>The key findings of the tetsings after analysing the data quantitatively are
-                    </p>
-                    <br>
-                    <ul>
-                        <li><b>Disengagement Despite Concerns:</b> People rarely engage with Terms &
-                            Conditions (T&C) due to their length, complex language, and lack of visual appeal.
-                            This surprising disconnect exists even though users express privacy concerns when
-                            using digital services.</li>
-                        <br>
-                        <li><b>Readability Matters:</b> Simplifying legal jargon, utilizing clear formatting,
-                            and
-                            incorporating visuals like icons or flowcharts can significantly improve user
-                            engagement
-                            with T&C documents. By
-                            making the content easier to understand, users are more likely to actively read and
-                            comprehend the information.</li>
-                        <br>
-                        <li><b>Design Captures Attention:</b> Visually appealing and
-                            interactive T&C presentations can capture user attention and encourage them to
-                            actively read the content. Interactive elements like clickable definitions or
-                            summaries
-                            of key points can further enhance user experience.</li>
-                        <br>
-                        <li><b>User Coping Mechanisms:</b> Faced with lengthy and complex T&Cs, users
-                            often develop strategies to cope with the information overload. These
-                            strategies might include skimming for specific keywords, selectively
-                            reading certain sections, or simply skipping the T&Cs altogether. This
-                            highlights the need for improved T&C design to cater to different user preferences.
-                        </li>
-                        <br>
-                        <li><b>Experiment Shows Positive Shift:</b> Studies demonstrate that improved T&C
-                            presentation can
-                            lead to a more positive user perception of length. This could be because a
-                            well-designed
-                            T&C allows users to quickly grasp the information they need, potentially increasing
-                            their awareness of the information presented and making them feel more comfortable
-                            using the service.
-                        </li>
-                    </ul>
-                </section>
+            
+          <div class="problem1 animate-item">
+         <h3>Qualitative analysis</h3>
+            <p>The key findings of the testing after analysing thematic analysis data are:
+            </p>
+            <ul>
+                <li>
+                    <b>Disengagement Despite Concerns:</b>People rarely engage with Terms & Conditions
+                    (T&C) due to their length, complex language, and lack of visual appeal.
+                    This surprising disconnect exists even though users’ express privacy concerns when using digital services.
+                </li>
+                <li>
+                    <b>Readability Matters:</b>People can’t engage with the content because of the
+                    size of the content makes them feel
+                    overwhelming and they feel stressed that they have to read so many while they
+                    scroll the whole page and see.
+                </li>
+                <li>
+                    <b>Visual Influence:</b>Content which is just put up in the page without any key elements
+                    to make them understand makes them feel bored and feel detached which causes the disengagement.
+                </li>
+                <li>
+                    <b>User Coping Mechanisms:</b>Faced with lengthy and complex T&Cs, users often develop
+                    strategies to cope with the information overload. These coping mechanism indirectly creates
+                    a trust on the software which makes them
+                    believe that they won’t be cheated just to cross the page by accepting it and then creates a fear later.
+                </li>
+                <li>
+                    <b>Experiment Shows Positive Shift:</b>Studies demonstrate that improved T&C presentation can
+                    lead to a more positive user perception of length. This could be because a well-designed T&C
+                    allows users to quickly grasp the information they need, potentially increasing their
+                    awareness of the information presented and making them feel more comfortable using the service.
+                </li>
+            </ul>
+          </div>
+          <div class="solution1 animate-item">
+            <h2>Quantitative analysis</h2>
+            <p>The key findings of the testing after analysing SPSS analysis data are:
+            </p>
+            <ul>
+                <li>
+                    <b>Central Tendency and Dispersion:</b>The analysis of central tendency measures (mean, median, mode)
+                    indicated varying levels of time spent on each prototype, with prototype 1 taking the longest and
+                    prototype 2 the least. Measures of dispersion (range, variance, standard deviation)
+                    highlighted the spread of ratings, affecting the interpretation of average scores.
+                </li>
+                <li>
+                    <b>Prototype Performance:</b>Prototype 3 consistently received higher mean values
+                    for both readability and engagement ratings, indicating it was the most favored design
+                    among participants. The mean differences in ratings between prototypes 1 and 2 ranged from
+                    1.5 to 1.8, while differences between prototypes 2 and 3 were lower, ranging from 1.2 to 1.3.
+                </li>
+                <li>
+                    <b>Statistical Significance:</b>The Kruskal-Wallis H test confirmed significant differences 
+                    mong the three prototypes for both readability and engagement ratings, with p-values less than
+                    0.05 indicating statistical significance. This test identified that
+                    at least one prototype differed significantly from the others in terms of user ratings. 
+                </li>
+                <li>
+                    <b>Pairwise Comparisons:</b>Mann-Whitney U tests revealed significant differences in
+                    engagement ratings between designs 1 & 2 and designs 1 & 3, establishing that design
+                    3 was significantly more engaging. However, no significant
+                    difference was found between designs 2 & 3, suggesting both were perceived as engaging by participants. 
+                </li>
+                <li>
+                    <b>Readability Insights:</b>Readability ratings showed significant differences between
+                    all pairs of prototypes, with design 3 rated as the most readable. The combination of
+                    comprehensive text and graphical elements in design 3 contributed
+                    to its higher readability score, indicating a preference for this format among participants.
+                </li>
+               
+            </ul>
             </div>
-    </section>
+        </div>
+      </section>
+    
 
 <!-- Conclusion -->
-<section class="about">
-    <div class="container">
-        <section class="project-overview">
-            <h2 style="text-align: center;">Conclusion</h2>
-            <p style="text-align: center;">
-                While investigating the gap between older adults and the digital
-                devices and technologies , the study identified significant concerns
-                about T&C complexity and lack of understanding among older adults, raising the
-                question: "Why aren't people reading T&C pages?". The study found that lengthy,
-                jargon-filled T&C pages contribute to older adults' avoidance of digital technologies.
-                Simplifying the language, incorporating visuals, and maintaining a clear format can
-                improve comprehension and engagement. However, the study acknowledges the limitations
-                of a small participant pool and the need for further research.
-                <br>
-                <br>
+<div class="content">
+    <div class="overview-container">
+        <h2 style="text-align: center;">Conclusion</h2>
+       
+        <p style="text-align: center;">
+            While investigating the gap between older adults and the digital devices and technologies ,
+            the study identified significant concerns about T&C complexity and lack of understanding among
+            older adults, raising the question: "Why aren't people reading T&C pages?". The study found that
+            lengthy, jargon-filled T&C pages contribute to older adults' avoidance of digital technologies.
+            Simplifying the language, incorporating visuals, and maintaining a clear format can improve
+            comprehension and engagement. However,
+            the study acknowledges the limitations of a small participant pool and the need for further research.
+            <br>
+            <br>
 
-                While not directly addressing the initial question of bridging the entire digital
-                technology gap, this study empowers older adults to make informed decisions through
-                improved T&C accessibility. They can now consciously choose whether to use a service
-                based on a clear understanding of its terms, reducing reliance on avoidance due to fear
-                and confusion.
-            </p>
-            
-        </section>
+            While not directly addressing the initial question of bridging the entire digital technology gap,
+            this study empowers older adults to make informed decisions through improved T&C accessibility.
+            They can now consciously choose whether to use a
+            service based on a clear understanding of its terms, reducing reliance on avoidance due to fear and confusion. 
+        </p>
+      
     </div>
-</section>
+</div>
+    </div>
 
 
 <!-- prototype -->
-<section id="portfolio" class="portfolio">
-    <h1>Prototype</h1>
-    <div class="portfolio-tabs">
-    </div>
-    <div class="portfolio-content">
-        <div class="tab-content active" id="ux-content">
-            <div class="project-grid">
-                <div class="project-card">
-                    <img src="../Case study dissertation/cover pg.jpg" alt="UX Project 1">
-                    <h3>Prototype 1</h3>
-                    <p>Brief description of the project.</p>
+ <div class="content">
+    <h2 style="text-align: center;">
+Prototype
+    </h2>    
+    <div class="expanding-grid">
+        <div class="expanding-card">
+            <div class="card-content">
+                <img src="./Case study dissertation/prototypes 1.png" alt="Prototype 1" class="card-image">
+                <h3 style="text-align: center;">Prototype 1</h3>
+                <p class="short-description">Exisiting Screen.</p>
+                <div class="more-info">
+                    <p>The Prototype 1 was a mirror of the current Gpay
+                        app's terms and conditions page, which was lengthy and poorly presented.
+                    </p>
                     <a href="https://www.figma.com/proto/jUrlD7Yzq56Cyiz5gu0ZSU/Dissertation?page-id=0%3A1&type=design&node-id=18-125&viewport=247%2C337%2C0.07&t=QBh65YQys4gxYINU-1&scaling=scale-down&starting-point-node-id=1%3A33&show-proto-sidebar=1&mode=design"
-                    target="_blank" class="project-link">View Prototype</a>
+                    target="_blank" class="cta-button" >View Prototype</a>
                 </div>
-                <div class="project-card">
-                    <img src="../Case study Globast/cover pg 2.jpg" alt="UX Project 2">
-                    <h3>Prototype 2</h3>
-                    <p>Brief description of the project.</p>
+            </div>
+        </div>
+        <div class="expanding-card">
+            <div class="card-content">
+                <img src="./Case study dissertation/prototypes 2.png" alt="Prototype 1" class="card-image">
+                <h3 style="text-align: center;">Prototype 2</h3>
+                <p class="short-description">Summarized Content</p>
+                <div class="more-info">
+                    <p>The prototype 2 concisely summarizes terms and conditions, using a yellow background and black text,
+                        influenced by a study showing that warmer colors improve readability.
+                    </p>
                     <a href="https://www.figma.com/proto/jUrlD7Yzq56Cyiz5gu0ZSU/Dissertation?page-id=0%3A1&type=design&node-id=58-108&viewport=247%2C337%2C0.07&t=QBh65YQys4gxYINU-1&scaling=scale-down&starting-point-node-id=58%3A129&show-proto-sidebar=1&mode=design"
-                    target="_blank" class="project-link">View Prototype</a>
+                    target="_blank" class="cta-button" >View Prototype</a>
                 </div>
-                <div class="project-card">
-                    <img src="../Case study dissertation/cover pg.jpg" alt="UX Project 1">
-                    <h3>Prototype 3</h3>
-                    <p>Brief description of the project.</p>
+            </div>
+        </div>
+        <div class="expanding-card">
+            <div class="card-content">
+                <img src="./Case study dissertation/prototypes 3.png" alt="Prototype 1" class="card-image">
+                <h3 style="text-align: center;">Prototype 3</h3>
+                <p class="short-description">Summarized Content with Graphic Elements</p>
+                <div class="more-info">
+                    <p>The Prototype 3 content has been improved with graphic elements, under five pages
+                        for clarity and preventing audience skippages on the terms and conditions page.
+                    </p>
                     <a href="https://www.figma.com/proto/jUrlD7Yzq56Cyiz5gu0ZSU/Dissertation?page-id=0%3A1&type=design&node-id=81-387&viewport=247%2C337%2C0.07&t=QBh65YQys4gxYINU-1&scaling=scale-down&starting-point-node-id=81%3A269&show-proto-sidebar=1&mode=design"
-                            target="_blank" class="project-link">View Prototype</a>
+                    target="_blank" class="cta-button" >View Prototype</a>
                 </div>
-                <!-- Add more UX project cards as needed -->
             </div>
         </div>
-     
+      
+    
     </div>
-</section>
+ </div>
 
-    <!-- message -->
-    <section id="contact" class="message portfolio">
-        <div class="about-container">
-            <!-- <div class="row align-items-center"> -->
-            <div class="about-text">
-                <p>I hope you enjoyed reviewing this project. If you'd like to explore more of my work, 
-                    feel free to check out my other projects. I'd love to connect and discuss any opportunities further!  </p>
-            </div>
-            <!-- <div class="about-visual"> -->
-            <a class="cta-button" href="mailto:neethish17@gmail.com" target="_blank">Get in Touch</a>
+ <!-- message -->
+  <!-- <div class="content"> -->
+  <section id="contact" class="message portfolio" >
+    <div class="about-container">
+        <div class="about-text">
+            <p>I hope you enjoyed reviewing this project. If you'd like to explore more of my work, 
+                feel free to check out my other projects. I'd love to connect and discuss any opportunities further!  </p>
         </div>
-        </div>
-        </div>
-        </div>
-    </section>
+        <a class="cta-button" href="mailto:neethish17@gmail.com" target="_blank">Get in Touch</a>
+   
+</section>
+</div>
+
 
     <!-- footer ection -->
- <footer class="footer">
-    <div class="footer-content">
-        <div class="footer-section">
-            <h3>About Me</h3>
-            <p>UX Designer passionate about creating delightful user experiences.</p>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Me</h3>
+                <p>UX Designer passionate about creating delightful user experiences.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <ul>
+                    <li><a href="https://www.behance.net/neethish17e309" target="_blank">Behance</i></a></li>
+                    <li><a href="https://www.linkedin.com/in/neethish-kumar/" target="_blank">Linkedin</a></li>
+                    <li><a href="mailto:neethish17@gmail.com" target="_blank">email</a></li>
+                    <li><a href="mailto:neethish17@gmail.com" target="_blank">+44 7769056105</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="footer-section">
-            <h3>Quick Links</h3>
-            <ul>
-                <li><a href="#home" onclick="navigateToindex()" class="link__text">Home</a></li>
-                <li><a href="#home" onclick="navigateToindex()" class="link__text">About</a></li>
-                <li><a href="#home" onclick="navigateToindex()" class="link__text">Portfolio</a></li>
-                <li><a href="#home" onclick="navigateToindex()" class="link__text">Contact</a></li>
-            </ul>
+        <div class="footer-bottom">
+            <p>&copy; Neethish Kumar Ramasamy | User Experience Designer.</p>
         </div>
-        <div class="footer-section">
-            <h3>Connect</h3>
-            <ul>
-                <li><a href="https://www.behance.net/neethish17e309" target="_blank">Behance</i></a></li>
-                <li><a href="https://www.linkedin.com/in/neethish-kumar/" target="_blank">Linkedin</a></li>
-                <li><a href="mailto:neethish17@gmail.com" target="_blank">email</a></li>
-                <li><a href="mailto:neethish17@gmail.com" target="_blank">+44 7769056105</a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="footer-bottom">
-        <p>&copy; Neethish Kumar Ramasamy | User Experience Designer.</p>
-    </div>
-</footer>  
+    </footer>
 
+
+<!-- back to top -->
+
+<a href="#top" class="back-to-top" title="Back to Top">
+    <span style='font-size:50px;' class="back-to-top__image" class="responsive-image">&#11165;</span> 
+    
+  </a>
 
     <!-- script -->
     <script>
@@ -566,6 +610,176 @@
             // Change the URL to the desired next screen
             window.location.href = 'index.html';
         }
+
+         // problem and solution
+         document.addEventListener('DOMContentLoaded', () => {
+  const animateItems = document.querySelectorAll('.animate-item');
+  
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('active');
+      }
+    });
+  }, { threshold: 0.1 });
+
+  animateItems.forEach(item => {
+    observer.observe(item);
+  });
+});
+
+
+// /process slider
+document.addEventListener('DOMContentLoaded', () => {
+  const steps = document.querySelectorAll('.step');
+  const progressBar = document.querySelector('.progress-bar');
+  const sections = document.querySelectorAll('.content section');
+
+  function updateProgress(currentStep) {
+    const progress = (currentStep / (steps.length - 1)) * 100;
+    progressBar.style.width = `${progress}%`;
+
+    steps.forEach((step, index) => {
+      if (index <= currentStep) {
+        step.classList.add('active');
+      } else {
+        step.classList.remove('active');
+      }
+    });
+  }
+
+  function setActiveStep() {
+    let index = sections.length;
+    while(--index && window.scrollY + 100 < sections[index].offsetTop) {}
+    updateProgress(index);
+  }
+
+  window.addEventListener('scroll', setActiveStep);
+
+  steps.forEach((step, index) => {
+    step.addEventListener('click', (e) => {
+      e.preventDefault();
+      const targetId = step.getAttribute('href');
+      const targetSection = document.querySelector(targetId);
+      targetSection.scrollIntoView({behavior: 'smooth'});
+      updateProgress(index);
+    });
+  });
+
+  setActiveStep();
+});
+
+
+// back to top
+const handleFirstTab = (e) => {
+  if(e.key === 'Tab') {
+    document.body.classList.add('user-is-tabbing')
+
+    window.removeEventListener('keydown', handleFirstTab)
+    window.addEventListener('mousedown', handleMouseDownOnce)
+  }
+
+}
+
+const handleMouseDownOnce = () => {
+  document.body.classList.remove('user-is-tabbing')
+
+  window.removeEventListener('mousedown', handleMouseDownOnce)
+  window.addEventListener('keydown', handleFirstTab)
+}
+
+window.addEventListener('keydown', handleFirstTab)
+
+const backToTopButton = document.querySelector(".back-to-top");
+let isBackToTopRendered = false;
+
+let alterStyles = (isBackToTopRendered) => {
+  backToTopButton.style.visibility = isBackToTopRendered ? "visible" : "hidden";
+  backToTopButton.style.opacity = isBackToTopRendered ? 1 : 0;
+  backToTopButton.style.transform = isBackToTopRendered
+    ? "scale(1)"
+    : "scale(0)";
+};
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 700) {
+    isBackToTopRendered = true;
+    alterStyles(isBackToTopRendered);
+  } else {
+    isBackToTopRendered = false;
+    alterStyles(isBackToTopRendered);
+  }
+});
+
+// full screen image
+const img = document.getElementById('myImage');
+
+function makeFullscreenable(imgId) {
+  const img = document.getElementById(imgId);
+  img.addEventListener('click', function() {
+    if (this.requestFullscreen) {
+      this.requestFullscreen();
+    } else if (this.webkitRequestFullscreen) {
+      this.webkitRequestFullscreen();
+    } else if (this.msRequestFullscreen) {
+      this.msRequestFullscreen();
+    }
+  });
+}
+
+// Use the function for different images
+makeFullscreenable('img1');
+makeFullscreenable('img2');
+makeFullscreenable('img3');
+makeFullscreenable('img4');
+makeFullscreenable('img5');
+makeFullscreenable('img6');
+
+
+// carousel 
+function moveSlide(carouselId, direction) {
+    const carousel = document.getElementById(carouselId);
+    const items = carousel.querySelectorAll('.carousel-item');
+    
+    let currentIndex = Array.from(items).findIndex(item => item.style.transform === 'translateX(0%)');
+    
+    if (currentIndex === -1) currentIndex = 0; // Default to first item if no transform is set
+    
+    let newIndex = currentIndex + direction;
+
+    if (newIndex >= items.length) newIndex = 0; // Loop back to start
+    if (newIndex < 0) newIndex = items.length - 1; // Loop to end
+
+    items.forEach((item, index) => {
+        item.style.transform = `translateX(${(index - newIndex) * 100}%)`;
+    });
+
+    updateSlideNumber(carouselId, newIndex + 1, items.length);
+}
+
+function updateSlideNumber(carouselId, currentSlide, totalSlides) {
+    const slideNumberElement = document.getElementById(`slideNumber${carouselId.slice(-1)}`);
+    
+    if (slideNumberElement) {
+        slideNumberElement.textContent = `${currentSlide} / ${totalSlides}`;
+    }
+}
+
+// Initialize all carousels
+document.querySelectorAll('.carousel').forEach(carousel => {
+    const items = carousel.querySelectorAll('.carousel-item');
+    
+    items.forEach((item, index) => {
+        item.style.transform = `translateX(${index * 100}%)`;
+    });
+
+   // Initialize slide number display
+   const carouselId = carousel.id;
+   updateSlideNumber(carouselId, 1, items.length);
+});
+
+
+
 
     </script>
     <script src="script.js">

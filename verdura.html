@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Verdura</title>
-    <link rel="stylesheet" href="project.css">
+    <title>Gamification In E-Learning</title>
+    
+    <link rel="stylesheet" href="projectv.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 
@@ -15,10 +16,10 @@
         <div class="logo"></div>
         <ul class="nav-links">
             <li><a href="#home" onclick="navigateToindex()" class="link__text">Home</a></li>
-            <li><a href="#home" onclick="navigateToindex()" class="link__text">About</a></li>
-            <li><a href="#home" onclick="navigateToindex()" class="link__text">Portfolio</a></li>
-            <li><a href="#home" onclick="navigateToindex()" class="link__text">Skills</a></li>
-            <li><a href="#home" onclick="navigateToindex()" class="link__text">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
 
         </ul>
         <div class="burger">
@@ -28,401 +29,449 @@
         </div>
     </nav>
 
-   <!-- center img -->
-   <section class="portfolio">
-    <div class="container">
-        <section class="project-overview">
-            <img src="./Verdura/cover pg.jpg" class="work__image" alt="Project 1" style="width:100%"
-                ; />
-            </sectrion>
-    </div>
-
-</section>
-
- <!-- project overview --> 
- <section class="about">
-    <div class="container">
-        <section class="project-overview">
-            <h1 style="text-align: center;">Project Overview</h1>
-            <p style="text-align: center;">
-                "Verdura" is an innovative Virtual Reality (VR) learning platform
-                designed to bridge the gap between users and the plant world.
-                This immersive application transforms plant science education into an
-                engaging adventure, addressing the widespread issue of plant
-                blindness and lack of botanical knowledge.
-            </p>
-            
-        </section>
-    </div>
-</section>
-
-    <!-- problem and solution -->
-    <section class="about">
-        <div class="container">
-            <div class="problem-solution-wrapper">
-                <section class="problem">
-                    <h2>Problem</h2>
-                    <p>Traditional educational systems often overlook the importance of plant sciences,
-                        leading to a significant knowledge gap in this field. This is evidenced by alarming statistics:</p>
-                    <ul style="text-align: justify;">
-                       <li>
-                        Only 1 in 185 bioscience students graduate in botanical sciences.
-                       </li>
-                       <li>
-                        In 2009, a mere 19 out of 37,000 Biological Sciences students
-                        accepted Botany/Plant Science placements.
-                       </li>
-                    </ul><br>   
-                    <p>This lack of engagement with plant sciences has far-reaching implications for
-                        sustainability, ecological understanding, and environmental conservation.
-                       </p>        
-                </section>
-                <section class="solution">
-                    <h2>Solution</h2>
-                    <p>Verdura is an immersive VR learning environment to students which offers them:
-                    </p><br>
-                    <ul style="text-align: justify;">
-                       <li>
-                        Provides detailed education about plants
-                    </li>
-                       <li>
-                        Simulates real-world environments
-                       </li>
-                       <li>
-                        Transforms plant science into an engaging adventure
-                    </li>
-                    </ul>   <br>
-                    <p>By leveraging VR technology, Verdura creates a captivating and interactive platform
-                        that inspires users to connect with the plant world in ways
-                        traditional methods cannot achieve.
-                       </p>     
-                </section>
-            </div>
-    </section>
-
-    <!-- research process -->
-    <section class="about">
-        <div class="container">
-            <section class="project-overview">
-                <h1 style="text-align: center;">Research Process</h1>
-                <h2>Literature Review</h2>
-                <p style="text-align: center;">
-                    To understand the existing challenges in plant education and
-                    the phenomenon of plant blindness a liteature analysis was conducted which
-                    indicated a significant decline in interest in botany among students, with statistics
-                    showing that only 1 in 185 bioscience graduates specialized in botanical sciences.
-                    Historical critiques highlighted the oversimplification
-                    of botany in educational settings, further emphasizing
-                    the need for innovative teaching methods.
-                </p>
-                
-            </section>
+<!-- center img -->
+    <!-- hero page -->
+    <header class="hero-section">
+        <div class="hero-content">
+            <!-- <h1>Welcome to Our Website</h1>
+            <p>Experience the beauty of parallax scrolling.</p> -->
         </div>
-    </section>
+    </header>
 
-    <!-- app analysis -->
-    <section class="about">
+<!-- project overview -->
+    <div class="content">
+        <div class="overview-container">
+            <h2 style="text-align: center;">Project Overview</h2>
+            <!-- <div class="shape circle"></div> -->
+            <!-- <div class="shape square"></div> -->
+            <!-- <div class="shape triangle"></div> -->
+            <p style="text-align: center;">
+              "Verdura" is an innovative Virtual Reality (VR) learning platform
+              designed to bridge the gap between users and the plant world.
+              This immersive application transforms plant science education into an
+              engaging adventure, addressing the widespread issue of plant
+              blindness and lack of botanical knowledge.
+            </p>
+        </div>
+    </div>
+
+<!-- problem and solution -->
+    <section class="problem-solution">
         <div class="container">
-            <div class="problem-solution-wrapper">
-                <section class="problem">
-                    <h2>App Analysis</h2>
-                    <p style="text-align: justify;">
-                        To evaluate existing plant-related applications and
-                        identify gaps in their offerings a SWOT analysis on popular
-                        apps like Candide Labels, PictureThis, Planta, and PlantNet.From this
-                        analysis it has been identified that strengths such as augmented reality features but
-                        noted weaknesses like limited educational content.
-                        Opportunities for improvement included integrating more gamification and user-friendly features.
-                    </p>
-                </section>
-                <section class="solution">
-                    <img src="./Verdura/app analysis.png" width="100%" alt='lofi' />
-                </section>
-            </div>
-            </div>
-    </section>
+          <div class="problem animate-item">
+            <h2>Problem</h2>
+            <p>Traditional educational systems often overlook the importance of plant sciences,
+              leading to a significant knowledge gap in this field. This is evidenced by alarming statistics:</p>
+          <ul style="text-align: justify;">
+             <li>
+              Only 1 in 185 bioscience students graduate in botanical sciences.
+             </li>
+             <li>
+              In 2009, a mere 19 out of 37,000 Biological Sciences students
+              accepted Botany/Plant Science placements.
+             </li>
+          </ul><br>   
+          <p>This lack of engagement with plant sciences has far-reaching implications for
+              sustainability, ecological understanding, and environmental conservation.
+             </p>     
+          </div>
+          <div class="solution animate-item">
+            <h2>Solution</h2>
+            <p>Verdura is an immersive VR learning environment to students which offers them:
+            </p><br>
+            <ul style="text-align: justify;">
+               <li>
+                Provides detailed education about plants
+            </li>
+               <li>
+                Simulates real-world environments
+               </li>
+               <li>
+                Transforms plant science into an engaging adventure
+            </li>
+            </ul>   <br>
+            <p>By leveraging VR technology, Verdura creates a captivating and interactive platform
+                that inspires users to connect with the plant world in ways
+                traditional methods cannot achieve.
+               </p>  
+           </p>
+          </div>
+        </div>
+      </section>
+   
 
+<!-- research process -->
+<!-- research process -->
+<div class="content">
+  <div class="overview-container">
+      <h2 style="text-align: center;">Research Process</h2>
+  </div>
+</div>
 
-    <!-- Initail hypothesis -->
-    <section class="about">
-        <div class="container">
-            <section class="project-overview">
-                <h2 style="text-align: center;">Initial Hypothesis</h2>
-                    <p style="text-align: center;">
-                        After analyzing the competetive apps, an initial hypothesis was fixed focusing
+<!-- process slider -->
+
+<div class="process-slider">
+  <div class="progress-bar"></div>
+  <nav class="steps">
+    <a href="#step1" class="step active">
+      <div class="step-icon">1</div>
+      <span class="step-label">Literature Review</span>
+    </a>
+    <a href="#step2" class="step">
+      <div class="step-icon">2</div>
+      <span class="step-label">App Analysis & Initial Hypothesis</span>
+    </a>
+    <a href="#step3" class="step">
+      <div class="step-icon">3</div>
+      <span class="step-label">Data Collection</span>
+    </a>
+    <a href="#step4" class="step">
+      <div class="step-icon">4</div>
+      <span class="step-label">Sampling Method</span>
+    </a>
+    <a href="#step5" class="step">
+      <div class="step-icon">5</div>
+      <span class="step-label">Personas and Scenarios</span>
+    </a>
+    <a href="#step6" class="step">
+      <div class="step-icon">6</div>
+      <span class="step-label"> VR hadset selection</span>
+    </a>
+    <a href="#step7" class="step">
+      <div class="step-icon">7</div>
+      <span class="step-label"> Low-Fidelity</span>
+    </a>
+    <a href="#step8" class="step">
+      <div class="step-icon">8</div>
+      <span class="step-label"> Hi-Fidelity</span>
+    </a>
+  </nav>
+</div>
+
+<!-- Literature review -->
+ <div class="content">
+  <div class="overview-container" id="step1">
+      <div>
+          <h2 class="fancy-heading">
+            <span class="number">01</span>
+            <span class="text">Literature Review</span>
+          </h2>
+        </div>
+        <p style="text-align: center;">
+          To understand the existing challenges in plant education and
+          the phenomenon of plant blindness a liteature analysis was conducted which
+          indicated a significant decline in interest in botany among students, with statistics
+          showing that only 1 in 185 bioscience graduates specialized in botanical sciences.
+          Historical critiques highlighted the oversimplification
+          of botany in educational settings, further emphasizing
+          the need for innovative teaching methods.
+          
+      </p>
+  </div>
+  </div>
+ 
+<!-- App Analysis -->
+<section class="problem-solution1" id="step2">
+  <div class="container">
+    <div class="problem1 animate-item">
+      <div>
+          <h2 class="fancy-heading">
+            <span class="number">02</span>
+            <span class="text">App Analysis & Initial Hypothesis</span>
+          </h2>
+        </div>
+      <p> 
+        To evaluate existing plant-related applications and
+        identify gaps in their offerings a SWOT analysis on popular
+        apps like Candide Labels, PictureThis, Planta, and PlantNet.From this
+        analysis it has been identified that strengths such as augmented reality features but
+        noted weaknesses like limited educational content.
+        Opportunities for improvement included integrating more gamification and user-friendly features.
+        <br>
+        <br>
+          After analyzing the competetive apps, an initial hypothesis was fixed focusing
                         on a new botany
                         learning method for students,
                         positing that an engaging VR platform could enhance learning experiences.
-                    </p>
-                
-            </section>
-        </div>
-    </section>
+    </p>
+      </p>
+    </div>
+    <div class="solution1 animate-item">
+      <img  src="./Verdura/app analysis.png" width="100%" alt="Image 1" id="img1" class="responsive-image">
+  </div>
+  </div>
+</section>
 
-    <!-- Data collection -->
+ <!-- Data collection -->
      <!-- Surveys and interviews -->
-    <section class="about">
-        <div class="container">
-            <h1 style="text-align: center;">Data Collection</h1>
-
-            <div class="problem-solution-wrapper">
-                <section class="problem">
-                    <h2>Surveys</h2>
-                    <p style="text-align: justify;">
-                        A online Survey was conducted between 11 individuals
-                        aged 13-33 (4 male, 7 female) to gather quantitative data
-                        to know their user preferences. From which it has been found out that
-                        2 out of 3 of respondents
-                        preferred educational content over entertainment.
-                    </p>
-                </section>
-                <section class="solution">
-                    <h2>Interviews</h2>
-                    <p style="text-align: justify;">
-                        After Conducting the online surveys, individual interviews were conducted with 4 Botany BA
-                        students and aldo group interviews were held with students from India
-                        (age range 22-25), focusing on their expectations from a botanical app and to to gather
-                        qualitative insights about their needs and experiences with existing botanical applications.
-                    </p>                </section>
-            </div>
-            </div>
-    </section>
-
-    <!-- Sampling method -->
-    <section class="about">
-        <div class="container">
-            <section class="project-overview">
-                <h1 style="text-align: center;">Sampling Method</h1>
-                <p style="text-align: center;">
-                    After the data collection, snowball sampling and quota-based opportunity sampling were used
-                    to ensure diverse participant
-                    backgrounds. This approach helped capture a wide array of perspectives
-                    from both students and educators. </p>
-
-                <br>
-
-                <p>The key findings from Sampling method are: </p>
-                <ul>
-                    <li>Users expressed a desire for virtual environments that could
-                        simulate real-world biomes, allowing exploration beyond geographical limitations.</li>
-                   
-                    <li>There was significant interest in features that tested botanical
-                        knowledge rather than just identification capabilities.
-                    </li>
-                    
-                    </ul>
-            </section>
+    
+     <section class="problem-solution1" id="step2">
+      <div>
+        <h2 class="fancy-heading" id="step3">
+          <span class="number">03</span>
+          <span class="text">Data Collection</span>
+        </h2>
+      </div>
+      <div class="container">
+        <div class="problem1 animate-item">
+          <h2>Surveys</h2>
+          <p style="text-align: justify;">
+              A online Survey was conducted between 11 individuals
+              aged 13-33 (4 male, 7 female) to gather quantitative data
+              to know their user preferences. From which it has been found out that
+              2 out of 3 of respondents
+              preferred educational content over entertainment.
         </div>
+        <div class="solution1 animate-item">
+          <h2>Interviews</h2>
+          <p style="text-align: justify;">
+              After Conducting the online surveys, individual interviews were conducted with 4 Botany BA
+              students and aldo group interviews were held with students from India
+              (age range 22-25), focusing on their expectations from a botanical app and to to gather
+              qualitative insights about their needs and experiences with existing botanical applications.
+          </p>   
+              </div>
+      </div>
     </section>
+
+    <!-- sampling Method -->
+    <div class="content">
+      <div class="overview-container" id="step4">
+          <div>
+              <h2 class="fancy-heading">
+                <span class="number">04</span>
+                <span class="text">Sampling Method</span>
+              </h2>
+            </div>
+            <p style="text-align: center;">
+              After the data collection, snowball sampling and quota-based opportunity sampling were used
+              to ensure diverse participant
+              backgrounds. This approach helped capture a wide array of perspectives
+              from both students and educators. </p>
+
+          <br>
+
+          <p>The key findings from Sampling method are: </p>
+          <ul>
+              <li>Users expressed a desire for virtual environments that could
+                  simulate real-world biomes, allowing exploration beyond geographical limitations.</li>
+             
+              <li>There was significant interest in features that tested botanical
+                  knowledge rather than just identification capabilities.
+              </li>
+              
+              </ul>
+      </div>
+    </div>
+    </div>
 
     <!-- persona -->
-    <section class="about">
-        <div class="container">
-            <section class="project-overview">
-                <h2 style="text-align: center;">Personas & Scenarios</h2>
-                <p style="text-align: center;">
-                    Based on the Data which is collected
-                    Personas & Scenarios were developed to understand the diverse needs of potential users. These
-                    personas included Dave, an 18-year-old botany student eager to explore plant science and 
-                    Julia, a 28-year-old high school biology teacher passionate about integrating technology 
-                    into her teaching.
-                </p>
-                <div id="section1" class="carousel-section">
-                    <div class="carousel-container">
-                        <div class="carousel-text">
-                            <div class="text-slide">
-                                <h3>Persona 1</h3>
-                            </div>
-                            <div class="text-slide">
-                                <h3>Persona 2</h3>
-                            </div>
-                           
-                        </div>
-                        <div class="carousel-images-container">
-                            <button class="prev">&#10094;</button>
-                            <div class="carousel-images">
-                                <img src="./Verdura/Persona 1.png" alt="Persona 1">
-                                <img src="./Verdura/Persona 2.png" alt="Persona 2">
-                                
-                            </div>
-                            <button class="next">&#10095;</button>
-                        </div>
-                        <div class="slide-numbers"></div>
-                    </div>
-                </div>
-
-            </section>
+    <div class="content" id="step5">
+      <section class="project-overview">
+        <div>
+          <h2 class="fancy-heading">
+            <span class="number">05</span>
+            <span class="text">Personas and Scenarios</span>
+          </h2>
         </div>
-    </section>
+          <p style="text-align: center;">
+              Based on the Data which is collected
+              Personas & Scenarios were developed to understand the diverse needs of potential users. These
+              personas included Dave, an 18-year-old botany student eager to explore plant science and 
+              Julia, a 28-year-old high school biology teacher passionate about integrating technology 
+              into her teaching.
+          </p>
+          <div id="section1" class="carousel-section">
+              <div class="carousel-container">
+                  <div class="carousel-text">
+                      <div class="text-slide">
+                          <h3>Persona 1</h3>
+                      </div>
+                      <div class="text-slide">
+                          <h3>Persona 2</h3>
+                      </div>
+                     
+                  </div>
+                  <div class="carousel-images-container">
+                      <button class="prev">&#10094;</button>
+                      <div class="carousel-images">
+                          <img src="./Verdura/Persona 1.png" alt="Persona 1" id="img2">
+                          <img src="./Verdura/Persona 2.png" alt="Persona 2" id="img3">
+                          
+                      </div>
+                      <button class="next">&#10095;</button>
+                  </div>
+                  <div class="slide-numbers"></div>
+              </div>
+          </div>
 
-    <!-- vr hadset selection -->
-    <section class="about">
-        <div class="container">
+      </section>
+  </div>
 
-            <div class="problem-solution-wrapper">
-                <section class="problem">
-                    <h2>VR hadset selection </h2>
-                    <p>
-                        Verdura prioritized selecting a VR headset that
-                        could deliver an exceptional user experience while considering factors like
-                        accessibility, target audience, and content compatibility. Here's a breakdown
-                        of the VR headsets explored during the research phase:
+ <!-- vr hadset selection -->
+  <section class="problem-solution1" id="step6">
+    <div class="container">
+      <div class="problem1 animate-item">
+          <div>
+      <h2 class="fancy-heading">
+        <span class="number">06</span>
+        <span class="text">VR hadset selection</span>
+      </h2>
+    </div>
+    <p>
+      Verdura prioritized selecting a VR headset that
+      could deliver an exceptional user experience while considering factors like
+      accessibility, target audience, and content compatibility. Here's a breakdown
+      of the VR headsets explored during the research phase:
+    </p>
+    <ul>
+      <li><b>Oculus Quest 2:</b>This standalone headset offers portability, a large and
+        growing library of games and applications,
+        and a user-friendly interface, making it a strong contender for Verdura.
+      </li>
+        <li><b>Valve Index:   </b> Known for its high-fidelity visuals and precise
+          tracking, the Valve Index caters to a more enthusiast audience but might
+          not be ideal for Verdura's broader target demographic due to its higher price point.
+        </li>
+        <li><b>PlayStation VR (PSVR): </b>While cost-effective and leveraging the PlayStation
+          user base, PSVR requires a PlayStation console, limiting accessibility.
+        </li>
+        <li><b>HTC Vive Cosmos Elite: </b> Offering a good balance of features and
+          ease of use, the Vive Cosmos Elite was another potential candidate.
+        </li>
+        <li><b>HP Reverb G2:</b> This high-resolution headset prioritizes visual
+          quality but might not be the most cost-effective option for Verdura.
+        </li>
+  </ul>
+
+      </div>
+      <div class="solution1 animate-item">
+        <img src="./Verdura/VR.png" class="left__image" alt="Project 1" id="img4" />
+            </div>
+    </div>
+  </section>
+
+ <!-- low fidelity -->
+ <div class="content">
+  <div class="overview-container" id="step7">
+      <div>
+          <h2 class="fancy-heading">
+            <span class="number">07</span>
+            <span class="text">Low-Fidelity</span>
+          </h2>
+        </div>
+        <p style="text-align: center;"> To get an engaging VR experience allows you to explore the wonders of the coral reef
+          at your own pace, fostering a deeper understanding and appreciation for this vital ecosystem, 
+          the low-fidelity phase involved creating a paper prototype for the application.
+          This prototype outlined the basic structure, user interface, and key features. The
+          initial design focused on touch to learn, zoom in, zoom out and interactive bubbles. This phase allowed for quick
+          iterations and adjustments based on feedback.</p><br>
+          <img src="./Verdura/lofi.png" class="left__image" alt="Project 1" style="width:100%" id="img5"/>
+  </div>
+</div>
+
+<!-- Hi-Fielity -->
+<div class="content">
+  <div class="overview-container" id="step8">
+      <div>
+          <h2 class="fancy-heading">
+            <span class="number">08</span>
+            <span class="text">Hi-Fidelity</span>
+          </h2>
+        </div>
+        <p style="text-align: center;"> The high-fidelity prototype evolved from the low-fidelity version,
+          incorporating detailed design elements, color schemes, and user interface
+          refinements. The design adhered to inclusive principles, ensuring that each
+          feature was carefully implemented to cater to user needs.</p>
+          <br>
+          <br>
+          <br>
+      <div id="section2" class="carousel-section">
+          <div class="carousel-container">
+              <div class="carousel-text">
+                  <div class="text-slide">
+                      <h3>Welcome Screen</h3>
+                      <p style="text-align: center;">Verdura prioritizes user experience with a clear and
+                          concise homepage. Users can seamlessly access the
+                          platform's core features through intuitive cards.
+                          The "Plant Evolution" card offers a deep dive into the
+                          fascinating journey of plants, from germination to flowering
+                          and beyond.  For a more immersive learning experience, the
+                          "Virtual Environment" card transports users on a visually
+                          captivating journey through diverse ecosystems, fostering a 
+                          deeper understanding of botany. Finally, the "Quiz"
+                          card allows users to test and solidify their botanical
+                          knowledge through engaging and informative activities.</p>
+                  </div>
+                  <div class="text-slide">
+                      <h3>Home Screen</h3>
+                      <p style="text-align: center;">Verdura's user interface prioritizes
+                          ease of navigation and exploration. The central "Environment Cards"
+                          offer a visual selection of diverse natural habitats, while the
+                          "Recently Explored" section facilitates revisiting previously
+                          encountered environments. A user-friendly sidebar menu provides
+                          access to core functionalities: returning to the main screen ("Home"),
+                          searching for specific environments, and creating a personalized list of favorite locations.
+                          This intuitive design empowers users to curate their VR exploration journey.</p>
+                  </div>
+                  <div class="text-slide">
+                      <h3>Environment Selection Screen</h3>
+                      <p style="text-align: center;">
+                          Users begin by selecting the "Coral Reef" environment, where they
+                          can learn about different coral types and the ecological significance
+                          of reefs. A virtual guide narrates interesting facts, similar to a friendly
+                          underwater companion. The "+" button at the top acts as a menu to add new
+                          "pages" for exploring specific reef sections. Clicking a "Play" button within
+                          these pages launches a fully immersive VR experience,
+                          transporting users to a vibrant coral reef teeming with colorful life for
+                          an unforgettable underwater adventure.
                       </p>
-                      <ul>
-                        <li><b>Oculus Quest 2:</b>This standalone headset offers portability, a large and
-                          growing library of games and applications,
-                          and a user-friendly interface, making it a strong contender for Verdura.
-                        </li>
-                          <li><b>Valve Index:   </b> Known for its high-fidelity visuals and precise
-                            tracking, the Valve Index caters to a more enthusiast audience but might
-                            not be ideal for Verdura's broader target demographic due to its higher price point.
-                          </li>
-                          <li><b>PlayStation VR (PSVR): </b>While cost-effective and leveraging the PlayStation
-                            user base, PSVR requires a PlayStation console, limiting accessibility.
-                          </li>
-                          <li><b>HTC Vive Cosmos Elite: </b> Offering a good balance of features and
-                            ease of use, the Vive Cosmos Elite was another potential candidate.
-                          </li>
-                          <li><b>HP Reverb G2:</b> This high-resolution headset prioritizes visual
-                            quality but might not be the most cost-effective option for Verdura.
-                          </li>
-                    </ul>
-            
-                    <br>
-                    <p> From all thesd considerations Oculus Quest 2 was selcted to
-                      be best performing VR tool for Verdura</p>
-                </section>
-                <section class="solution">
-                    <img src="./Verdura/VR.png" class="left__image" alt="Project 1" />
-                </section>
-            </div>
-            </div>
-    </section>
+                  </div>
+                  <div class="text-slide">
+                      <h3>Quiz Screen</h3>
+                      <p style="text-align: center;">
+                          Verdura incorporates a knowledge assessment component through a
+                          dedicated quiz page. Users encounter a series of multiple-choice
+                          questions (presented with Y, X, B, and A buttons) related to the
+                          previously explored environment (e.g., coral reef). A progress bar
+                          visually tracks the user's completion, offering transparency into
+                          the number of questions answered and remaining.
+                          This interactive quiz reinforces learning and solidifies user understanding of the presented information.
+                      </p>
+                  </div>
+                  <div class="text-slide">
+                      <h3>Quiz Screen</h3>
+                      <p style="text-align: center;">
+                          On choosing the correct answer, the option will turn
+                          blue indicating that it is the right answer.
 
+                      </p>
+                  </div>
+                 
+              </div>
+              <br>
+              <div class="carousel-images-container">
+                  <button class="prev">&#10094;</button>
+                  <div class="carousel-images">
+                      <img src="./Verdura/Hifi 1.png" alt="Slide 1" style="width: 100%;" id="img6">
+                      <img src="./Verdura/Hifi 2.png" alt="Slide 2" style="width: 100%;" id="img7">
+                      <img src="./Verdura/Hifi 3.png" alt="Slide 3" style="width: 100%;" id="img8">
+                      <img src="./Verdura/Hifi 4.png" alt="Slide 4" style="width: 100%;" id="img9">
+                      <img src="./Verdura/Hifi 5.png" alt="Slide 5" style="width: 100%;" id="img10">
+                      
+                  </div>
+                  <button class="next">&#10095;</button>
+              </div>
+              <div class="slide-numbers"></div>
+          </div>
+      </div>
+  </div>
+</div>
 
-    <!-- methodology -->
-     <!-- Low fidelity -->
-    <section class="about">
-        <div class="container">
-            <section class="project-overview">
-                <h1 style="text-align: center;">Methodology</h1>
-                <h2 style="text-align: center;"></h2>
-                <p style="text-align: center;"> To get an engaging VR experience allows you to explore the wonders of the coral reef
-                    at your own pace, fostering a deeper understanding and appreciation for this vital ecosystem, 
-                    the low-fidelity phase involved creating a paper prototype for the application.
-                    This prototype outlined the basic structure, user interface, and key features. The
-                    initial design focused on touch to learn, zoom in, zoom out and interactive bubbles. This phase allowed for quick
-                    iterations and adjustments based on feedback.</p><br>
-                    <img src="./Verdura/lofi.png" class="left__image" alt="Project 1" style="width:100%"/>
-                
-            </section>
-        </div>
-    </section>
-
-    <!-- hi fidelity -->
-    <section class="about">
-        <div class="container">
-            <section class="project-overview">
-                <h2 style="text-align: center;">Hi-Fidelity</h2>
-                <p style="text-align: center;"> The high-fidelity prototype evolved from the low-fidelity version,
-                    incorporating detailed design elements, color schemes, and user interface
-                    refinements. The design adhered to inclusive principles, ensuring that each
-                    feature was carefully implemented to cater to user needs.</p>
-                    <br>
-                    <br>
-                    <br>
-                <div id="section2" class="carousel-section">
-                    <div class="carousel-container">
-                        <div class="carousel-text">
-                            <div class="text-slide">
-                                <h3>Welcome Screen</h3>
-                                <p style="text-align: center;">Verdura prioritizes user experience with a clear and
-                                    concise homepage. Users can seamlessly access the
-                                    platform's core features through intuitive cards.
-                                    The "Plant Evolution" card offers a deep dive into the
-                                    fascinating journey of plants, from germination to flowering
-                                    and beyond.  For a more immersive learning experience, the
-                                    "Virtual Environment" card transports users on a visually
-                                    captivating journey through diverse ecosystems, fostering a 
-                                    deeper understanding of botany. Finally, the "Quiz"
-                                    card allows users to test and solidify their botanical
-                                    knowledge through engaging and informative activities.</p>
-                            </div>
-                            <div class="text-slide">
-                                <h3>Home Screen</h3>
-                                <p style="text-align: center;">Verdura's user interface prioritizes
-                                    ease of navigation and exploration. The central "Environment Cards"
-                                    offer a visual selection of diverse natural habitats, while the
-                                    "Recently Explored" section facilitates revisiting previously
-                                    encountered environments. A user-friendly sidebar menu provides
-                                    access to core functionalities: returning to the main screen ("Home"),
-                                    searching for specific environments, and creating a personalized list of favorite locations.
-                                    This intuitive design empowers users to curate their VR exploration journey.</p>
-                            </div>
-                            <div class="text-slide">
-                                <h3>Environment Selection Screen</h3>
-                                <p style="text-align: center;">
-                                    Users begin by selecting the "Coral Reef" environment, where they
-                                    can learn about different coral types and the ecological significance
-                                    of reefs. A virtual guide narrates interesting facts, similar to a friendly
-                                    underwater companion. The "+" button at the top acts as a menu to add new
-                                    "pages" for exploring specific reef sections. Clicking a "Play" button within
-                                    these pages launches a fully immersive VR experience,
-                                    transporting users to a vibrant coral reef teeming with colorful life for
-                                    an unforgettable underwater adventure.
-                                </p>
-                            </div>
-                            <div class="text-slide">
-                                <h3>Quiz Screen</h3>
-                                <p style="text-align: center;">
-                                    Verdura incorporates a knowledge assessment component through a
-                                    dedicated quiz page. Users encounter a series of multiple-choice
-                                    questions (presented with Y, X, B, and A buttons) related to the
-                                    previously explored environment (e.g., coral reef). A progress bar
-                                    visually tracks the user's completion, offering transparency into
-                                    the number of questions answered and remaining.
-                                    This interactive quiz reinforces learning and solidifies user understanding of the presented information.
-                                </p>
-                            </div>
-                            <div class="text-slide">
-                                <h3>Quiz Screen</h3>
-                                <p style="text-align: center;">
-                                    On choosing the correct answer, the option will turn
-                                    blue indicating that it is the right answer.
-
-                                </p>
-                            </div>
-                           
-                        </div>
-                        <br>
-                        <div class="carousel-images-container">
-                            <button class="prev">&#10094;</button>
-                            <div class="carousel-images">
-                                <img src="./Verdura/Hifi 1.png" alt="Slide 1" style="width: 100%;">
-                                <img src="./Verdura/Hifi 2.png" alt="Slide 2" style="width: 100%;">
-                                <img src="./Verdura/Hifi 3.png" alt="Slide 3" style="width: 100%;">
-                                <img src="./Verdura/Hifi 4.png" alt="Slide 4" style="width: 100%;">
-                                <img src="./Verdura/Hifi 5.png" alt="Slide 5" style="width: 100%;">
-                                
-                            </div>
-                            <button class="next">&#10095;</button>
-                        </div>
-                        <div class="slide-numbers"></div>
-                    </div>
-                </div>
-
-            </section>
-        </div>
-    </section>
-
-    <!-- User Testing -->
-    <section class="about">
-        <div class="container">
-            <section class="project-overview">
-                <h1 style="text-align: center;">Methodology</h1>
-                <h2 style="text-align: center;">User Testing</h2>
-                
-   
+<!-- user testing -->
+ <div class="content">
+    <div class="overview-container" id="step3">
+      <h2 style="text-align: center;">User Testing</h2>
       <p style="text-align: center;">
         A semi-structured interview process with 8 participants (aged 14-45) explored
         user experience with a VR botany
@@ -491,143 +540,282 @@
             interface elements will be crucial in creating a more engaging and effective learning experience.
           </p>
                 
-            </section>
-        </div>
-    </section>
-
-    <!-- Iterations -->
-    <section class="about">
-        <div class="container">
-            <section class="project-overview">
-                <h2 style="text-align: center;">Hi-Fidelity</h2>
-                <p style="text-align: center;"> The high-fidelity prototype evolved from the low-fidelity version,
-                    incorporating detailed design elements, color schemes, and user interface
-                    refinements. The design adhered to inclusive principles, ensuring that each
-                    feature was carefully implemented to cater to user needs.</p>
-                    <br>
-                    <br>
-                    <br>
-                <div id="section3" class="carousel-section">
-                    <div class="carousel-container">
-                        <div class="carousel-text">
-                            <div class="text-slide">
-                                <p><b>1.</b> The circles are not visible for the users and they felt hard to point at them and select those circles, which are now made slightly bigger for the convenience
-                                    of the user. </p>
-                            </div>
-                            <div class="text-slide">
-                                <p><b>2.</b> The plant was not emphasized after the selection, the font size
-                                    for small which affected the readability and the close button was not there
-                                    which might leave the audience clueless after reading it, whose font size has
-                                    been increased by 4 points, the plant was emphasized with a glowing effect in
-                                    the background of it and a closing button
-                                    has been given at the top to make sure that the users can close them after reading them.           
-                                  </p>
-                            </div>
-                            <div class="text-slide">
-                                <p><b>3.</b> The hamburger menu was at the side which felt
-                                    uncomfortable for the users is now moved to centre as a floating dialog box.           
-                                  </p>
-                            </div>
-                            <div class="text-slide">
-                                <p><b>4.</b> After a suggestion form a user after testing Progress Bar was
-                                    created to identify which questions
-                                    are they on and how many are left. Also the labelling for options were changed to YXBA from ABCD.
-                                  </p>
-                            </div>
-                           
-                           
-                        </div>
-                        <br>
-                        <div class="carousel-images-container">
-                            <button class="prev">&#10094;</button>
-                            <div class="carousel-images">
-                                <img src="./Verdura/i1.png" alt="Slide 1" style="width: 100%;">
-                                <img src="./Verdura/i2.png" alt="Slide 2" style="width: 100%;">
-                                <img src="./Verdura/i3.png" alt="Slide 3" style="width: 100%;">
-                                <img src="./Verdura/i4.png" alt="Slide 4" style="width: 100%;">                                
-                            </div>
-                            <button class="next">&#10095;</button>
-                        </div>
-                        <div class="slide-numbers"></div>
-                    </div>
-                </div>
-
-            </section>
-        </div>
-    </section>
-
-
-    
-    <!-- prototype -->
-<section id="portfolio" class="portfolio">
-    <h1>Prototype</h1>
-    <div class="portfolio-tabs">
     </div>
-    <div class="portfolio-content">
-        <div class="tab-content active" id="ux-content">
-            <div class="project-grid">
-                <div class="project-card">
-                    <img src="./verdura/cover pg.jpg" alt="UX Project 1">
-                    <h3>Prototype 1</h3>
-                    <!-- <p>Brief description of the project.</p> -->
-                    <a href="https://drive.google.com/file/d/1h02egBq29iEBeVNy1ABoIQvLLXlV3SH0/view?usp=drive_link"
-                    target="_blank" class="project-link">View Prototype</a>
+</div>
+
+ <!-- Iterations -->
+ <div class="content">
+  <section class="project-overview">
+      <h1 style="text-align: center;">Iterations</h1>
+      <div id="section3" class="carousel-section">
+        <div class="carousel-container">
+            <div class="carousel-text">
+                <div class="text-slide">
+                    <p><b>1.</b> The circles are not visible for the users and they felt hard to point at them and select those circles, which are now made slightly bigger for the convenience
+                        of the user. </p>
                 </div>
-              
+                <div class="text-slide">
+                    <p><b>2.</b> The plant was not emphasized after the selection, the font size
+                        for small which affected the readability and the close button was not there
+                        which might leave the audience clueless after reading it, whose font size has
+                        been increased by 4 points, the plant was emphasized with a glowing effect in
+                        the background of it and a closing button
+                        has been given at the top to make sure that the users can close them after reading them.           
+                      </p>
+                </div>
+                <div class="text-slide">
+                    <p><b>3.</b> The hamburger menu was at the side which felt
+                        uncomfortable for the users is now moved to centre as a floating dialog box.           
+                      </p>
+                </div>
+                <div class="text-slide">
+                    <p><b>4.</b> After a suggestion form a user after testing Progress Bar was
+                        created to identify which questions
+                        are they on and how many are left. Also the labelling for options were changed to YXBA from ABCD.
+                      </p>
+                </div>
+               
+               
             </div>
+            <br>
+            <div class="carousel-images-container">
+                <button class="prev">&#10094;</button>
+                <div class="carousel-images">
+                    <img src="./Verdura/i1.png" alt="Slide 1" style="width: 100%;" id="img11">
+                    <img src="./Verdura/i2.png" alt="Slide 2" style="width: 100%;" id="img12">
+                    <img src="./Verdura/i3.png" alt="Slide 3" style="width: 100%;" id="img13">
+                    <img src="./Verdura/i4.png" alt="Slide 4" style="width: 100%;" id="img14">                                
+                </div>
+                <button class="next">&#10095;</button>
+            </div>
+            <div class="slide-numbers"></div>
         </div>
-     
     </div>
-</section>
+  </section>
+</div>
+</div>
+
+
+<!-- prototype -->
+<div class="content">
+  <h2 style="text-align: center;">
+Prototype
+  </h2>    
+  <div class="expanding-grid">
+      <div class="expanding-card">
+          <div class="card-content">
+              <img src="./Verdura/cover pg.jpg" alt="Globast prototype" class="card-image">
+              <h3 style="text-align: center;">Verdure prototype</h3>
+              <!-- <p class="short-description">Exisiting Screen.</p> -->
+              <div class="more-info">
+                  <!-- <p>The Prototype 1 was a mirror of the current Gpay
+                      app's terms and conditions page, which was lengthy and poorly presented.
+                  </p> -->
+                  <a href="https://drive.google.com/file/d/1h02egBq29iEBeVNy1ABoIQvLLXlV3SH0/view?usp=drive_link"
+                  target="_blank" class="cta-button" >View Prototype</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
 
  <!-- message -->
- <section id="contact" class="message portfolio">
+  <!-- <div class="content"> -->
+  <section id="contact" class="message portfolio" >
     <div class="about-container">
         <div class="about-text">
             <p>I hope you enjoyed reviewing this project. If you'd like to explore more of my work, 
                 feel free to check out my other projects. I'd love to connect and discuss any opportunities further!  </p>
         </div>
         <a class="cta-button" href="mailto:neethish17@gmail.com" target="_blank">Get in Touch</a>
-    </div>
-    </div>
-    </div>
-    </div>
+   
 </section>
+</div>
 
-<!-- footer ection -->
-<footer class="footer">
-    <div class="footer-content">
-        <div class="footer-section">
-            <h3>About Me</h3>
-            <p>UX Designer passionate about creating delightful user experiences.</p>
+    <!-- footer ection -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Me</h3>
+                <p>UX Designer passionate about creating delightful user experiences.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <ul>
+                    <li><a href="https://www.behance.net/neethish17e309" target="_blank">Behance</i></a></li>
+                    <li><a href="https://www.linkedin.com/in/neethish-kumar/" target="_blank">Linkedin</a></li>
+                    <li><a href="mailto:neethish17@gmail.com" target="_blank">email</a></li>
+                    <li><a href="mailto:neethish17@gmail.com" target="_blank">+44 7769056105</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="footer-section">
-            <h3>Quick Links</h3>
-            <ul>
-                <li><a href="#home" onclick="navigateToindex()" class="link__text">Home</a></li>
-                <li><a href="#home" onclick="navigateToindex()" class="link__text">About</a></li>
-                <li><a href="#home" onclick="navigateToindex()" class="link__text">Portfolio</a></li>
-                <li><a href="#home" onclick="navigateToindex()" class="link__text">Contact</a></li>
-            </ul>
+        <div class="footer-bottom">
+            <p>&copy; Neethish Kumar Ramasamy | User Experience Designer.</p>
         </div>
-        <div class="footer-section">
-            <h3>Connect</h3>
-            <ul>
-                <li><a href="https://www.behance.net/neethish17e309" target="_blank">Behance</i></a></li>
-                <li><a href="https://www.linkedin.com/in/neethish-kumar/" target="_blank">Linkedin</a></li>
-                <li><a href="mailto:neethish17@gmail.com" target="_blank">email</a></li>
-                <li><a href="mailto:neethish17@gmail.com" target="_blank">+44 7769056105</a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="footer-bottom">
-        <p>&copy; Neethish Kumar Ramasamy | User Experience Designer.</p>
-    </div>
-</footer>  
+    </footer>
 
+<!-- back to top -->
 
-    <!-- carousel script -->
+<a href="#top" class="back-to-top" title="Back to Top">
+    <span style='font-size:50px;' class="back-to-top__image" class="responsive-image">&#11165;</span> 
+    
+  </a>
+
+    <!-- script -->
     <script>
+        function navigateToindex() {
+            // Change the URL to the desired next screen
+            window.location.href = 'index.html';
+        }
+
+         // problem and solution
+         document.addEventListener('DOMContentLoaded', () => {
+  const animateItems = document.querySelectorAll('.animate-item');
+  
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('active');
+      }
+    });
+  }, { threshold: 0.1 });
+
+  animateItems.forEach(item => {
+    observer.observe(item);
+  });
+});
+
+
+// /process slider
+document.addEventListener('DOMContentLoaded', () => {
+  const steps = document.querySelectorAll('.step');
+  const progressBar = document.querySelector('.progress-bar');
+  const sections = document.querySelectorAll('.content section');
+
+  function updateProgress(currentStep) {
+    const progress = (currentStep / (steps.length - 1)) * 100;
+    progressBar.style.width = `${progress}%`;
+
+    steps.forEach((step, index) => {
+      if (index <= currentStep) {
+        step.classList.add('active');
+      } else {
+        step.classList.remove('active');
+      }
+    });
+  }
+
+  function setActiveStep() {
+    let index = sections.length;
+    while(--index && window.scrollY + 100 < sections[index].offsetTop) {}
+    updateProgress(index);
+  }
+
+  window.addEventListener('scroll', setActiveStep);
+
+  steps.forEach((step, index) => {
+    step.addEventListener('click', (e) => {
+      e.preventDefault();
+      const targetId = step.getAttribute('href');
+      const targetSection = document.querySelector(targetId);
+      targetSection.scrollIntoView({behavior: 'smooth'});
+      updateProgress(index);
+    });
+  });
+
+  setActiveStep();
+});
+
+
+// back to top
+const handleFirstTab = (e) => {
+  if(e.key === 'Tab') {
+    document.body.classList.add('user-is-tabbing')
+
+    window.removeEventListener('keydown', handleFirstTab)
+    window.addEventListener('mousedown', handleMouseDownOnce)
+  }
+
+}
+
+const handleMouseDownOnce = () => {
+  document.body.classList.remove('user-is-tabbing')
+
+  window.removeEventListener('mousedown', handleMouseDownOnce)
+  window.addEventListener('keydown', handleFirstTab)
+}
+
+window.addEventListener('keydown', handleFirstTab)
+
+const backToTopButton = document.querySelector(".back-to-top");
+let isBackToTopRendered = false;
+
+let alterStyles = (isBackToTopRendered) => {
+  backToTopButton.style.visibility = isBackToTopRendered ? "visible" : "hidden";
+  backToTopButton.style.opacity = isBackToTopRendered ? 1 : 0;
+  backToTopButton.style.transform = isBackToTopRendered
+    ? "scale(1)"
+    : "scale(0)";
+};
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 700) {
+    isBackToTopRendered = true;
+    alterStyles(isBackToTopRendered);
+  } else {
+    isBackToTopRendered = false;
+    alterStyles(isBackToTopRendered);
+  }
+});
+
+// full screen image
+const img = document.getElementById('myImage');
+
+function makeFullscreenable(imgId) {
+  const img = document.getElementById(imgId);
+  img.addEventListener('click', function() {
+    if (this.requestFullscreen) {
+      this.requestFullscreen();
+    } else if (this.webkitRequestFullscreen) {
+      this.webkitRequestFullscreen();
+    } else if (this.msRequestFullscreen) {
+      this.msRequestFullscreen();
+    }
+  });
+}
+
+// Use the function for different images
+makeFullscreenable('img1');
+makeFullscreenable('img2');
+makeFullscreenable('img3');
+makeFullscreenable('img4');
+makeFullscreenable('img5');
+makeFullscreenable('img6');
+makeFullscreenable('img7');
+makeFullscreenable('img8');
+makeFullscreenable('img9');
+makeFullscreenable('img10');
+makeFullscreenable('img11');
+makeFullscreenable('img12');
+makeFullscreenable('img13');
+makeFullscreenable('img14');
+makeFullscreenable('img15');
+
+
+
+
+    </script>
+      <!-- carousel script -->
+      <script>
         function createCarousel(sectionId) {
             const section = document.getElementById(sectionId);
             const textSlides = section.querySelectorAll('.text-slide');
@@ -676,20 +864,11 @@
             createCarousel('section4');
         });
     </script>
-
-
-
-    <!-- home button script -->
-    <script>
-        function navigateToindex() {
-            // Change the URL to the desired next screen
-            window.location.href = 'index.html';
-        }
+    <script src="script.js">
 
     </script>
 
 
-    <script src="./js/app.js"></script>
 </body>
 
 </html>

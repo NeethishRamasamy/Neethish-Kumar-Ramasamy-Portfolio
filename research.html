@@ -4,21 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Creative UX Portfolio</title>
-    <link rel="stylesheet" href="project.css">
+    <title>Gamification In E-Learning</title>
+    
+    <link rel="stylesheet" href="projectga.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <!-- navbar -->
-     <nav class="navbar">
+    <nav class="navbar">
         <div class="logo"></div>
         <ul class="nav-links">
             <li><a href="#home" onclick="navigateToindex()" class="link__text">Home</a></li>
-            <li><a href="#home" onclick="navigateToindex()" class="link__text">About</a></li>
-            <li><a href="#home" onclick="navigateToindex()" class="link__text">Portfolio</a></li>
-            <li><a href="#home" onclick="navigateToindex()" class="link__text">Skills</a></li>
-            <li><a href="#home" onclick="navigateToindex()" class="link__text">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
 
         </ul>
         <div class="burger">
@@ -28,308 +29,480 @@
         </div>
     </nav>
 
-   <!-- center img -->
-   <section class="portfolio">
-    <div class="container">
-        <section class="project-overview">
-            <img src="./research/cover pg.jpg" class="work__image" alt="Project 1" style="width:100%";/>
-            </sectrion>
-    </div>
-
-</section>
-
- <!-- project overview --> 
- <section class="about">
-    <div class="container">
-        <section class="project-overview">
-            <h1 style="text-align: center;">Project Overview</h1>
-            <p style="text-align: center;">
-                This case study explores the effectiveness of two gamification methods
-                in an e-learning context: the forfeit method (punishing incorrect answers)
-                and the non-forfeit method (no penalty for wrong answers). The study aimed
-                to compare their impact on user motivation, retention, and engagement in
-                elementary school students.
-            </p>
-            
-        </section>
-    </div>
-</section>
-
-    <!-- problem and solution -->
-    <section class="about">
-        <div class="container">
-            <div class="problem-solution-wrapper">
-                <section class="problem">
-                    <h2>Problem</h2>
-                    <p>Traditional e-learning methods can be dry and lead to disengagement.
-                        Gamification, incorporating game-like elements, is a promising approach to
-                        address this by increasing user motivation and engagement. However, the optimal
-                        method for achieving this remains unclear.</p>           </section>
-                <section class="solution">
-                    <h2>Solution</h2>
-                    <p> A study compared two e-learning app designs (forfeit vs non-forfeit)
-                        and found neither is universally better. The best approach depends on what
-                        you're trying to teach, who you're teaching, and the learning environment.
-                        Forfeit methods may be better for deep learning, while non-forfeit methods may
-                        create a more relaxed and inclusive environment.There's a trade-off and the best
-                        choice depends on your specific goals and learners.
-                    </p>             </section>
-            </div>
-    </section>
-
-    <!-- research process -->
-    <section class="about">
-        <div class="container">
-            <section class="project-overview">
-                <h1 style="text-align: center;">Research Process</h1>
-                <h2 style="text-align: center;">Literature Review</h2>
-                <p style="text-align: center;">
-                    A comprehensive literature review was conducted to identify existing
-                    research on the impact of gamification elements on student motivation
-                    and engagement in e-learning applications. This review revealed that the
-                    forfeit method, which involves penalizing users for incorrect answers, remains
-                    relatively unexplored within the existing body of research. This case study aims
-                    to address this gap in knowledge by investigating the effectiveness of the forfeit
-                    method in an e-learning context.
-                </p>
-              
-
-            </section>
+<!-- center img -->
+    <!-- hero page -->
+    <header class="hero-section">
+        <div class="hero-content">
+            <!-- <h1>Welcome to Our Website</h1>
+            <p>Experience the beauty of parallax scrolling.</p> -->
         </div>
-    </section>
+    </header>
 
-    <!-- methodology -->
-    <section class="about">
-        <h1 style="text-align: center;" >Methdology</h1>
+<!-- project overview -->
+    <div class="content">
+        <div class="overview-container">
+            <h2 style="text-align: center;">Project Overview</h2>
+            <!-- <div class="shape circle"></div> -->
+            <!-- <div class="shape square"></div> -->
+            <!-- <div class="shape triangle"></div> -->
+            <p style="text-align: center;">
+                This case study explores the effectiveness of two gamification methods in an
+                e-learning context: the forfeit method (punishing incorrect answers) and the
+                non-forfeit method (no penalty for wrong answers). The study aimed
+                to compare their impact on user motivation, retention, and engagement in elementary school students.
+            </p>
+        </div>
+    </div>
+
+<!-- problem and solution -->
+    <section class="problem-solution">
         <div class="container">
-            <div class="problem-solution-wrapper">
-                <section class="problem">
-                    <!-- <h2>Low-Fidelity</h2> -->
-                    <ul>
-                        <li><b>Application Development:</b> An interactive
-                            e-learning application was created, divided into three topics: Algebra,
-                            Geometry,
-                            and Statistics.</li>
-                        <br>
-                        <li><b> Participant Selection:</b> The study focused on elementary school
-                            children because it aimed at understanding how this specific age group
-                            learns best. This choice aligns with the research goals and considers the
-                            children's development stage.
-                        </li>
-                        <br>
-                        <li><b>Gamification Implementation:</b> The application employed a
-                            controlled experiment design, with two groups experiencing different
-                            gamification implementations</li>
-                    </ul>      </section>
-                <section class="solution">
-                    <img src="./research/Methodology.png" width="100%" alt='lofi' />
-                </section>
-            </div>
-            </div>
-    </section>
+          <div class="problem animate-item">
+            <h2>Problem</h2>
+          <p>This study delves into finding out that the traditional e-learning methods
+            can be dry and lead to disengagement. Though, incorporating game-like elements,
+            is a promising approach to address this by
+            increasing user motivation and engagement. However, the optimal method for achieving
+            this remains unclear.</p>
+          </div>
+          <div class="solution animate-item">
+            <h2>Solution</h2>
+           <p>
+            This study compared two e-learning app designs (forfeit vs non-forfeit)
+            and found neither is universally better. The best approach depends on what
+            and who you're teaching, and the learning environment. Forfeit methods may be better
+            for deep learning, while non-forfeit methods may create a more relaxed and inclusive environment. 
+           </p>
+          </div>
+        </div>
+      </section>
+   
+
+<!-- research process -->
+<!-- research process -->
+<div class="content">
+    <div class="overview-container">
+        <h2 style="text-align: center;">Research Process</h2>
+    </div>
+</div>
+
+<!-- process slider -->
+
+<div class="process-slider">
+    <div class="progress-bar"></div>
+    <nav class="steps">
+      <a href="#step1" class="step active">
+        <div class="step-icon">1</div>
+        <span class="step-label">Literature Review</span>
+      </a>
+      <a href="#step2" class="step">
+        <div class="step-icon">2</div>
+        <span class="step-label">Methodology</span>
+      </a>
+      <a href="#step3" class="step">
+        <div class="step-icon">3</div>
+        <span class="step-label">User Testing</span>
+      </a>
+    </nav>
+  </div>
+</div>
+
+  
+<!-- Literature review -->
+  <div class="content">
+    <div class="overview-container" id="step1">
+        <div>
+            <h2 class="fancy-heading">
+              <span class="number">01</span>
+              <span class="text">Literature Review</span>
+            </h2>
+          </div>
+          <p style="text-align: center;">
+            A comprehensive literature review was conducted to identify existing
+            research on the impact of gamification elements on student motivation
+            and engagement in e-learning applications. This review revealed that the
+            forfeit method, which involves penalizing users for incorrect answers, remains
+            relatively unexplored within the existing body of research. This case study aims
+            to address this gap in knowledge by investigating the effectiveness of the forfeit
+            method in an e-learning context.
+        </p>
+    </div>
+</div>
 
 
+<!-- methodology -->
+<section class="problem-solution1" id="step2">
+    <div class="container">
+      <div class="problem1 animate-item">
+        <div>
+            <h2 class="fancy-heading">
+              <span class="number">02</span>
+              <span class="text">Methodology</span>
+            </h2>
+          </div>
+          <ul>
+            <li><b>Application Development:</b> An interactive e-learning application
+                was created,  and Mathematics was
+                considered for testing which was then divided into three topics:
+                Algebra, Geometry, and Statistics.</li>
+            <br>
+            <li><b> Participant Selection:</b> The study focused on elementary school children
+                because it aimed at understanding how this specific age
+                group learns best. This choice aligns with the research goals and considers
+                the children's development stage.
+            </li>
+            <br>
+            <li><b>Gamification Implementation:</b> The application employed a controlled
+                experiment design, with both
+                Forefit and Non-Forefit methods but one group with rankings
+                and the other group with badges.</li>
+        </ul>
+      </div>
+      <div class="solution1 animate-item">
+        <img src="./research/Methodology.png" width="100%" alt="Image 1" id="img1" class="responsive-image">
+    </div>
+    </div>
+  </section>
 
-    <!-- user testing -->
-        <section class="about">
-            <div class="container">
-                <section class="project-overview">
-                    <h1 style="text-align: center;">User Testing</h1>
-                    <h1> Data Collection </h1>
+ <!-- user testing -->
+ <div class="content">
+    <div class="overview-container" id="step3">
+        <div>
+            <h2 class="fancy-heading">
+              <span class="number">03</span>
+              <span class="text">User Testing</span>
+            </h2>
+          </div>
+          <h1> Data Collection </h1>
                     <br>
                     <br>
                     <ul>
-                        <li><b>Application usage data:</b> Track user time spent,
-                            topic completion, and interaction patterns.</li>
-                        <li><b>Post-testing survey:</b> Gather feedback
-                            on user experience, engagement, and perceived effectiveness
-                            of the gamification methods.</li>
-                        <li><b>Semi-structured interviews:</b> Gain deeper
-                            insights into individual user preferences and
+                        <li><b>Application usage data:</b> Track user time spent, topic completion, 
+                            and interaction patterns.</li>
+                        <li><b>Post-testing survey:</b> Gather feedback on user experience,
+                            engagement, and perceived effectiveness of the gamification methods.</li>
+                        <li><b>Semi-structured interviews:</b> Gain deeper insights into individual user preferences and
                             reactions to the different approaches.</li>
                     </ul>
                     <br>
-    
-                    <img src="./research/grp 1.png" class="work__image" width="100%" alt="Project 1" />
-                    <img src="./research/grp 2.png" class="work__image" width="100%" alt="Project 1" />
-                </section>
-            </div>
-        </section>
-
-
-    <!--Results -->
-    <section class="about">
-        <div class="container">
-            <h1 style="text-align: center;">Results</h1>
-            <div class="problem-solution-wrapper">
-                <section class="problem">
-                    <h2>Forefit Method</h2>
-                    <h3>Findings</h3>
-                    <ul>
-                        <li>Enhanced engagement:Users exhibited increased focus and effort on
-                            comprehending concepts to avoid negative consequences associated with
-                            incorrect answers. This deeper cognitive processing
-                            was further supported by user feedback indicating a
-                            stronger grasp of the subject matter.</li>
-                        <br>
-
-                        <li>Improved knowledge retention: Data analysis suggested enhanced knowledge
-                            retention potentially attributable
-                            to the emphasis on avoiding mistakes, leading to more deliberate and
-                            lasting learning.</li>
-                    </ul>          <br>
-                    <h3> Limitations:</h3>
-                    <ul>
-                        <li>Increased stress and anxiety: Some users reported experiencing elevated
-                            stress and anxiety due to the potential
-                            for negative marking, potentially impacting their overall learning experience.</li>
-                        <br>
-
-                        <li>Discouragement of sensitive users: This method might discourage users with
-                            low tolerance for negative reinforcement, leading to
-                            disengagement from the learning platform or even complete app abandonment.</li>
-                    </ul>
-                
-                </section>
-                <section class="solution">
-                    <h2>Non-Forefit Method</h2>
-                    <h3>Findings</h3>
-                    <ul>
-                        <li>Stress-free environment: This method fostered a stress-free
-                            learning environment, potentially beneficial for users who
-                            thrive under positive reinforcement and learn more
-                            effectively in low-pressure situations.</li>
-                        <br>
-                        <li>Inclusive learning experience: By eliminating penalties for
-                            incorrect answers, this approach promoted an inclusive learning
-                            experience accessible to a wider range of learners with diverse learning
-                            styles and abilities, aligning with the principles of Universal Design for Learning
-                            (UDL).</li>
-                    </ul><br>
-                    <h3> Limitations:</h3>
-                    <ul>
-                        <li>Reduced motivation: Some users, particularly those accustomed to or motivated by
-                            the presence of consequences, might exhibit reduced motivation and engagement due to
-                            the
-                            absence of incentives for exerting greater effort on answering questions correctly.
-                        </li>
-                        <br>
-
-                        <li>Unsuitable for some learners: This method might not be as effective for
-                            learners who benefit from the increased focus and challenge imposed by the forfeit
-                            system,
-                            as it might not provide sufficient
-                            cognitive stimulation or motivation to learn for these individuals.</li>
-                    </ul>
-                
-                </section>
-            </div>
-    </section>
-
-<!-- Discusiions -->
-<section class="about">
-    <div class="container">
-        <section class="project-overview">
-            <h1 style="text-align: center;">Project Overview</h1>
-            <p style="text-align: center;">
-                While neither the forfeit nor non-forfeit method reigns supreme in e-learning,
-                    the most effective approach hinges on several key factors. The desired learning
-                    outcomes should take center stage. If the goal is deep understanding and solidifying
-                    knowledge, the forfeit method might be the stronger choice. Conversely, fostering a
-                    relaxed learning environment might be better achieved with the non-forfeit method.
-                    Understanding the target audience is equally important. This includes considering the
-                    learners' age, preferred learning styles, and individual preferences. For example,
-                    the pressure associated with the forfeit method might be less effective for younger students
-                    or those who find it stressful. Finally, the educational context itself plays a role. The
-                    subject matter and overall learning goals should influence the selection. The forfeit method's
-                    potential benefits for knowledge retention need to be weighed against
-                    its suitability for the specific topic and the desired learning experience.
-            </p>
-            
-        </section>
+                    <img src="./research/grp 1.png" class="work__image" width="100%" alt="Project 1" class="responsive-image" id="img2"/>
+                    <img src="./research/grp 2.png" class="work__image" width="100%" alt="Project 1" class="responsive-image" id="img3"/>
     </div>
-</section>
+</div>
 
 
-    <!-- prototype -->
-    <section id="portfolio" class="portfolio">
-        <h1>Prototype</h1>
-        <div class="portfolio-tabs">
-        </div>
-        <div class="portfolio-content">
-            <div class="tab-content active" id="ux-content">
-                <div class="project-grid">
-                    <div class="project-card">
-                        <img src="./research/board.png"  alt="UX Project 1">
-                        <h3>Prototype 1</h3>
-                        <p>Brief description of the project.</p>
-                        <a href="https://www.figma.com/proto/0dUUZJ2P0QwiHxzbnPwbZB/Research-methods?page-id=0%3A1&type=design&node-id=10-5&viewport=342%2C311%2C0.19&t=9LF6APvUSF80GAmk-1&scaling=scale-down&starting-point-node-id=10%3A5&show-proto-sidebar=1&mode=design"
-                        target="_blank" class="project-link">Board</a>
-                    </div>
-                    <div class="project-card">
-                        <img src="./research/badges.png" alt="UX Project 2">
-                        <h3>Prototype 2</h3>
-                        <p>Brief description of the project.</p>
-                        <a href="https://www.figma.com/proto/0dUUZJ2P0QwiHxzbnPwbZB/Research-methods?page-id=2%3A264&type=design&node-id=160-184&viewport=139%2C168%2C0.16&t=YwCqCFzo2l3QaOen-1&scaling=min-zoom&starting-point-node-id=160%3A184&show-proto-sidebar=1&mode=design"
-                        target="_blank" class="project-link">Badges</a>
-                    </div>
-                   
-                    <!-- Add more UX project cards as needed -->
+<!-- resuts -->
+<h1 style="text-align: center;">Results</h1>
+<section class="problem-solution1" >
+    <div class="container">
+      <div class="problem1 animate-item">
+        
+        <h2>Forefit Method</h2>
+        <h3>Findings</h3>
+        <ul>
+            <li>Enhanced engagement: Users exhibited increased focus and effort on
+                comprehending concepts to avoid negative consequences associated with
+                incorrect answers. This deeper
+                cognitive processing was further supported by user feedback indicating a
+                stronger grasp of the subject matter.</li>
+            <br>
+
+            <li>Improved knowledge retention: Data analysis suggested
+                enhanced knowledge retention potentially
+                attributable to the emphasis on avoiding mistakes, leading to
+                more deliberate and lasting learning.</li>
+        </ul>          <br>
+        <h3> Limitations:</h3>
+        <ul>
+            <li>Increased stress and anxiety: Some users reported experiencing
+                elevated stress and anxiety due
+                to the potential for negative marking, potentially impacting their
+                overall learning experience.</li>
+            <br>
+
+            <li>Discouragement of sensitive users: This method might discourage 
+                sers with low tolerance for negative reinforcement,
+                leading to disengagement from the learning platform or even complete app abandonment.</li>
+        </ul>
+      </div>
+      <div class="solution1 animate-item">
+        <h2>Non-Forefit Method</h2>
+        <h3>Findings</h3>
+        <ul>
+            <li>Stress-free environment: This method fostered a stress-free learning
+                environment, potentially beneficial for users who thrive under positive
+                reinforcement and learn more effectively in low-pressure situations.</li>
+            <br>
+
+            <li>Inclusive learning experience: By eliminating penalties for incorrect answers,
+                this approach promoted an inclusive learning experience accessible to a wider range
+                of learners with
+                diverse learning styles and abilities, aligning with the principles of Universal
+                Design for Learning (UDL).</li>
+        </ul>          <br>
+        <h3> Limitations:</h3>
+        <ul>
+            <li>Reduced motivation: Some users, particularly those accustomed to or motivated
+                by the presence of consequences, might exhibit reduced motivation and
+                engagement due to the absence of incentives for exerting greater effort on answering
+                questions correctly.</li>
+            <br>
+
+            <li>Unsuitable for some learners: This method might not be as effective for
+                learners who benefit from the increased focus and challenge imposed by the forfeit system,
+                as it might not provide sufficient cognitive stimulation or motivation to learn
+                for these individuals.</li>
+        </ul>    </div>
+    </div>
+  </section>
+
+<!-- conclusion -->
+<div class="content">
+    <div class="overview-container">
+        <h2 style="text-align: center;">Conclusion</h2>
+        <p style="text-align: center;">
+            While neither the forfeit nor non-forfeit method reigns supreme in e-learning,
+            the most effective approach hinges on several key factors. The desired learning
+            outcomes should take center stage. If the goal is deep understanding and solidifying
+            knowledge, the forfeit method might be the stronger choice. Conversely, fostering a
+            relaxed learning environment might be better achieved with the non-forfeit method.
+            Understanding the target audience is equally important. This includes considering the
+            learners' age, preferred learning styles, and individual preferences. For example, the
+            pressure associated with the forfeit method might be less effective for younger students or
+            those who find it stressful. Finally, the educational context itself plays a role. The subject
+            matter and overall learning goals should influence the selection. The forfeit method's potential
+            benefits for knowledge
+            retention need to be weighed against its suitability for the specific topic and the desired learning
+            experience.
+        </p>
+    </div>
+</div>
+
+<!-- prototype -->
+<div class="content">
+    <h2 style="text-align: center;">
+Prototype
+    </h2>    
+    <div class="expanding-grid">
+        <div class="expanding-card">
+            <div class="card-content">
+                <img src="./research/board.png" alt="Prototype 1" class="card-image">
+                <h3 style="text-align: center;">Ranking Board</h3>
+                <div class="more-info">
+                    <p>This Prototype is to show the effect of Ranking Board system.  
+                    </p>
+                    <a href="https://www.figma.com/proto/0dUUZJ2P0QwiHxzbnPwbZB/Research-methods?page-id=0%3A1&type=design&node-id=10-5&viewport=342%2C311%2C0.19&t=9LF6APvUSF80GAmk-1&scaling=scale-down&starting-point-node-id=10%3A5&show-proto-sidebar=1&mode=design"
+                    target="_blank" class="cta-button" >View Prototype</a>
                 </div>
             </div>
-         
         </div>
-    </section>
-
+        <div class="expanding-card">
+            <div class="card-content">
+                <img src="./Case study dissertation/prototypes 3.png" alt="Prototype 2" class="card-image">
+                <h3 style="text-align: center;">Badges</h3>
+                <!-- <p class="short-description">Badges</p> -->
+                <div class="more-info">
+                    <p>This Prototype is to show the effect of Badges system.
+                    </p>
+                    <a href="https://www.figma.com/proto/0dUUZJ2P0QwiHxzbnPwbZB/Research-methods?page-id=2%3A264&type=design&node-id=160-184&viewport=139%2C168%2C0.16&t=YwCqCFzo2l3QaOen-1&scaling=min-zoom&starting-point-node-id=160%3A184&show-proto-sidebar=1&mode=design"
+                    target="_blank" class="cta-button" >View Prototype</a>
+                </div>
+            </div>
+        </div>
+      
+    
+    </div>
+ </div>
 
  <!-- message -->
- <section id="contact" class="message portfolio">
+  <!-- <div class="content"> -->
+  <section id="contact" class="message portfolio" >
     <div class="about-container">
         <div class="about-text">
             <p>I hope you enjoyed reviewing this project. If you'd like to explore more of my work, 
                 feel free to check out my other projects. I'd love to connect and discuss any opportunities further!  </p>
         </div>
         <a class="cta-button" href="mailto:neethish17@gmail.com" target="_blank">Get in Touch</a>
-    </div>
-    </div>
-    </div>
-    </div>
+   
 </section>
+</div>
 
-<!-- footer ection -->
-<footer class="footer">
-    <div class="footer-content">
-        <div class="footer-section">
-            <h3>About Me</h3>
-            <p>UX Designer passionate about creating delightful user experiences.</p>
+    <!-- footer ection -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Me</h3>
+                <p>UX Designer passionate about creating delightful user experiences.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <ul>
+                    <li><a href="https://www.behance.net/neethish17e309" target="_blank">Behance</i></a></li>
+                    <li><a href="https://www.linkedin.com/in/neethish-kumar/" target="_blank">Linkedin</a></li>
+                    <li><a href="mailto:neethish17@gmail.com" target="_blank">email</a></li>
+                    <li><a href="mailto:neethish17@gmail.com" target="_blank">+44 7769056105</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="footer-section">
-            <h3>Quick Links</h3>
-            <ul>
-                <li><a href="#home" onclick="navigateToindex()" class="link__text">Home</a></li>
-                <li><a href="#home" onclick="navigateToindex()" class="link__text">About</a></li>
-                <li><a href="#home" onclick="navigateToindex()" class="link__text">Portfolio</a></li>
-                <li><a href="#home" onclick="navigateToindex()" class="link__text">Contact</a></li>
-            </ul>
+        <div class="footer-bottom">
+            <p>&copy; Neethish Kumar Ramasamy | User Experience Designer.</p>
         </div>
-        <div class="footer-section">
-            <h3>Connect</h3>
-            <ul>
-                <li><a href="https://www.behance.net/neethish17e309" target="_blank">Behance</i></a></li>
-                <li><a href="https://www.linkedin.com/in/neethish-kumar/" target="_blank">Linkedin</a></li>
-                <li><a href="mailto:neethish17@gmail.com" target="_blank">email</a></li>
-                <li><a href="mailto:neethish17@gmail.com" target="_blank">+44 7769056105</a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="footer-bottom">
-        <p>&copy; Neethish Kumar Ramasamy | User Experience Designer.</p>
-    </div>
-</footer>  
+    </footer>
 
+<!-- back to top -->
 
-    <!-- carousel script -->
+<a href="#top" class="back-to-top" title="Back to Top">
+    <span style='font-size:50px;' class="back-to-top__image" class="responsive-image">&#11165;</span> 
+    
+  </a>
+
+    <!-- script -->
     <script>
+        function navigateToindex() {
+            // Change the URL to the desired next screen
+            window.location.href = 'index.html';
+        }
+
+         // problem and solution
+         document.addEventListener('DOMContentLoaded', () => {
+  const animateItems = document.querySelectorAll('.animate-item');
+  
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('active');
+      }
+    });
+  }, { threshold: 0.1 });
+
+  animateItems.forEach(item => {
+    observer.observe(item);
+  });
+});
+
+
+// /process slider
+document.addEventListener('DOMContentLoaded', () => {
+  const steps = document.querySelectorAll('.step');
+  const progressBar = document.querySelector('.progress-bar');
+  const sections = document.querySelectorAll('.content section');
+
+  function updateProgress(currentStep) {
+    const progress = (currentStep / (steps.length - 1)) * 100;
+    progressBar.style.width = `${progress}%`;
+
+    steps.forEach((step, index) => {
+      if (index <= currentStep) {
+        step.classList.add('active');
+      } else {
+        step.classList.remove('active');
+      }
+    });
+  }
+
+  function setActiveStep() {
+    let index = sections.length;
+    while(--index && window.scrollY + 100 < sections[index].offsetTop) {}
+    updateProgress(index);
+  }
+
+  window.addEventListener('scroll', setActiveStep);
+
+  steps.forEach((step, index) => {
+    step.addEventListener('click', (e) => {
+      e.preventDefault();
+      const targetId = step.getAttribute('href');
+      const targetSection = document.querySelector(targetId);
+      targetSection.scrollIntoView({behavior: 'smooth'});
+      updateProgress(index);
+    });
+  });
+
+  setActiveStep();
+});
+
+
+// back to top
+const handleFirstTab = (e) => {
+  if(e.key === 'Tab') {
+    document.body.classList.add('user-is-tabbing')
+
+    window.removeEventListener('keydown', handleFirstTab)
+    window.addEventListener('mousedown', handleMouseDownOnce)
+  }
+
+}
+
+const handleMouseDownOnce = () => {
+  document.body.classList.remove('user-is-tabbing')
+
+  window.removeEventListener('mousedown', handleMouseDownOnce)
+  window.addEventListener('keydown', handleFirstTab)
+}
+
+window.addEventListener('keydown', handleFirstTab)
+
+const backToTopButton = document.querySelector(".back-to-top");
+let isBackToTopRendered = false;
+
+let alterStyles = (isBackToTopRendered) => {
+  backToTopButton.style.visibility = isBackToTopRendered ? "visible" : "hidden";
+  backToTopButton.style.opacity = isBackToTopRendered ? 1 : 0;
+  backToTopButton.style.transform = isBackToTopRendered
+    ? "scale(1)"
+    : "scale(0)";
+};
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 700) {
+    isBackToTopRendered = true;
+    alterStyles(isBackToTopRendered);
+  } else {
+    isBackToTopRendered = false;
+    alterStyles(isBackToTopRendered);
+  }
+});
+
+// full screen image
+const img = document.getElementById('myImage');
+
+function makeFullscreenable(imgId) {
+  const img = document.getElementById(imgId);
+  img.addEventListener('click', function() {
+    if (this.requestFullscreen) {
+      this.requestFullscreen();
+    } else if (this.webkitRequestFullscreen) {
+      this.webkitRequestFullscreen();
+    } else if (this.msRequestFullscreen) {
+      this.msRequestFullscreen();
+    }
+  });
+}
+
+// Use the function for different images
+makeFullscreenable('img1');
+makeFullscreenable('img2');
+makeFullscreenable('img3');
+makeFullscreenable('img4');
+makeFullscreenable('img5');
+makeFullscreenable('img6');
+
+
+
+
+
+    </script>
+      <!-- carousel script -->
+      <script>
         function createCarousel(sectionId) {
             const section = document.getElementById(sectionId);
             const textSlides = section.querySelectorAll('.text-slide');
@@ -378,20 +551,11 @@
             createCarousel('section4');
         });
     </script>
-
-
-
-    <!-- home button script -->
-    <script>
-        function navigateToindex() {
-            // Change the URL to the desired next screen
-            window.location.href = 'index.html';
-        }
+    <script src="script.js">
 
     </script>
 
 
-    <script src="./js/app.js"></script>
 </body>
 
 </html>

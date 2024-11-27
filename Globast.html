@@ -4,21 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Creative UX Portfolio</title>
-    <link rel="stylesheet" href="project.css">
+    <title>Globast</title>
+    
+    <link rel="stylesheet" href="projectg.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <!-- navbar -->
-     <nav class="navbar">
+    <nav class="navbar">
         <div class="logo"></div>
         <ul class="nav-links">
             <li><a href="#home" onclick="navigateToindex()" class="link__text">Home</a></li>
-            <li><a href="#home" onclick="navigateToindex()" class="link__text">About</a></li>
-            <li><a href="#home" onclick="navigateToindex()" class="link__text">Portfolio</a></li>
-            <li><a href="#home" onclick="navigateToindex()" class="link__text">Skills</a></li>
-            <li><a href="#home" onclick="navigateToindex()" class="link__text">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
 
         </ul>
         <div class="burger">
@@ -28,422 +29,556 @@
         </div>
     </nav>
 
-   <!-- center img -->
-   <section class="portfolio">
-    <div class="container">
-        <section class="project-overview">
-            <img src="./Case study Globast/cover pg.jpg" class="work__image" alt="Project 1" style="width:100%"
-                ; />
-            </sectrion>
-    </div>
+<!-- center img -->
+    <!-- hero page -->
+    <header class="hero-section">
+        <div class="hero-content">
+            <!-- <h1>Welcome to Our Website</h1>
+            <p>Experience the beauty of parallax scrolling.</p> -->
+        </div>
+    </header>
 
-</section>
-
- <!-- project overview --> 
- <section class="about">
-    <div class="container">
-        <section class="project-overview">
-            <h1 style="text-align: center;">Project Overview</h1>
+<!-- project overview -->
+    <div class="content">
+        <div class="overview-container">
+            <h2 style="text-align: center;">Project Overview</h2>
+            <!-- <div class="shape circle"></div> -->
+            <!-- <div class="shape square"></div> -->
+            <!-- <div class="shape triangle"></div> -->
             <p style="text-align: center;">
-                "Globast," an inclusive movie streaming application was developed focused on
-                    providing an equivalent and enjoyable movie-watching experience for individuals
-                    with diverse abilities. The project began with an exploration of the challenges
-                    faced by users with disabilities on existing platforms, leading to a thorough
-                    disability analysis drawing from key literature papers.
+                This study explored methods to enhance the engagement and comprehension of
+                digital Terms and Conditions (T&C) among elderly individuals in India. It
+                investigated the reasons behind the gap between older adults and digital
+                technologies, focusing on privacy concerns as a key barrier.
             </p>
-            
-        </section>
+        </div>
     </div>
-</section>
 
-    <!-- problem and solution -->
-    <section class="about">
+<!-- problem and solution -->
+    <section class="problem-solution">
         <div class="container">
-            <div class="problem-solution-wrapper">
-                <section class="problem">
-                    <h2>Problem</h2>
-                    <ul style="text-align: justify;">
-                        <li><b>Visual Impairment:</b> Individuals experiencing difficulty seeing text, images,
-                            and navigating interfaces may find it challenging to interact with computers and
-                            digital
-                            devices in the usual way. This can include problems reading on-screen content due to
-                            blurry
-                            vision, difficulty distinguishing colors or contrast, or trouble perceiving the
-                            layout and
-                            functionality of buttons and menus. As a result, they might require assistance using
-                            traditional
-                            interfaces, such as someone magnifying text on a screen,
-                            reading content aloud, or providing guidance on navigating a program's features.
-                        </li>
-                        <br>
-                        <li><b>Auditory Impairment:</b> Trying to decipher what's happening on screen can be
-                            frustrating when the audio isn't cooperating. The dialogue might be mumbled and
-                            faint,
-                            lost in a sea of booming sound effects or an overpowering soundtrack. This uneven
-                            mix makes
-                            it difficult to follow the plot, catch jokes, or appreciate the emotional moments.
-                            Whether
-                            it's a movie, TV show, or even a video game, this
-                            struggle to hear all the audio elements can leave you feeling disconnected from the
-                            experience.
-                        </li>
-                        <br>
-                        <li><b>Physical Impairment:</b> Physical limitations due to conditions like arthritis,
-                            tremors, or carpal tunnel syndrome can make precise movements or gripping objects
-                            difficult. Similarly, reduced dexterity or weakness in the hands and arms can
-                            impede using a keyboard or manipulating a mouse. Touchscreens can also be
-                            challenging for users with limited hand-eye coordination or tremors, as selecting
-                            small targets accurately can be frustrating. Even for people without physical
-                            limitations, some users may find touchscreens less intuitive than physical keys,
-                            especially for extended typing or complex tasks.
-                        </li>
-                        <br>
-                        <li><b>Cognitive Impairment:</b> Sometimes we can hit a wall when trying to take
-                            in too much information at once. This can be especially true with complex
-                            instructions. When faced with a lot of details or steps, it might feel like
-                            our brains are overloaded. This can lead to confusion, difficulty understanding
-                            the overall task, and even forgetting important parts of the instructions.
-                            It's like trying to fill a cup with water from a fire hose - the water just
-                            spills over the brim!
-                        </li>
-
-                    </ul>           </section>
-                <section class="solution">
-                    <h2>Solution</h2>
-                    <ul style="text-align: justify;">
-                        <li><b>Visual Impairment:</b> For users with visual impairments,
-                            navigating the Globast interface can be difficult. To ensure readability,
-                            Globast utilizes high contrast design with the ability to resize text.
-                            Integration with screen readers allows content to be vocalized, while
-                            image descriptions convey visual information. Additionally, Globast
-                            explores offering Braille or tactile interfaces for users who cannot
-                            see the screen.
-                        </li>
-                        <br>
-                        <li><b>Auditory Impairment:</b> For users with auditory impairments,
-                            following dialogue and sound effects can be challenging. Globast
-                            provides closed captions and subtitles, with customization options
-                            for size, color, and font. Descriptive narration, known as audio
-                            description, explains non-verbal auditory cues like sound effects and
-                            background noises. Sign language interpretation videos are also offered
-                            for users who rely on sign language. Advanced volume controls allow users
-                            with hearing loss to amplify sound.
-                        </li>
-                        <br>
-                        <li><b>Physical Impairment:</b> Globast recognizes that using a mouse,
-                            keyboard, or touchscreen can be difficult for users with physical
-                            impairments. Globast offers voice control, allowing users to navigate
-                            and control playback with voice commands. Keyboard shortcuts provide
-                            alternative navigation methods. For users with limited mobility, switch
-                            control enables operating the interface with specialized switches. Globast
-                            is also exploring eye tracking technology for users who can control the
-                            interface through eye movements. UI elements are designed with larger size
-                            and spacing for easier interaction.
-                        </li>
-                        <br>
-                        <li><b>Cognitive Impairment:</b> Understanding complex instructions and
-                            processing information overload can be difficult for users with cognitive
-                            impairments. Globast maintains a clean and uncluttered interface with
-                            clear and concise labels. A consistent layout across the platform reduces
-                            confusion, while clear and straightforward navigation options make browsing
-                            effortless. Content is organized logically and by category for easier
-                            exploration. Globast avoids overwhelming users with too many choices at
-                            once, ensuring a smooth and enjoyable streaming experience.
-                        </li>
-                        <br>
-                    </ul>              </section>
-            </div>
-    </section>
-
-    <!-- research process -->
-    <section class="about">
-        <div class="container">
-            <section class="project-overview">
-                <h1 style="text-align: center;">Research Process</h1>
-                <p style="text-align: center;">
-                    Personas & Scenarios were developed to understand the diverse needs of potential users. These
-                    personas included Victor, a screenwriter with quadriplegia; Charles, a user with tunnel vision
-                    impairment; Yue, an entrepreneur with language preferences; and Mush, a dyslexic film journalist.
-                    These personas helped shape the design process.
-                </p>
-                <div id="section1" class="carousel-section">
-                    <div class="carousel-container">
-                        <div class="carousel-text">
-                            <div class="text-slide">
-                                <h3>Persona 1</h3>
-                            </div>
-                            <div class="text-slide">
-                                <h3>Persona 2</h3>
-                            </div>
-                            <div class="text-slide">
-                                <h3>Persona 3</h3>
-                            </div>
-                            <div class="text-slide">
-                                <h3>Persona 4</h3>
-                            </div>
-                        </div>
-                        <div class="carousel-images-container">
-                            <button class="prev">&#10094;</button>
-                            <div class="carousel-images">
-                                <img src="./Case study Globast/Persona 1.png" alt="Persona 1">
-                                <img src="./Case study Globast/Persona 2.png" alt="Persona 2">
-                                <img src="./Case study Globast/Persona 3.png" alt="Persona 3">
-                                <img src="./Case study Globast/Persona 4.png" alt="Persona 4">
-                            </div>
-                            <button class="next">&#10095;</button>
-                        </div>
-                        <div class="slide-numbers"></div>
-                    </div>
-                </div>
-
-            </section>
+          <div class="problem animate-item">
+            <h2>Problem</h2>
+            <ul>
+                <li>
+                    <b>Visual Impairment:</b>Individuals with visual impairments, reading on-screen
+                    content due to blurry vision, difficulty distinguishing colors or contrast,
+                    or trouble perceiving the layout and functionality of buttons and menus. Additionally, the
+                    dialect or the computerized descriptions which describes the non-verbal affects their
+                    movie watching experience.
+                </li>
+                
+                <li>
+                    <b>Auditory Impairment:</b>Individuals with auditory impairments and who doesn’t
+                    have fluency in English can’t experience other language movies with English subtitles,
+                    following dialogue and sound effects through captions can be challenging.
+                    This makes them spend a lot of time in reading and understanding the subtitles rather
+                    than enjoying it.
+                </li>
+                <li>
+                    <b>Physical Impairment: </b>Physical conditions like arthritis, tremors, or carpal
+                    tunnel syndrome using a mouse, keyboard, or touchscreen can be difficult for
+                    users and also difficult in navigating through the platform before or while watching their desired movies.
+                    Touchscreens can be challenging for users with limited hand-eye coordination. 
+                </li>
+                <li>
+                    <b>Cognitive Impairment:</b>People with cognitive impairments can’t take a lot of
+                    information all at once, which makes them feel overwhelmed for completing a specific
+                    task and understanding complex instructions and processing information overload can be
+                    difficult. As well as
+                    keeping up with the subtitles for other language movies which is very small and also with a fast paced scene. 
+                </li>
+            </ul>
+          </div>
+          <div class="solution animate-item">
+            <h2>Solution</h2>
+            <ul>
+                <li>
+                    <b>Visual Impairment:</b>For users with visual impairments, Globast provides high
+                    contrast design with the ability to resize text. Integration with screen readers
+                    allows content to be vocalized, while image descriptions and non-verbal
+                    cues also allows users to adjust these audio descriptions to their desired character voice.
+                </li>
+                <li>
+                    <b>Auditory Impairment:</b>For users with auditory impairments, Globast provides
+                    advanced volume controls allow users with hearing loss to amplify sound. Additionally
+                    closed captions and subtitles, with customization options for size,
+                    color, and font and changing the subtitles to their desired language is also added as a new feature. 
+                </li>
+                <li>
+                    <b>Physical Impairment: </b>For users with Physical impairments Globast offers voice control,
+                    allowing users to navigate and control playback with voice commands. For users with limited
+                    mobility, keyboard shortcuts provide alternative 
+                    navigation methods and also UI elements are designed with larger size and spacing for easier interaction. 
+                </li>
+                <li>
+                    <b>Cognitive Impairment:</b>For Cognitive impairments, Globast maintains a clean and uncluttered interface
+                    with clear and concise labels with a consistent layout with logical and categorized organisation to reduces
+                    confusion and make browsing effortless. It also comes
+                    up with highlighting the specific word in the captions which doesn’t allow their concentration to scatter. 
+                </li>
+            </ul>
+          </div>
         </div>
-    </section>
+      </section>
+   
 
-    <!-- methodology -->
-    <section class="about">
-        <h1 style="text-align: center;" >Methdology</h1>
-        <div class="container">
-            <div class="problem-solution-wrapper">
-                <section class="problem">
-                    <h2>Low-Fidelity</h2>
-                    <p style="text-align: justify;">
-                        The low-fidelity phase involved creating a paper prototype for the application.
-                        This prototype outlined the basic structure, user interface, and key features. The
-                        initial design focused on inclusivity, incorporating features like audio
-                        descriptions,
-                        subtitles, voice assistance, and blocked captions. This phase allowed for quick
-                        iterations and adjustments based on feedback.
-                    </p>      </section>
-                <section class="solution">
-                    <img src="./Case study Globast/lofi.png" width="100%" alt='lofi' />
-                </section>
-            </div>
-            </div>
-    </section>
-
-
-    <!-- hi fidelity -->
-    <section class="about">
-        <div class="container">
-            <section class="project-overview">
-                <h2 style="text-align: center;">Hi-Fidelity</h2>
-                <p style="text-align: center;">
-                    The high-fidelity prototype evolved from the low-fidelity version,
-                    incorporating detailed design elements, color schemes, and user interface
-                    refinements. The design adhered to inclusive principles, ensuring that each
-                    feature was carefully implemented to cater to users with visual,
-                    auditory, physical, and cognitive impairments.
-                </p>
-                <div id="section2" class="carousel-section">
-                    <div class="carousel-container">
-                        <div class="carousel-text">
-                            <div class="text-slide">
-                                <h3>login</h3>
-                            </div>
-                            <div class="text-slide">
-                                <h3>Home</h3>
-                            </div>
-                            <div class="text-slide">
-                                <h3>Movies</h3>
-                            </div>
-                            <div class="text-slide">
-                                <h3>Series</h3>
-                            </div>
-                            <div class="text-slide">
-                                <h3>Movies After Selection</h3>
-                            </div>
-                            <div class="text-slide">
-                                <h3>Series After Selection</h3>
-                            </div>
-                            <div class="text-slide">
-                                <h3>Cast & Crew</h3>
-                            </div>
-                            <div class="text-slide">
-                                <h3>Video Player</h3>
-                            </div>
-                            <div class="text-slide">
-                                <h3>Profile</h3>
-                            </div>
-                            <div class="text-slide">
-                                <h3>Multi Platform</h3>
-                            </div>
-                        </div>
-                        <div class="carousel-images-container">
-                            <button class="prev">&#10094;</button>
-                            <div class="carousel-images">
-                                <img src="./Case study Globast/login screen.png" alt="login">
-                                <img src="./Case study Globast/Home Screen.png" alt="Home">
-                                <img src="./Case study Globast/Movies  Screen.png" alt="Movies">
-                                <img src="./Case study Globast/series screen.png" alt="series">
-                                <img src="./Case study Globast/movies after selection.png" alt="movies after selection">
-                                <img src="./Case study Globast/Series after selection.png" alt="Series after selection">
-                                <img src="./Case study Globast/cast and crew screen.png" alt="cast and crew">
-                                <img src="./Case study Globast/Player Screen.png" alt="Player">
-                                <img src="./Case study Globast/Profile Screen.png" alt="Profile ">
-                                <img src="./Case study Globast/multi platform.png" alt="multi platform">
-                            </div>
-                            <button class="next">&#10095;</button>
-                        </div>
-                        <div class="slide-numbers"></div>
-                    </div>
-                </div>
-
-            </section>
-        </div>
-    </section>
-
-    <!-- user testing -->
-        <section class="about">
-            <div class="container">
-                <section class="project-overview">
-                    <h1 style="text-align: center;">User Testing</h1>
-                    <p>
-                        User testing was conducted with 4 participants (visually and auditory impaired)
-                        to understand how well they interact with Globast, an inclusive movie streaming platform. </p>
-
-                    <br>
-
-                    <p>The testers were given 5 tasks to complete:</p><br>
-                    <ul>
-                        <li>Find and play "The Batman" movie in the superhero genre.</li>
-                        <br>
-                        <li>Find and play "The Batman" movie with Chinese subtitles.
-                        </li>
-                        <br>
-                        <li>See the cast and crew for "The Batman" movie.
-                        </li>
-                        <br>
-                        <li>Change the audio description voice for "The Batman" to sound like Robert Pattinson.
-                        </li>
-                        <br>
-                        <li>Switch user profiles from Sherlock to Heisenberg.
-                        </li>
-                        <br>
-                        </ul>
-
-                        <p>The time to complete each task was recorded, and testers were asked
-                            for their feedback on the platform.After the main testing, there was an
-                            engagement usability test where participants could explore the platform
-                            freely and provide feedback on how engaging it was. They were given a
-                            questionnaire to fill out at the end.</p>
-                        <br>
-                </section>
-            </div>
-        </section>
-
-
-    <!-- Iterations -->
-    <section class="about">
-        <div class="container">
-            <section class="project-overview">
-                <h1 style="text-align: center;">Iterations</h1>
-            <div id="section3" class="carousel-section">
+<!-- research process -->
+ <section class="about">
+    <div class="content">
+        <div class="overview-container">
+            <h2 style="text-align: center;">Research Process</h2>
+            <!-- <div class="shape circle"></div> -->
+            <!-- <div class="shape square"></div> -->
+            <!-- <div class="shape triangle"></div> -->
+            <p style="text-align: center;">
+                Personas & Scenarios were developed to understand the diverse needs of potential users. These
+                personas included Victor, a screenwriter with quadriplegia; Charles, a user with tunnel vision
+                impairment; Yue, an entrepreneur with language preferences; and Mush, a dyslexic film journalist.
+                These personas helped shape the design process.
+            </p>
+            <div id="section1" class="carousel-section">
                 <div class="carousel-container">
                     <div class="carousel-text">
                         <div class="text-slide">
-                            <h3>Iteration 1</h3>
-                            <p><b>1.</b> The scroll-to-top button was removed because it hid
-                                content sometimes. A sticky header was added instead, which stays visible as the user
-                                scrolls.
-                            </p>
+                            <h3>Persona 1</h3>
                         </div>
                         <div class="text-slide">
-                            <h3>Iteration 2</h3>
-                            <p><b>2.</b> The way to select subtitle language and audio description voice
-                                was changed. Originally, users had to scroll through a list to
-                                find their preference. Now, they can type their preference into a search bar for faster
-                                selection.
-                            </p>
+                            <h3>Persona 2</h3>
+                        </div>
+                        <div class="text-slide">
+                            <h3>Persona 3</h3>
+                        </div>
+                        <div class="text-slide">
+                            <h3>Persona 4</h3>
                         </div>
                     </div>
                     <div class="carousel-images-container">
                         <button class="prev">&#10094;</button>
                         <div class="carousel-images">
-                            <img src="./Case study Globast/iteration 1.png" alt="iteration 1">
-                            <img src="./Case study Globast/iteration 2.png" alt="Iteration 2">
+                            <img src="./Case study Globast/Persona 1.png" alt="Persona 1"  id="img1">
+                            <img src="./Case study Globast/Persona 2.png" alt="Persona 2"  id="img2">
+                            <img src="./Case study Globast/Persona 3.png" alt="Persona 3"  id="img3">
+                            <img src="./Case study Globast/Persona 4.png" alt="Persona 4"  id="img4">
                         </div>
                         <button class="next">&#10095;</button>
                     </div>
                     <div class="slide-numbers"></div>
                 </div>
             </div>
-                
-            </section>
         </div>
-    </section>
-
-
-    <!-- prototype -->
-<section id="portfolio" class="portfolio">
-    <h1>Prototype</h1>
-    <div class="portfolio-tabs">
     </div>
-    <div class="portfolio-content">
-        <div class="tab-content active" id="ux-content">
-            <div class="project-grid">
-                <div class="project-card">
-                    <img src="./Case study Globast/Home Screen.png" alt="UX Project 1">
-                    <h3>Prototype 1</h3>
-                    <p>Brief description of the project.</p>
-                    <a href="https://www.figma.com/proto/zKAzwAhZVWKaIyGp1lS9d8/Globast?page-id=0%3A1&type=design&node-id=114-2&viewport=342%2C331%2C0.07&t=xDGhTZlHG4U9rsX3-1&scaling=min-zoom&starting-point-node-id=114%3A2&mode=design"
-                    target="_blank" class="project-link">View Prototype</a>
-                </div>
-              
+ </section>
+
+
+ <!-- methodology -->
+  <!-- process slider -->
+<div class="content">
+    <h2 style="text-align: center;">Methodology</h2>
+</div>
+<!-- process slider -->
+<div class="process-slider">
+    <div class="progress-bar"></div>
+    <nav class="steps">
+      <a href="#step1" class="step active">
+        <div class="step-icon">1</div>
+        <span class="step-label">Low-Fidelity</span>
+      </a>
+      <a href="#step2" class="step">
+        <div class="step-icon">2</div>
+        <span class="step-label">Hi-Fidelity</span>
+      </a>
+      
+      <a href="#step3" class="step">
+        <div class="step-icon">3</div>
+        <span class="step-label">User Testing</span>
+      </a>
+    </nav>
+  </div>
+  <!-- low fidelity -->
+    <div class="container1">
+        
+        <header class="hero-section1" id="step1">
+            <div class="hero-content1">
+                <h2>Low Fidelity</h2>
+                <p>The low-fidelity phase involved creating a paper prototype for the application.
+                    This prototype outlined the basic structure, user interface, and key features. The
+                    initial design focused on inclusivity, incorporating features like audio
+                    descriptions,
+                    subtitles, voice assistance, and blocked captions. This phase allowed for quick
+                    iterations and adjustments based on feedback.</p>
             </div>
-        </div>
-     
+        </header>
+
+        
+    </div>
+  </div>
+ 
+<!-- hi fidelity -->
+<!-- <section class="about"> -->
+    <div class="content">
+        <section class="project-overview" id="step2">
+            <h2 style="text-align: center;">Hi-Fidelity</h2>
+            <p style="text-align: center;">
+                The high-fidelity prototype evolved from the low-fidelity version,
+                incorporating detailed design elements, color schemes, and user interface
+                refinements. The design adhered to inclusive principles, ensuring that each
+                feature was carefully implemented to cater to users with visual,
+                auditory, physical, and cognitive impairments.
+            </p>
+            <div id="section2" class="carousel-section">
+                <div class="carousel-container">
+                    <div class="carousel-text">
+                        <div class="text-slide">
+                            <h3>login</h3>
+                        </div>
+                        <div class="text-slide">
+                            <h3>Home</h3>
+                        </div>
+                        <div class="text-slide">
+                            <h3>Movies</h3>
+                        </div>
+                        <div class="text-slide">
+                            <h3>Series</h3>
+                        </div>
+                        <div class="text-slide">
+                            <h3>Movies After Selection</h3>
+                        </div>
+                        <div class="text-slide">
+                            <h3>Series After Selection</h3>
+                        </div>
+                        <div class="text-slide">
+                            <h3>Cast & Crew</h3>
+                        </div>
+                        <div class="text-slide">
+                            <h3>Video Player</h3>
+                        </div>
+                        <div class="text-slide">
+                            <h3>Profile</h3>
+                        </div>
+                        <div class="text-slide">
+                            <h3>Multi Platform</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-images-container">
+                        <button class="prev">&#10094;</button>
+                        <div class="carousel-images">
+                            <img src="./Case study Globast/login screen.png" alt="login" id="img5">
+                            <img src="./Case study Globast/Home Screen.png" alt="Home" id="img6">
+                            <img src="./Case study Globast/Movies  Screen.png" alt="Movies" id="img7">
+                            <img src="./Case study Globast/series screen.png" alt="series" id="img8">
+                            <img src="./Case study Globast/movies after selection.png" alt="movies after selection" id="img9">
+                            <img src="./Case study Globast/Series after selection.png" alt="Series after selection" id="img10">
+                            <img src="./Case study Globast/cast and crew screen.png" alt="cast and crew" id="img11">
+                            <img src="./Case study Globast/Player Screen.png" alt="Player" id="img12">
+                            <img src="./Case study Globast/Profile Screen.png" alt="Profile" id="img12">
+                            <img src="./Case study Globast/multi platform.png" alt="multi platform" id="img13">
+                        </div>
+                        <button class="next">&#10095;</button>
+                    </div>
+                    <div class="slide-numbers"></div>
+                </div>
+            </div>
+
+        </section>
     </div>
 </section>
 
+ <!-- user testing -->
+    <div class="content" id="step3">
+        <div class="overview-container" >
+            <h2 style="text-align: center;">User Testing</h2>
+           
+            <p>
+                User testing was conducted with 4 participants (visually and auditory impaired)
+                to understand how well they interact with Globast, an inclusive movie streaming platform. </p>
+
+            <br>
+
+            <p>The testers were given 5 tasks to complete:</p><br>
+            <ul>
+                <li>Find and play "The Batman" movie in the superhero genre.</li>
+                <br>
+                <li>Find and play "The Batman" movie with Chinese subtitles.
+                </li>
+                <br>
+                <li>See the cast and crew for "The Batman" movie.
+                </li>
+                <br>
+                <li>Change the audio description voice for "The Batman" to sound like Robert Pattinson.
+                </li>
+                <br>
+                <li>Switch user profiles from Sherlock to Heisenberg.
+                </li>
+                <br>
+                </ul>
+
+                <p>The time to complete each task was recorded, and testers were asked
+                    for their feedback on the platform.After the main testing, there was an
+                    engagement usability test where participants could explore the platform
+                    freely and provide feedback on how engaging it was. They were given a
+                    questionnaire to fill out at the end.</p>
+                <br>
+    </div>
+    </div>
+
+    <!-- Iterations -->
+    <div class="content">
+        <section class="project-overview">
+            <h1 style="text-align: center;">Iterations</h1>
+        <div id="section3" class="carousel-section">
+            <div class="carousel-container">
+                <div class="carousel-text">
+                    <div class="text-slide">
+                        <h3>Iteration 1</h3>
+                        <p><b>1.</b> The scroll-to-top button was removed because it hid
+                            content sometimes. A sticky header was added instead, which stays visible as the user
+                            scrolls.
+                        </p>
+                    </div>
+                    <div class="text-slide">
+                        <h3>Iteration 2</h3>
+                        <p><b>2.</b> The way to select subtitle language and audio description voice
+                            was changed. Originally, users had to scroll through a list to
+                            find their preference. Now, they can type their preference into a search bar for faster
+                            selection.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-images-container">
+                    <button class="prev">&#10094;</button>
+                    <div class="carousel-images">
+                        <img src="./Case study Globast/iteration 1.png" alt="iteration 1" id="img14">
+                        <img src="./Case study Globast/iteration 2.png" alt="Iteration 2" id="img15">
+                    </div>
+                    <button class="next">&#10095;</button>
+                </div>
+                <div class="slide-numbers"></div>
+            </div>
+        </div>
+            
+        </section>
+    </div>
+
+<!-- prototype -->
+ <div class="content">
+    <h2 style="text-align: center;">
+Prototype
+    </h2>    
+    <div class="expanding-grid">
+        <div class="expanding-card">
+            <div class="card-content">
+                <img src="./Case study Globast/Home Screen.png" alt="Globast prototype" class="card-image">
+                <h3 style="text-align: center;">Globast prototype</h3>
+                <!-- <p class="short-description">Exisiting Screen.</p> -->
+                <div class="more-info">
+                    <!-- <p>The Prototype 1 was a mirror of the current Gpay
+                        app's terms and conditions page, which was lengthy and poorly presented.
+                    </p> -->
+                    <a href="https://www.figma.com/proto/zKAzwAhZVWKaIyGp1lS9d8/Globast?page-id=0%3A1&type=design&node-id=114-2&viewport=342%2C331%2C0.07&t=xDGhTZlHG4U9rsX3-1&scaling=min-zoom&starting-point-node-id=114%3A2&mode=design"
+                    target="_blank" class="cta-button" >View Prototype</a>
+                </div>
+            </div>
+        </div>
+        
+      
+    
+    </div>
+ </div>
+
  <!-- message -->
- <section id="contact" class="message portfolio">
+  <!-- <div class="content"> -->
+  <section id="contact" class="message portfolio" >
     <div class="about-container">
         <div class="about-text">
             <p>I hope you enjoyed reviewing this project. If you'd like to explore more of my work, 
                 feel free to check out my other projects. I'd love to connect and discuss any opportunities further!  </p>
         </div>
         <a class="cta-button" href="mailto:neethish17@gmail.com" target="_blank">Get in Touch</a>
-    </div>
-    </div>
-    </div>
-    </div>
+   
 </section>
+</div>
 
-<!-- footer ection -->
-<footer class="footer">
-    <div class="footer-content">
-        <div class="footer-section">
-            <h3>About Me</h3>
-            <p>UX Designer passionate about creating delightful user experiences.</p>
+    <!-- footer ection -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Me</h3>
+                <p>UX Designer passionate about creating delightful user experiences.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <ul>
+                    <li><a href="https://www.behance.net/neethish17e309" target="_blank">Behance</i></a></li>
+                    <li><a href="https://www.linkedin.com/in/neethish-kumar/" target="_blank">Linkedin</a></li>
+                    <li><a href="mailto:neethish17@gmail.com" target="_blank">email</a></li>
+                    <li><a href="mailto:neethish17@gmail.com" target="_blank">+44 7769056105</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="footer-section">
-            <h3>Quick Links</h3>
-            <ul>
-                <li><a href="#home" onclick="navigateToindex()" class="link__text">Home</a></li>
-                <li><a href="#home" onclick="navigateToindex()" class="link__text">About</a></li>
-                <li><a href="#home" onclick="navigateToindex()" class="link__text">Portfolio</a></li>
-                <li><a href="#home" onclick="navigateToindex()" class="link__text">Contact</a></li>
-            </ul>
+        <div class="footer-bottom">
+            <p>&copy; Neethish Kumar Ramasamy | User Experience Designer.</p>
         </div>
-        <div class="footer-section">
-            <h3>Connect</h3>
-            <ul>
-                <li><a href="https://www.behance.net/neethish17e309" target="_blank">Behance</i></a></li>
-                <li><a href="https://www.linkedin.com/in/neethish-kumar/" target="_blank">Linkedin</a></li>
-                <li><a href="mailto:neethish17@gmail.com" target="_blank">email</a></li>
-                <li><a href="mailto:neethish17@gmail.com" target="_blank">+44 7769056105</a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="footer-bottom">
-        <p>&copy; Neethish Kumar Ramasamy | User Experience Designer.</p>
-    </div>
-</footer>  
+    </footer>
 
+<!-- back to top -->
 
-    <!-- carousel script -->
+<a href="#top" class="back-to-top" title="Back to Top">
+    <span style='font-size:50px;' class="back-to-top__image" class="responsive-image">&#11165;</span> 
+    
+  </a>
+
+    <!-- script -->
     <script>
+        function navigateToindex() {
+            // Change the URL to the desired next screen
+            window.location.href = 'index.html';
+        }
+
+         // problem and solution
+         document.addEventListener('DOMContentLoaded', () => {
+  const animateItems = document.querySelectorAll('.animate-item');
+  
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('active');
+      }
+    });
+  }, { threshold: 0.1 });
+
+  animateItems.forEach(item => {
+    observer.observe(item);
+  });
+});
+
+
+// /process slider
+document.addEventListener('DOMContentLoaded', () => {
+  const steps = document.querySelectorAll('.step');
+  const progressBar = document.querySelector('.progress-bar');
+  const sections = document.querySelectorAll('.content section');
+
+  function updateProgress(currentStep) {
+    const progress = (currentStep / (steps.length - 1)) * 100;
+    progressBar.style.width = `${progress}%`;
+
+    steps.forEach((step, index) => {
+      if (index <= currentStep) {
+        step.classList.add('active');
+      } else {
+        step.classList.remove('active');
+      }
+    });
+  }
+
+  function setActiveStep() {
+    let index = sections.length;
+    while(--index && window.scrollY + 100 < sections[index].offsetTop) {}
+    updateProgress(index);
+  }
+
+  window.addEventListener('scroll', setActiveStep);
+
+  steps.forEach((step, index) => {
+    step.addEventListener('click', (e) => {
+      e.preventDefault();
+      const targetId = step.getAttribute('href');
+      const targetSection = document.querySelector(targetId);
+      targetSection.scrollIntoView({behavior: 'smooth'});
+      updateProgress(index);
+    });
+  });
+
+  setActiveStep();
+});
+
+
+// back to top
+const handleFirstTab = (e) => {
+  if(e.key === 'Tab') {
+    document.body.classList.add('user-is-tabbing')
+
+    window.removeEventListener('keydown', handleFirstTab)
+    window.addEventListener('mousedown', handleMouseDownOnce)
+  }
+
+}
+
+const handleMouseDownOnce = () => {
+  document.body.classList.remove('user-is-tabbing')
+
+  window.removeEventListener('mousedown', handleMouseDownOnce)
+  window.addEventListener('keydown', handleFirstTab)
+}
+
+window.addEventListener('keydown', handleFirstTab)
+
+const backToTopButton = document.querySelector(".back-to-top");
+let isBackToTopRendered = false;
+
+let alterStyles = (isBackToTopRendered) => {
+  backToTopButton.style.visibility = isBackToTopRendered ? "visible" : "hidden";
+  backToTopButton.style.opacity = isBackToTopRendered ? 1 : 0;
+  backToTopButton.style.transform = isBackToTopRendered
+    ? "scale(1)"
+    : "scale(0)";
+};
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 700) {
+    isBackToTopRendered = true;
+    alterStyles(isBackToTopRendered);
+  } else {
+    isBackToTopRendered = false;
+    alterStyles(isBackToTopRendered);
+  }
+});
+
+// full screen image
+const img = document.getElementById('myImage');
+
+function makeFullscreenable(imgId) {
+  const img = document.getElementById(imgId);
+  img.addEventListener('click', function() {
+    if (this.requestFullscreen) {
+      this.requestFullscreen();
+    } else if (this.webkitRequestFullscreen) {
+      this.webkitRequestFullscreen();
+    } else if (this.msRequestFullscreen) {
+      this.msRequestFullscreen();
+    }
+  });
+}
+
+// Use the function for different images
+makeFullscreenable('img1');
+makeFullscreenable('img2');
+makeFullscreenable('img3');
+makeFullscreenable('img4');
+makeFullscreenable('img5');
+makeFullscreenable('img6');
+makeFullscreenable('img7');
+makeFullscreenable('img8');
+makeFullscreenable('img9');
+makeFullscreenable('img10');
+makeFullscreenable('img11');
+makeFullscreenable('img12');
+makeFullscreenable('img13');
+makeFullscreenable('img15');
+makeFullscreenable('img14');
+</script>
+      <!-- carousel script -->
+      <script>
         function createCarousel(sectionId) {
             const section = document.getElementById(sectionId);
             const textSlides = section.querySelectorAll('.text-slide');
@@ -492,20 +627,11 @@
             createCarousel('section4');
         });
     </script>
-
-
-
-    <!-- home button script -->
-    <script>
-        function navigateToindex() {
-            // Change the URL to the desired next screen
-            window.location.href = 'index.html';
-        }
+    <script src="script.js">
 
     </script>
 
 
-    <script src="./js/app.js"></script>
 </body>
 
 </html>

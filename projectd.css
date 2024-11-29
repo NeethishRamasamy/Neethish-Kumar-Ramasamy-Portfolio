@@ -122,7 +122,9 @@ body {
     overflow-x: hidden;
 }
 
-
+p{
+    text-align: justify;
+}
 
 .hero {
     height: 100vh;

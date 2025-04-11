@@ -2,385 +2,535 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Von Rebranding</title>
-    
-    <link rel="stylesheet" href="projectvon.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- META -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Nino - Modern Portfolio Template">
+    <meta name="keywords" content="personal, portfolio new, html, one page, bootstrap, new html template, design, creative, onepage, clean, modern">
+    <meta name="author" content="Tanvir Hossain">
+    <!-- PAGE TITLE -->
+    <title>Neethish Kumar Ramasamy Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
+    <!-- ALL GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- FONT AWESOME CSS -->
+    <link rel="stylesheet" href="assets/css/font-awesome-pro.css" />
+    <!-- FONT AWESOME CSS -->
+    <link rel="stylesheet" href="assets/fonts/remixicon.css" />
+    <!-- MAGNIFIC CSS -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- NICE SELECT CSS -->
+    <link rel="stylesheet" href="assets/css/nice-select.min.css" />
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <!-- MOBILE MENU CSS -->
+    <link rel="stylesheet" href="assets/css/mobilemenu.css" />
+    <!-- SLICK CSS -->
+    <link rel="stylesheet" href="assets/css/slick.min.css" />
+    <!-- SPACING CSS -->
+    <link rel="stylesheet" href="assets/css/spacing.css" />
+    <!-- MAIN STYLE CSS -->
+    <link rel="stylesheet" href="assets/css/style von.css" />
+    <!-- RESPONSIVE CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 
 <body>
-    <!-- navbar -->
-    <nav class="navbar">
-        <div class="logo"></div>
-        <ul class="nav-links">
-            <li><a href="#home" onclick="navigateToindex()" class="link__text">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-
-        </ul>
-        <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </div>
-    </nav>
-
-<!-- center img -->
-    <!-- hero page -->
-    <header class="hero-section">
-        <div class="hero-content">
-            <h1>VON</h1>
-            <p style="color: rgb(250, 250, 235);">Rebranding</p>
-        </div>
-    </header>
-
-<!-- About Von -->
-    <div class="content">
-        <div class="overview-container">
-            <h2 style="text-align: center;">About Von</h2>
-            <!-- <div class="shape circle"></div> -->
-            <!-- <div class="shape square"></div> -->
-            <!-- <div class="shape triangle"></div> -->
-            <p style="text-align: center;">
-              The brand name, derived from the Icelandic word for "hope," reflects the aspirations of
-              athletes worldwide, inspired by the rich history of sports. Von is a premium sports merchandise
-              brand that embodies hope and competitive excellence in every piece of merchandise. , Von creates
-              innovative gear for modern competitors, catering to a wide range of sports. Von products support
-              the universal desire to excel and the thrill of competition, promoting the joy of participation
-              and the value of sportsmanship. Von's mission is to inspire and support athletes at all levels,
-              fostering the universal values of sportsmanship, perseverance, and the joy of competition.
-            </p>
+    <!-- START PRELOADER AREA-->
+    <div class="preloader">
+        <svg viewbox="0 0 1000 1000" preserveaspectratio="none">
+            <path id="preloaderSvg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+        </svg>
+        <div class="preloader-heading">
+            <div class="load-text">
+                <span>L</span>
+                <span>o</span>
+                <span>a</span>
+                <span>d</span>
+                <span>i</span>
+                <span>n</span>
+                <span>g</span>
+            </div>
         </div>
     </div>
+    <!-- END PRELOADER AREA -->
+    <!-- START SCROOL UP DESIGN AREA -->
+    <div class="progress-wrap cursor-pointer">
+        <i class="ri-arrow-up-s-line"></i>
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- / END SCROOL UP DESIGN AREA -->
+    <!-- START MAGIC CURSOR AND BALL AREA-->
+    <div id="magic-cursor">
+        <div id="ball"></div>
+    </div>
+    <!-- / END MAGIC CURSOR AND BALL AREA-->
+  <!-- START MENU DESIGN AREA-->
+  <header class="main-header">
+    <div class="header-upper">
+        <div class="container">
+            <div class="header-inner">
+                <div class="row align-items-center">
+                    <div class="col-xl-2 col-lg-2 col-md-6 col-6 col-sm-3">
+                        <div class="logo-area">
+                            <div class="logo">
+                                <!-- <a href="index.html">Neethish Kumar Ramasamy</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-10 col-lg-10 col-md-6 col-6 col-sm-9">
+                        <div class="main-menu">
+                            <nav id="mobile-menu">
+                                <ul>
+                                    <li><a href="index.html" class="linkstyle">Home</a></li>
+                                    <li><a href="#about" class="linkstyle">About</a></li>
+                                    <li><a href="#skills" class="linkstyle">Skills</a></li>
+                                    <li><a href="#portfolio" class="linkstyle">Portfolio</a></li>
+                                    <li><a href="#contact" class="linkstyle">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="side-menu-icon d-lg-none text-end">
+                            <a href="javascript:void(0)" class="info-toggle-btn f-right sidebar-toggle-btn"><i class="fal fa-bars"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- // END MENU DESIGN AREA-->
+    <!-- START MOBILE MENU DESIGN AREA-->
+    <div class="sidebar__area">
+        <div class="sidebar__wrapper">
+            <div class="sidebar__close">
+                <button class="sidebar__close-btn" id="sidebar__close-btn">
+                    <i class="fal fa-times"></i>
+                </button>
+            </div>
+            <div class="sidebar__content mt-50 mb-20">
+                <div class="mobile-menu fix"></div>
+            </div>
+        </div>
+    </div>
+    <div class="body-overlay"></div>
+    <!-- // END MOBILE MENU DESIGN AREA-->
+    <!-- START center content AREA -->
+    <section class="single-page-hero-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <h2>VON</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / END center content AREA -->
+  <!-- START center img DESIGN AREA -->
+  <div class="single-project-page-design">
+    <div class="single-project-image">
+        <img src="./von/Cover Pg.jpg" alt="image">
+    </div>
+    <div class="container pt-60 pb-40">
+        <div class="row">
+            <div class="col-lg-4">
+    <!-- End center img DESIGN AREA -->
+                <!-- START Description AREA -->
+                <div class="single-project-page-left wow fadeInUp delay-0-2s">
+                    <div class="single-info">
+                        <p>Year</p>
+                        <h3>2025</h3>
+                    </div>
+                    
+                    
+                    <div class="single-info">
+                        <p>Project</p>
+                        <h3>Rebranding</h3>
+                    </div>
+                </div>
+                <!-- / END  AREA -->
+            </div>
+            <!-- START SINGLE RIGHT DESIGN AREA -->
+            <div class="col-lg-8">
+                <div class="single-project-page-right wow fadeInUp delay-0-4s">
+                    <h2>
+                        Project Overview
+                    </h2>
+                    <p>   The brand name "VON" derived from the Icelandic word for "hope," reflects the aspirations of
+                        athletes worldwide, inspired by the rich history of sports. Von is a premium sports merchandise
+                        brand that embodies hope and competitive excellence in every piece of merchandise. , Von creates
+                        innovative gear for modern competitors, catering to a wide range of sports. Von products support
+                        the universal desire to excel and the thrill of competition, promoting the joy of participation
+                        and the value of sportsmanship. Von's mission is to inspire and support athletes at all levels,
+                        fostering the universal values of sportsmanship, perseverance, and the joy of competition.
+                    </p>
+                </div>
+            </div>
+            <!-- / END Description AREA -->
+        </div>
+        </div>
+        </div>
 
-<!-- old to new logo -->
-<div class="outer-container">
-  <div class="video-container">
-    <video autoplay loop muted playsinline>
-      <source src="./von/Old logo to new logo.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div>
-  <div class="content">
-    <h2 style="text-align: center;">Rebranding</h2>
-    
-      <p style="text-align: center;">
-        The rebranding aims to simplify the brand's visual identity, create a
-        flexible logo, strengthen the target audience, and transcend traditional
-        sports merchandise. The design philosophy is a "less is more" approach,
-        capturing the brand's heritage and core values. The new logo will be a
-        storytelling tool, resonating with athletes and fans
-        across generations. Expect a cleaner, adaptable visual identity and a brand that connects and inspires sports.
-      </p>
-  </div>
-</div>
 
+<!--Start  Rebranding video -->
+<section class="testimonials-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12">
+                <div class="outer-container">
+                    <div class="video-container">
+                      <video autoplay loop muted playsinline>
+                        <source src="./von/Old logo to new logo.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                    <div class="content">
+                      <h5 style="text-align: center; color: black; font-size: 40px;">Rebranding</h5>
+                      
+                        <p style="text-align: center; color: black;">
+                          The rebranding aims to simplify the brand's visual identity, create a
+                          flexible logo, strengthen the target audience, and transcend traditional
+                          sports merchandise. The design philosophy is a "less is more" approach,
+                          capturing the brand's heritage and core values. The new logo will be a
+                          storytelling tool, resonating with athletes and fans
+                          across generations. Expect a cleaner, adaptable visual identity and a brand that connects and inspires sports.
+                        </p>
+                    </div>
+                  </div>
+                
+            </div>
+       
+        </div>
+       
+</section>
+<!--End Rebranding video -->
 
-<!-- Typography -->
-<div class="outer-container">
-  <div class="video-container">
-    <video autoplay loop muted playsinline>
-      <source src="./von/Von Typo Animation .mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div>
-  <div class="content">
-    <h2 style="text-align: center;">Typography</h2>
-    
-      <p style="text-align: center;">
-        At the basic level, typography is the art that involves arranging a type-face in various
-        combinations of font, size, and spacing.It is used in design to adjust the text within 
-        the design. In the VON brand logo "Oswald", a serif font is used because of the boldness , neat,
-        discipline and straight forward attitude because sports needs lots of discipline and focus
-        which is also much needed for a sports merchandise.
-      </p>
-  </div>
-</div>
+<!--Start  typography video -->
+<section class="blog-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12">
+                <div class="outer-container">
+                    <div class="video-container">
+                      <video autoplay loop muted playsinline>
+                        <source src="./von/Von Typo Animation .mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                    <div class="content">
+                      <h5 style="text-align: center; font-size: 40px;">Typography</h5>
+                      
+                        <p style="text-align: center;">
+                            At the basic level, typography is the art that involves arranging a type-face in various
+                            combinations of font, size, and spacing.It is used in design to adjust the text within 
+                            the design. In the VON brand logo "Oswald", a serif font is used because of the boldness , neat,
+                            discipline and straight forward attitude because sports needs lots of discipline and focus
+                            which is also much needed for a sports merchandise.
+                        </p>
+                    </div>
+                  </div>
+                
+            </div>
+       
+        </div>
+       
+</section>
+<!--End typography video -->
 
-<!-- colour -->
-<div class="outer-container">
-  <div class="video-container">
-    <video autoplay loop muted playsinline>
-      <source src="./von/01_Colour Animation.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div>
-  <div class="content">
-    <h2 style="text-align: center;">Colour</h2>
-    
-      <p style="text-align: center;">
-        Using color in graphic design is an excellent way to subtlety influent the way
-        a viewer feels about a composition. In that sense red colour is used in Von, by choosing
-        Deep Carmine color which is red in simple words as a primary colour; it has been tried to
-        embrace a powerful symbol that embodies the essence of sport—energy, strength,
-        passion, and community. This choice aligns perfectly within the mission to inspire hope and drive
-        within every athlete, making it an integral part of our brand identity as we move forward into
-        this exciting new chapter. Also to support that Silver Chalice and Black is used a secondary colours. 
-      </p>
-  </div>
-</div>
-
-<!-- old designs -->
-
-<div class="container1">
-        
-  <header class="hero-section1" id="step1">
-      <div class="hero-content1">
-          <h2>Old Designs</h2>
-          
-  </header>
-
-  
-</div>
-</div>
- 
+<!--Start  color video -->
+<section class="testimonials-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12">
+                <div class="outer-container">
+                    <div class="video-container">
+                      <video autoplay loop muted playsinline>
+                        <source src="./von/01_Colour Animation.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                    <div class="content">
+                      <h5 style="text-align: center; color: black; font-size: 40px;">Colour</h5>
+                      
+                        <p style="text-align: center; color: black;">
+                            Using color in graphic design is an excellent way to subtlety influent the way
+                            a viewer feels about a composition. In that sense red colour is used in Von, by choosing
+                            Deep Carmine color which is red in simple words as a primary colour; it has been tried to
+                            embrace a powerful symbol that embodies the essence of sport—energy, strength,
+                            passion, and community. This choice aligns perfectly within the mission to inspire hope and drive
+                            within every athlete, making it an integral part of our brand identity as we move forward into
+                            this exciting new chapter. Also to support that Silver Chalice and Black is used a secondary colours. 
+                        <br>
+                        <br>
+                        </p>
+                    </div>
+                  </div>
+                  <div class="container1">
+            
+                    <header class="hero-section1">
+                        <div class="hero-content1">
+                            <h3 style="color: black; text-transform: uppercase;">Old Designs</h3>
+            
+                        </div>
+                  
+            </div>
+       
+        </div>
+       
+</section>
+<!--End color video -->
 
 <!-- stationary items -->
-<div class="container">
-  <div class="gallery">
-    <div class="image-container">
-      <img src="./von/stationary items.jpg" alt="Left Image" class="responsive-image">
-      <div class="image-title">Stationary Items</div>
-    </div>
-    </div>
-    
-    <!-- Add more gallery items as needed -->
-  </div>
-</div>
-
-<!-- standee and flyer -->
-<div class="container">
-  <div class="image-wrapper">
-    <div class="image-container">
-      <img src="./von/standee.jpg" alt="Left Image" class="responsive-image">
-      <div class="image-title">Standee</div>
-    </div>
-    <div class="image-container">
-      <img src="./von/Flyer.jpg" alt="Right Image" class="responsive-image">
-      <div class="image-title">Flyer</div>
-    </div>
-  </div>
-</div>
-
-<!-- Hoarding -->
-<div class="container">
-  <div class="gallery">
-    <div class="image-container">
-      <img src="./von/Hoarding.jpg" alt="Left Image" class="responsive-image">
-      <div class="image-title">Hoarding</div>
-    </div>
-    </div>
-    
-    <!-- Add more gallery items as needed -->
-  </div>
-</div>
-
-<!-- poster and social media -->
-<div class="container">
-  <div class="image-wrapper">
-    <div class="image-container">
-      <img src="./von/poster.jpg" alt="Left Image" class="responsive-image">
-      <div class="image-title">Poster</div>
-    </div>
-    <div class="image-container">
-      <img src="./von/social media poster.jpg" alt="Right Image" class="responsive-image">
-      <div class="image-title">Social Media Poster</div>
-    </div>
-  </div>
-</div>
-
-<!-- Billboard -->
-<div class="container">
-  <div class="gallery">
-    <div class="image-container">
-      <img src="./von/Billboard.jpg" alt="Left Image" class="responsive-image">
-      <div class="image-title">Billboard</div>
-    </div>
-    </div>
-    
-    <!-- Add more gallery items as needed -->
-  </div>
-</div>
-
-
-<!-- brochure and magazine -->
-<div class="container">
-  <div class="image-wrapper">
-    <div class="image-container">
-      <img src="./von/brochure.jpg" alt="Left Image" class="responsive-image">
-      <div class="image-title">Brochure</div>
-    </div>
-    <div class="image-container">
-      <img src="./von/magazine.jpg" alt="Right Image" class="responsive-image">
-      <div class="image-title">Magazine</div>
-    </div>
-  </div>
-</div>
-
- <!-- message -->
-  <!-- <div class="content"> -->
-    <section class="message-section">
-      <div class="message-container">
-        <p class="message-content">
-          I hope you enjoyed reviewing this project. If you'd like to explore more of my work, 
-          feel free to check out my other projects. I'd love to connect and discuss any opportunities further!
-        </p>
-        <a class="cta-button" href="mailto:neethish17@gmail.com" target="_blank">Get in Touch</a>
-      </div>
-    </section>
-    
-
-
-    <!-- footer ection -->
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>About Me</h3>
-                <p>UX Designer passionate about creating delightful user experiences.</p>
-            </div>
-            <div class="footer-section">
-                <h3>Quick Links</h3>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h3>Connect</h3>
-                <ul>
-                    <li><a href="https://www.behance.net/neethish17e309" target="_blank">Behance</i></a></li>
-                    <li><a href="https://www.linkedin.com/in/neethish-kumar/" target="_blank">Linkedin</a></li>
-                    <li><a href="mailto:neethish17@gmail.com" target="_blank">email</a></li>
-                    <li><a href="mailto:neethish17@gmail.com" target="_blank">+44 7769056105</a></li>
-                </ul>
-            </div>
+ <div class="blog-area">
+    <div class="container1">
+        <div class="gallery">
+          <div class="image-container">
+            <img src="./von/stationary items.jpg" alt="Left Image" class="work-popup responsive-image">
+            <div class="image-title">Stationary Items</div>
+          </div>
+          </div>
+          
+          <!-- Add more gallery items as needed -->
         </div>
-        <div class="footer-bottom">
-            <p>&copy; Neethish Kumar Ramasamy | User Experience Designer.</p>
+
+        <!-- standee and flyer -->
+<div class="container1">
+    <div class="image-wrapper">
+      <div class="image-container">
+        <img src="./von/standee.jpg" alt="Left Image" class="responsive-image">
+        <div class="image-title">Standee</div>
+      </div>
+      <div class="image-container">
+        <img src="./von/Flyer.jpg" alt="Right Image" class="responsive-image">
+        <div class="image-title">Flyer</div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Hoarding -->
+  <div class="container1">
+    <div class="gallery">
+      <div class="image-container">
+        <img src="./von/Hoarding.jpg" alt="Left Image" class="responsive-image">
+        <div class="image-title">Hoarding</div>
+      </div>
+      </div>
+      
+      <!-- Add more gallery items as needed -->
+    </div>
+  </div>
+  
+  <!-- poster and social media -->
+  <div class="container1">
+    <div class="image-wrapper">
+      <div class="image-container">
+        <img src="./von/poster.jpg" alt="Left Image" class="responsive-image">
+        <div class="image-title">Poster</div>
+      </div>
+      <div class="image-container">
+        <img src="./von/social media poster.jpg" alt="Right Image" class="responsive-image">
+        <div class="image-title">Social Media Poster</div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Billboard -->
+  <div class="container1">
+    <div class="gallery">
+      <div class="image-container">
+        <img src="./von/Billboard.jpg" alt="Left Image" class="responsive-image">
+        <div class="image-title">Billboard</div>
+      </div>
+      </div>
+      
+      <!-- Add more gallery items as needed -->
+    </div>
+  </div>
+  
+  
+  <!-- brochure and magazine -->
+  <div class="container1">
+    <div class="image-wrapper">
+      <div class="image-container">
+        <img src="./von/brochure.jpg" alt="Left Image" class="responsive-image">
+        <div class="image-title">Brochure</div>
+      </div>
+      <div class="image-container">
+        <img src="./von/magazine.jpg" alt="Right Image" class="responsive-image">
+        <div class="image-title">Magazine</div>
+      </div>
+    </div>
+  </div>
+      </div>
+ </div>
+
+
+
+
+
+
+
+    <!-- START FOOTER DESIGN AREA -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-top">
+                        <p> Have a project in mind?</p>
+                        <h2><a href="mailto:neethish17@gmail.com" target="_blank">let's work</a></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    
+                </div>
+               
+            </div>
         </div>
     </footer>
+    <!-- / END FOOTER DESIGN AREA -->
 
-<!-- back to top -->
+   <!-- footer ection -->
+   <footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>About Me</h3>
+            <p>UX Designer passionate about creating delightful user experiences.</p>
+        </div>
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Connect</h3>
+            <ul>
+                <li><a href="https://www.behance.net/neethish17e309" target="_blank">Behance</i></a></li>
+                <li><a href="https://www.linkedin.com/in/neethish-kumar/" target="_blank">Linkedin</a></li>
+                <li><a href="mailto:neethish17@gmail.com" target="_blank">email</a></li>
+                <li><a href="mailto:neethish17@gmail.com" target="_blank">+44 7769056105</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; Neethish Kumar Ramasamy | User Experience Designer.</p>
+    </div>
+</footer>
 
-<a href="#top" class="back-to-top" title="Back to Top">
-    <span style='font-size:50px;' class="back-to-top__image" class="responsive-image">&#11165;</span> 
-    
-  </a>
 
-    <!-- script -->
+    <!-- JQUERY JS -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <!-- BOOTSTRAP JS-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- APPEAR JS -->
+    <script src="assets/js/appear.min.js"></script>
+    <!-- MAGNIFICANT JS -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- MOBILE MENU JS-->
+    <script src="assets/js/mobilemenu.js"></script>
+    <!-- GSAP AND LOCOMOTIV JS-->
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/lenis.js"></script>
+    <!-- SLICK JS-->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- NICE SELECT JS-->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!-- IMAGE LOADER JS-->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <!-- ISOTOPE JS-->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <!--  WOW ANIMATION JS-->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- SCRIPT JS-->
+    <script src="assets/js/script.js"></script>
+
+
     <script>
-        function navigateToindex() {
-            // Change the URL to the desired next screen
-            window.location.href = 'index.html';
+        function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+    </script>
+
+ <!-- carousel script -->
+ <script>
+    function createCarousel(sectionId) {
+        const section = document.getElementById(sectionId);
+        const textSlides = section.querySelectorAll('.text-slide');
+        const images = section.querySelectorAll('.carousel-images img');
+        const prevButton = section.querySelector('.prev');
+        const nextButton = section.querySelector('.next');
+        const slideNumbers = section.querySelector('.slide-numbers');
+
+        let currentSlide = 0;
+
+        function showSlide(index) {
+            textSlides[currentSlide].classList.remove('active');
+            images[currentSlide].classList.remove('active');
+            slideNumbers.children[currentSlide].classList.remove('active');
+
+            currentSlide = (index + textSlides.length) % textSlides.length;
+
+            textSlides[currentSlide].classList.add('active');
+            images[currentSlide].classList.add('active');
+            slideNumbers.children[currentSlide].classList.add('active');
         }
 
-         // problem and solution
-         document.addEventListener('DOMContentLoaded', () => {
-  const animateItems = document.querySelectorAll('.animate-item');
-  
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('active');
-      }
+        function createSlideNumbers() {
+            for (let i = 0; i < textSlides.length; i++) {
+                const number = document.createElement('div');
+                number.classList.add('slide-number');
+                number.textContent = i + 1;
+                number.addEventListener('click', () => showSlide(i));
+                slideNumbers.appendChild(number);
+            }
+            slideNumbers.children[0].classList.add('active');
+        }
+
+        prevButton.addEventListener('click', () => showSlide(currentSlide - 1));
+        nextButton.addEventListener('click', () => showSlide(currentSlide + 1));
+
+        createSlideNumbers();
+        showSlide(0);
+    }
+
+    // Initialize carousels for all four sections
+    document.addEventListener('DOMContentLoaded', () => {
+        createCarousel('section1');
+        createCarousel('section2');
+        createCarousel('section3');
+        createCarousel('section4');
     });
-  }, { threshold: 0.1 });
 
-  animateItems.forEach(item => {
-    observer.observe(item);
-  });
-});
-
-
-// /process slider
-document.addEventListener('DOMContentLoaded', () => {
-  const steps = document.querySelectorAll('.step');
-  const progressBar = document.querySelector('.progress-bar');
-  const sections = document.querySelectorAll('.content section');
-
-  function updateProgress(currentStep) {
-    const progress = (currentStep / (steps.length - 1)) * 100;
-    progressBar.style.width = `${progress}%`;
-
-    steps.forEach((step, index) => {
-      if (index <= currentStep) {
-        step.classList.add('active');
-      } else {
-        step.classList.remove('active');
-      }
-    });
-  }
-
-  function setActiveStep() {
-    let index = sections.length;
-    while(--index && window.scrollY + 100 < sections[index].offsetTop) {}
-    updateProgress(index);
-  }
-
-  window.addEventListener('scroll', setActiveStep);
-
-  steps.forEach((step, index) => {
-    step.addEventListener('click', (e) => {
-      e.preventDefault();
-      const targetId = step.getAttribute('href');
-      const targetSection = document.querySelector(targetId);
-      targetSection.scrollIntoView({behavior: 'smooth'});
-      updateProgress(index);
-    });
-  });
-
-  setActiveStep();
-});
-
-
-// back to top
-const handleFirstTab = (e) => {
-  if(e.key === 'Tab') {
-    document.body.classList.add('user-is-tabbing')
-
-    window.removeEventListener('keydown', handleFirstTab)
-    window.addEventListener('mousedown', handleMouseDownOnce)
-  }
-
-}
-
-const handleMouseDownOnce = () => {
-  document.body.classList.remove('user-is-tabbing')
-
-  window.removeEventListener('mousedown', handleMouseDownOnce)
-  window.addEventListener('keydown', handleFirstTab)
-}
-
-window.addEventListener('keydown', handleFirstTab)
-
-const backToTopButton = document.querySelector(".back-to-top");
-let isBackToTopRendered = false;
-
-let alterStyles = (isBackToTopRendered) => {
-  backToTopButton.style.visibility = isBackToTopRendered ? "visible" : "hidden";
-  backToTopButton.style.opacity = isBackToTopRendered ? 1 : 0;
-  backToTopButton.style.transform = isBackToTopRendered
-    ? "scale(1)"
-    : "scale(0)";
-};
-
-window.addEventListener("scroll", () => {
-  if (window.scrollY > 700) {
-    isBackToTopRendered = true;
-    alterStyles(isBackToTopRendered);
-  } else {
-    isBackToTopRendered = false;
-    alterStyles(isBackToTopRendered);
-  }
-});
-
-// full screen image
+    // full screen image
 const img = document.getElementById('myImage');
 
 function makeFullscreenable(imgId) {
@@ -413,89 +563,7 @@ makeFullscreenable('img13');
 makeFullscreenable('img14');
 makeFullscreenable('img15');
 
-
-
-
-    </script>
-      <!-- carousel script -->
-      <script>
-        function createCarousel(sectionId) {
-            const section = document.getElementById(sectionId);
-            const textSlides = section.querySelectorAll('.text-slide');
-            const images = section.querySelectorAll('.carousel-images img');
-            const prevButton = section.querySelector('.prev');
-            const nextButton = section.querySelector('.next');
-            const slideNumbers = section.querySelector('.slide-numbers');
-
-            let currentSlide = 0;
-
-            function showSlide(index) {
-                textSlides[currentSlide].classList.remove('active');
-                images[currentSlide].classList.remove('active');
-                slideNumbers.children[currentSlide].classList.remove('active');
-
-                currentSlide = (index + textSlides.length) % textSlides.length;
-
-                textSlides[currentSlide].classList.add('active');
-                images[currentSlide].classList.add('active');
-                slideNumbers.children[currentSlide].classList.add('active');
-            }
-
-            function createSlideNumbers() {
-                for (let i = 0; i < textSlides.length; i++) {
-                    const number = document.createElement('div');
-                    number.classList.add('slide-number');
-                    number.textContent = i + 1;
-                    number.addEventListener('click', () => showSlide(i));
-                    slideNumbers.appendChild(number);
-                }
-                slideNumbers.children[0].classList.add('active');
-            }
-
-            prevButton.addEventListener('click', () => showSlide(currentSlide - 1));
-            nextButton.addEventListener('click', () => showSlide(currentSlide + 1));
-
-            createSlideNumbers();
-            showSlide(0);
-        }
-
-        // Initialize carousels for all four sections
-        document.addEventListener('DOMContentLoaded', () => {
-            createCarousel('section1');
-            createCarousel('section2');
-            createCarousel('section3');
-            createCarousel('section4');
-        });
-
-
-
-        // left and right images
-      
-        document.querySelectorAll('.responsive-image').forEach(img => {
-  img.addEventListener('click', function() {
-    const fullscreen = document.createElement('div');
-    fullscreen.className = 'fullscreen';
-    
-    const fullImg = document.createElement('img');
-    fullImg.src = this.src;
-    fullImg.alt = this.alt;
-    
-    fullscreen.appendChild(fullImg);
-    document.body.appendChild(fullscreen);
-    
-    fullscreen.addEventListener('click', function() {
-      this.remove();
-    });
-  });
-});
-
-
-
-
-    </script>
-    <script src="script.js">
-
-    </script>
+</script>
 
 
 </body>

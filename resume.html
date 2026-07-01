@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Resume - design with sid</title>
+  <meta name="description" content="View and download the resume of sid, a creative designer specializing in graphic design, branding, and video editing." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="app.js"></script>
+  <style>
+    .resumeContainer {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 40px 20px;
+    }
+
+    .resumeHeader {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .resumeHeader h1 {
+      margin-bottom: 20px;
+    }
+
+    .resumeActions {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      margin-bottom: 40px;
+      flex-wrap: wrap;
+    }
+
+    .resumeViewer {
+      background: #f8f8f8;
+      border-radius: 8px;
+      overflow: hidden;
+      margin-bottom: 40px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      min-height: 600px;
+    }
+
+    .resumeViewer embed,
+    .resumeViewer iframe {
+      width: 100%;
+      height: 100%;
+      min-height: 800px;
+      border: none;
+    }
+
+    .resumeFallback {
+      padding: 60px 40px;
+      text-align: center;
+      background: #f8f8f8;
+      border-radius: 8px;
+    }
+
+    .resumeFallback p {
+      margin-bottom: 20px;
+      color: #666;
+    }
+
+    .backLink {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: #666;
+      text-decoration: none;
+      margin-bottom: 20px;
+      transition: color 0.2s;
+    }
+
+    .backLink:hover {
+      color: #000;
+    }
+
+    @media (max-width: 768px) {
+      .resumeContainer {
+        margin: 40px auto;
+        padding: 20px;
+      }
+
+      .resumeViewer {
+        min-height: 400px;
+      }
+
+      .resumeViewer embed,
+      .resumeViewer iframe {
+        min-height: 500px;
+      }
+
+      .resumeActions {
+        flex-direction: column;
+      }
+
+      .btn {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="topbar">
+    <div class="wrap topbar__row">
+      <a class="brand" href="index.html" aria-label="NK Home">
+        <span class="brand__name">NK</span>
+      </a>
+      <button class="menuBtn" type="button" data-menu-btn aria-controls="siteNav" aria-expanded="false">
+        <span class="menuBtn__line"></span>
+        <span class="menuBtn__line"></span>
+        <span class="menuBtn__line"></span>
+        <span class="srOnly">Open menu</span>
+      </button>
+
+      <nav class="nav" id="siteNav" data-nav>
+        <a class="nav__link" href="index.html#home">Home</a>
+        <a class="nav__link" href="index.html#services">Services</a>
+        <a class="nav__link" href="index.html#work">Work</a>
+        <a class="nav__link" href="index.html#process">Process</a>
+        <a class="nav__link" href="index.html#about">About</a>
+        <a class="nav__link" href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+    <div class="progressWrap" aria-hidden="true">
+      <div class="progressBar" data-progress></div>
+    </div>
+  </header>
+
+  <button class="backToTop" type="button" data-top aria-label="Back to top">↑</button>
+
+  <main id="main-content">
+    <div class="resumeContainer">
+      <a href="index.html#contact" class="backLink">← Back to portfolio</a>
+
+      <div class="resumeHeader reveal">
+        <h1>Resume</h1>
+        <p>Creative Designer | Graphic Design • Video Editing • UI Design</p>
+      </div>
+
+      <div class="resumeActions reveal">
+        <a href="./assests/img/Sid Resume.pdf" download class="btn btn--primary">
+          ⬇ Download PDF
+        </a>
+        <a href="assests/img/Sid Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">
+          Open in new tab
+        </a>
+      </div>
+
+      <div class="resumeViewer reveal">
+        <embed src="assests/img/resume.pdf" type="application/pdf" />
+        <!-- Fallback for browsers that don't support embed -->
+        <noscript>
+          <div class="resumeFallback">
+            <p>Your browser doesn't support embedded PDFs.</p>
+            <p><a href="resume.pdf" download class="btn btn--primary">Download my resume</a></p>
+          </div>
+        </noscript>
+      </div>
+
+      <div class="resumeFallback" id="pdfFallback" style="display: none;">
+        <p>Your browser doesn't support viewing PDFs directly.</p>
+        <p><a href="resume.pdf" download class="btn btn--primary">Download my resume instead</a></p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__row">
+      <p>© <span data-year></span> design with sid. All rights reserved.</p>
+      <div class="footer__links">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#work">Work</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Fallback for PDF viewer support
+    const resumeViewer = document.querySelector('.resumeViewer embed');
+    if (resumeViewer) {
+      resumeViewer.addEventListener('error', function() {
+        document.getElementById('pdfFallback').style.display = 'block';
+        resumeViewer.parentElement.style.display = 'none';
+      });
+    }
+  </script>
+</body>
+</html>

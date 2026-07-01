@@ -1,582 +1,471 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <!-- META -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Nino - Modern Portfolio Template">
-    <meta name="keywords" content="personal, portfolio new, html, one page, bootstrap, new html template, design, creative, onepage, clean, modern">
-    <meta name="author" content="Tanvir Hossain">
-    <!-- PAGE TITLE -->
-    <title>Neethish Kumar Ramasamy Portfolio</title>
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
-    <!-- ALL GOOGLE FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <!-- BOOTSTRAP CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <!-- FONT AWESOME CSS -->
-    <link rel="stylesheet" href="assets/css/font-awesome-pro.css" />
-    <!-- FONT AWESOME CSS -->
-    <link rel="stylesheet" href="assets/fonts/remixicon.css" />
-    <!-- MAGNIFIC CSS -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <!-- NICE SELECT CSS -->
-    <link rel="stylesheet" href="assets/css/nice-select.min.css" />
-    <!-- ANIMATE CSS -->
-    <link rel="stylesheet" href="assets/css/animate.min.css" />
-    <!-- MOBILE MENU CSS -->
-    <link rel="stylesheet" href="assets/css/mobilemenu.css" />
-    <!-- SLICK CSS -->
-    <link rel="stylesheet" href="assets/css/slick.min.css" />
-    <!-- SPACING CSS -->
-    <link rel="stylesheet" href="assets/css/spacing.css" />
-    <!-- MAIN STYLE CSS -->
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <!-- RESPONSIVE CSS -->
-    <link rel="stylesheet" href="assets/css/responsive.css">
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Neethish Kumar Ramasamy - UX/UI and Graphic Designer Portfolio</title>
+  <meta name="description" content="Neethish Kumar Ramassamy is a UX/UI and graphic designer specializing in brand identity, visual design, and digital experiences. Explore comprehensive case studies and design work." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="app.js"></script>
 </head>
-
 <body>
-    <!-- START PRELOADER AREA-->
-    <!-- <div class="preloader">
-        <svg viewbox="0 0 1000 1000" preserveaspectratio="none">
-            <path id="preloaderSvg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
-        </svg>
-        <div class="preloader-heading">
-            <div class="load-text">
-                <span>L</span>
-                <span>o</span>
-                <span>a</span>
-                <span>d</span>
-                <span>i</span>
-                <span>n</span>
-                <span>g</span>
-            </div>
-        </div>
-    </div> -->
-    <!-- END PRELOADER AREA -->
-    <!-- START SCROOL UP DESIGN AREA -->
-    <div class="progress-wrap cursor-pointer">
-        <i class="ri-arrow-up-s-line"></i>
-        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-        </svg>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="topbar">
+    <div class="wrap topbar__row">
+      <a class="brand" href="#home" data-jump="#home" aria-label="NK Home">
+        <span class="brand__name">NK</span>
+      </a>
+      <button class="menuBtn" type="button" data-menu-btn aria-controls="siteNav" aria-expanded="false">
+        <span class="menuBtn__line"></span>
+        <span class="menuBtn__line"></span>
+        <span class="menuBtn__line"></span>
+        <span class="srOnly">Open menu</span>
+      </button>
+
+      <nav class="nav" id="siteNav" data-nav>
+        <a class="nav__link is-active" href="#home" data-jump="#home">Home</a>
+        <a class="nav__link" href="#services" data-jump="#services">Services</a>
+        <a class="nav__link" href="#work" data-jump="#work">Work</a>
+        <a class="nav__link" href="#process" data-jump="#process">Process</a>
+        <a class="nav__link" href="#about" data-jump="#about">About</a>
+        <a class="nav__link" href="#contact" data-jump="#contact">Contact</a>
+      </nav>
     </div>
-    <!-- / END SCROOL UP DESIGN AREA -->
-    <!-- START MAGIC CURSOR AND BALL AREA-->
-    <div id="magic-cursor">
-        <div id="ball"></div>
+    <div class="progressWrap" aria-hidden="true">
+      <div class="progressBar" data-progress></div>
     </div>
-    <!-- / END MAGIC CURSOR AND BALL AREA-->
-    <!-- START MENU DESIGN AREA-->
-    <header class="main-header">
-        <div class="header-upper">
-            <div class="container">
-                <div class="header-inner">
-                    <div class="row align-items-center">
-                        <div class="col-xl-2 col-lg-2 col-md-6 col-6 col-sm-3">
-                            <div class="logo-area">
-                                <div class="logo">
-                                    <!-- <a href="index.html">Neethish Kumar Ramasamy</a> -->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-10 col-lg-10 col-md-6 col-6 col-sm-9">
-                            <div class="main-menu">
-                                <nav id="mobile-menu">
-                                    <ul>
-                                        <li><a href="index.html" class="linkstyle">Home</a></li>
-                                        <li><a href="#about" class="linkstyle">About</a></li>
-                                        <li><a href="#skills" class="linkstyle">Skills</a></li>
-                                        <li><a href="#portfolio" class="linkstyle">Portfolio</a></li>
-                                        <li><a href="#contact" class="linkstyle">Contact</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                            <div class="side-menu-icon d-lg-none text-end">
-                                <a href="javascript:void(0)" class="info-toggle-btn f-right sidebar-toggle-btn"><i class="fal fa-bars"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+  </header>
+
+  <aside class="rail" aria-label="Quick jump navigation">
+    <button class="rail__dot is-active" data-jump="#home" aria-label="Go to Home"></button>
+    <button class="rail__dot" data-jump="#services" aria-label="Go to Services"></button>
+    <button class="rail__dot" data-jump="#work" aria-label="Go to Work"></button>
+    <button class="rail__dot" data-jump="#process" aria-label="Go to Process"></button>
+    <button class="rail__dot" data-jump="#about" aria-label="Go to About"></button>
+    <button class="rail__dot" data-jump="#contact" aria-label="Go to Contact"></button>
+    <span class="rail__label" data-rail-label>Home</span>
+  </aside>
+
+  <button class="backToTop" type="button" data-top aria-label="Back to top">↑</button>
+
+  <main id="main-content">
+    <section id="home" class="section hero" data-section data-label="Home">
+      <div class="hero__glow hero__glow--one" aria-hidden="true"></div>
+      <div class="hero__glow hero__glow--two" aria-hidden="true"></div>
+      <div class="wrap hero__grid">
+        <div class="hero__content reveal">
+          <p class="eyebrow">Hello There!</p>
+          <h1 class="hero__title">I'm <span class="highlight">Neethish</span>,<br>UX/UI and Graphic Designer</h1>
+          <p class="hero__lead">
+            Creating thoughtful visual experiences and digital narratives. I design identities, create campaigns, develop video content, and craft visual systems for brands.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#work" data-jump="#work">View selected work</a>
+            <a class="btn btn--ghost" href="#contact" data-jump="#contact">Get in touch</a>
+          </div>
+
+          <div class="hero__stats">
+            <div class="stat">
+              <span class="stat__num">6</span>
+              <span class="stat__label">design projects</span>
             </div>
+            <div class="stat">
+              <span class="stat__num">2</span>
+              <span class="stat__label">core services</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num">100%</span>
+              <span class="stat__label">client focused</span>
+            </div>
+          </div>
         </div>
-    </header>
-    <!-- // END MENU DESIGN AREA-->
-    <!-- START MOBILE MENU DESIGN AREA-->
-    <div class="sidebar__area">
-        <div class="sidebar__wrapper">
-            <div class="sidebar__close">
-                <button class="sidebar__close-btn" id="sidebar__close-btn">
-                    <i class="fal fa-times"></i>
-                </button>
-            </div>
-            <div class="sidebar__content mt-50 mb-20">
-                <div class="mobile-menu fix"></div>
-            </div>
+
+        <div class="hero__image reveal reveal--delay1">
+          <div class="hero__imageWrapper">
+            <div class="hero__imageBg" aria-hidden="true"></div>
+            <img src="assests/img/neethish.png" alt="Neethish Kumar Ramassamy - UX/UI and Graphic Designer" class="hero__profileImage">
+          </div>
         </div>
-    </div>
-    <div class="body-overlay"></div>
-    <!-- // END MOBILE MENU DESIGN AREA-->
-    <!-- START HEADER DESIGN AREA -->
-    <section id="home" class="main-hero-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- START HERO DESIGN AREA -->
-                    <div class="hero-content wow fadeInUp text-center delay-0-2s">
-                        <h2>Neethish Kumar </h2>
-                    </div>
-                    <!-- / END HERO DESIGN AREA -->
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 pt-30">
-                    <!-- START HERO DESIGN AREA -->
-                    <div class="hero-content wow fadeInUp delay-0-2s">
-                        <div class="clienti-reviews">
-                            <!-- <ul class="clienti-profile">
-                                <li>
-                                    <img class="img-fluid" src="assets/images/avatar/01.jpg" alt="client">
-                                </li>
-                                <li>
-                                    <img class="img-fluid" src="assets/images/avatar/02.jpg" alt="client">
-                                </li>
-                                <li>
-                                    <img class="img-fluid" src="assets/images/avatar/03.jpg" alt="client">
-                                </li>
-                            </ul> -->
-                            <div class="reviews">
-                                <h3 style="color: black;"><b>User Experience Designer</b></h3>
-                                <p>Crafting digital experiences that delight and inspire!</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- / END HERO DESIGN AREA -->
-                </div>
-                <div class="col-lg-6">
-                    <div class="hero-image">
-                        <img src="assets/images/nk.jpg" alt="">
-                    </div>
-                    <!-- / END HERO DESIGN AREA -->
-                </div>
-                <div class="col-lg-3 pt-30">
-                    <div class="hero-content wow fadeInUp delay-0-4s">
-                        <p>I craft digital experiences that bridge the gap between human needs and technological possibilities.
-                            With a background in Graphic design and UX/UI Design, I bring a unique perspective to every project.
-                        </p>                       
-                         <a class="theme-btn" href="mailto:neethish17@gmail.com" target="_blank">Get In touch</a>
-                    </div>
-                    <!-- / END HERO DESIGN AREA -->
-                </div>
-            </div>
-        </div>
+      </div>
     </section>
-    <!-- / END HEADER DESIGN AREA -->
-    <!-- START COMPANY DESIGN AREA -->
-    <div class="company-design-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2>Company I Worked With</h2>
-                    <div class="company-list">
-                        <div class="scroller" data-direction="left" data-speed="slow">
-                            <div class="scroller__inner">
-                                <img src="assets/images/about/wdx-logo.png" alt="Webdoux" />
-                                <img src="assets/images/about/thotbox-logo.png" alt="thotBox" />
-                                <h1>Freelance Designer</h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- // END COMPANY DESIGN AREA -->
-    <!-- START ABOUT DESIGN AREA -->
-    <section id="about" class="about-area">
-        <div class="container">
-            <div class="row">
-                <!-- START ABOUT TEXT DESIGN AREA -->
-                <div class="col-lg-3 col-sm-3">
-                    <h2 class="about-pre-title">About Me</h2>
-                </div>
-                <div class="col-lg-9 col-sm-9">
-                    <div class="about-content-part wow fadeInUp delay-0-2s">
-                        <p>Detail-oriented and user-focused UX Designer with a background in Statistics (BSc) and User 
-Experience Design (MSc, UK). Skilled at transforming complex problems into user-friendly solutions 
-through research, wireframing, prototyping, and accessible UI design.
-                        </p>
-                    </div>
-                    <a class="theme-btn2" href="mailto:neethish17@gmail.com" target="_blank">Explore my Work</a>
 
-                </div>
-                <!-- / END ABOUT TEXT DESIGN AREA -->
-            </div>
-        </div>
+     <section class="section section--tight valueStrip">
+      <div class="wrap valueStrip__row reveal">
+        <div class="valueStrip__item"><span>01</span> Strategy-first creative direction</div>
+        <div class="valueStrip__item"><span>02</span> Visual systems with consistency</div>
+        <div class="valueStrip__item"><span>03</span> Interfaces built for clarity</div>
+        <div class="valueStrip__item"><span>04</span> Content edited for attention</div>
+      </div>
     </section>
-    <!-- / END ABOUT DESIGN AREA -->
-   <!-- START SKILL DESIGN AREA -->
-   <section id="skills" class="skill-area">
-    <div class="container">
-        <div class="container-inner">
-            <div class="row">
-                <div class="col-xl-12 col-lg-12">
-                    <div class="section-title section-black-title mb-40 wow fadeInUp delay-0-2s">
-                        <h2>Professional Skills</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="skill-items-wrap">
-                        <div class="row">
-                            <div class="col-xl-3 col-lg-4 col-md-3 col-sm-4 col-6">
-                                <div class="skill-item wow fadeInUp delay-0-2s">
-                                    <img src="./assets/ux.png" alt="Skill" />
-                                    <h5>UX Research</h5>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-4 col-md-3 col-sm-4 col-6">
-                                <div class="skill-item wow fadeInUp delay-0-3s">
-                                    <img src="./assets/web-design.png" alt="Skill" />
-                                    <h5>UI Design</h5>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-4 col-md-3 col-sm-4 col-6">
-                                <div class="skill-item wow fadeInUp delay-0-4s">
-                                    <img src="./assets/recruitment.png" alt="Skill" />
-                                    <h5>Wireframing</h5>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-4 col-md-3 col-sm-4 col-6">
-                                <div class="skill-item wow fadeInUp delay-0-5s">
-                                    <img src="./assets/figma.png" alt="Skill" />
-                                    <h5>Figma</h5>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-4 col-md-3 col-sm-4 col-6">
-                                <div class="skill-item wow fadeInUp delay-0-2s">
-                                    <img src="./assets/adobe.png" alt="Skill" />
-                                    <h5>Adobe Suite</h5>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-4 col-md-3 col-sm-4 col-6">
-                                <div class="skill-item wow fadeInUp delay-0-3s">
-                                    <img src="./assets/html-5.png" alt="Skill" />
-                                    <h5>Html</h5>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-4 col-md-3 col-sm-4 col-6">
-                                <div class="skill-item wow fadeInUp delay-0-4s">
-                                    <img src="./assets/css-3.png" alt="Skill" />
-                                    <h5>CSS</h5>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-4 col-md-3 col-sm-4 col-6">
-                                <div class="skill-item wow fadeInUp delay-0-5s">
-                                    <img src="./assets/js.png" alt="Skill" />
-                                    <h5>Javascript</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- / END SKILL DESIGN AREA -->
-    <!-- START PORTFOLIO DESIGN AREA -->
-    <div class="projects-area" id="portfolio">
-        <div style="text-align: center;" class="section-title section-black-title wow fadeInUp delay-0-2s">
-            <h2 style="color: azure;">Portfolio</h2>
-        </div>  
-        <div style="text-align: center;" class="section-title section-black-title wow fadeInUp delay-0-2s">
-            <div class="tab" id="tab1">
-                <button class="theme-btn2 tablinks active"  onclick="openCity(event, 'UX')">UX/UI </button>
-               <button class="theme-btn2 tablinks"  onclick="openCity(event, 'GD')">Graphic Design </button>
-               <button class="theme-btn2 tablinks" onclick="openCity(event, 'Development')">Development </button>
-              </div>
-        
-</div>
-        <!-- <div class="custom-icon">
-            <img src="assets/images/custom/work-scribble.svg" alt="custom">
-        </div> -->
 
-        <!-- Ux projects -->
-        <div class="container-fluid tabcontent" id="UX">
-            <div class="row g-4 portfolio-grid">
-                <!-- START SINGLE PORTFOLIO DESIGN AREA -->
-                <div class="col-md-6 col-xl-6 portfolio-item category-1">
-                    <a href="design.html">
-                        <div class="portfolio-box">
-                            <!-- Image -->
-                            <img src="./Case study dissertation/cover pg.jpg" alt="" data-rjs="2">
-                            <!-- Category -->
-                            <span onclick="navigateToglobast()" class="portfolio-category">UX Research</span>
-                            <!-- Caption -->
-                            <div class="portfolio-caption">
-                                <h1>Designing for Understanding</h1>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- // END SINGLE PORTFOLIO DESIGN AREA -->
-                <!-- START SINGLE PORTFOLIO DESIGN AREA -->
-                <div class="col-md-6 col-xl-6 portfolio-item category-2">
-                    <a href="globast.html">
-                        <div class="portfolio-box">
-                            <!-- Image -->
-                            <img src="./Case study Globast/cover pg.jpg"  alt="" data-rjs="2">
-                            <!-- Category -->
-                            <span class="portfolio-category">UX / UI</span>
-                            <!-- Caption -->
-                            <div class="portfolio-caption">
-                                <h1>Gloabst</h1>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- // END SINGLE PORTFOLIO DESIGN AREA -->
-                <!-- START SINGLE PORTFOLIO DESIGN AREA -->
-                <div class="col-md-6 col-xl-6 portfolio-item category-1">
-                    <a href="gamification.html">
-                        <div class="portfolio-box">
-                            <!-- Image -->
-                            <img src="./research/cover pg 2.jpg" alt="" data-rjs="2">
-                            <!-- Category -->
-                            <span class="portfolio-category">UX Research</span>
-                            <!-- Caption -->
-                            <div class="portfolio-caption">
-                                <h1>Gamification in E-learning</h1>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- // END SINGLE PORTFOLIO DESIGN AREA -->
-                <!-- START SINGLE PORTFOLIO DESIGN AREA -->
-                <div class="col-md-6 col-xl-6 portfolio-item category-1">
-                    <a href="./verdura.html">
-                        <div class="portfolio-box">
-                            <!-- Image -->
-                            <img src="Verdura/cover pg 2.jpg" alt="" data-rjs="2">
-                            <!-- Category -->
-                            <span class="portfolio-category">Vr</span>
-                            <!-- Caption -->
-                            <div class="portfolio-caption">
-                                <h1>Verdura</h1>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- // END SINGLE PORTFOLIO DESIGN AREA -->
-                <!-- START SINGLE PORTFOLIO DESIGN AREA -->
-             
-                <!-- // END SINGLE PORTFOLIO DESIGN AREA -->
-            </div>
-        </div>
-   
-      <!-- Graphic Design projects -->
-        <div class="container-fluid tabcontent" id="GD">
-            <div class="row g-4 portfolio-grid">
-                <!-- START SINGLE PORTFOLIO DESIGN AREA -->
-                <div class="col-md-6 col-xl-6 portfolio-item category-1">
-                    <a href="von.html">
-                        <div class="portfolio-box">
-                            <!-- Image -->
-                            <img src="./von/Cover Pg.jpg" alt="" data-rjs="2">
-                            <!-- Category -->
-                            <span class="portfolio-category">Branding</span>
-                            <!-- Caption -->
-                            <div class="portfolio-caption">
-                                <h1>Von Rebranding</h1>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- // END SINGLE PORTFOLIO DESIGN AREA -->
-               
-            </div>
+    <section id="services" class="section" data-section data-label="Services">
+      <div class="wrap">
+        <div class="sectionHead reveal">
+          <p class="eyebrow eyebrow--dark">Services</p>
+          <h2>What the studio delivers</h2>
         </div>
 
-        <!-- Development -->
-        <div class="container-fluid tabcontent" id="Development">
-            <div class="row g-4 portfolio-grid">
-                <!-- START SINGLE PORTFOLIO DESIGN AREA -->
-                <div class="col-md-6 col-xl-6 portfolio-item category-1">
-                    <a href="ttg.html">
-                        <div class="portfolio-box">
-                            <!-- Image -->
-                            <img src="ttg/ttg banner.png" alt="" data-rjs="2">
-                            <!-- Category -->
-                            <span class="portfolio-category">Redesign</span>
-                            <!-- Caption -->
-                            <div class="portfolio-caption">
-                                <h1>TTG Website </h1>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- // END SINGLE PORTFOLIO DESIGN AREA -->
-               
-            </div>
-        </div>
-    </div>
-
-    
-    
-    
-
-
-
-
-
-    <!-- // END PORTFOLIO DESIGN AREA -->
-  
-   
-   
-  
-    <!-- START FOOTER DESIGN AREA -->
-    <footer class="main-footer" id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="footer-top">
-                        <p> Have a project in mind?</p>
-                        <h2><a href="mailto:neethish17@gmail.com" target="_blank">let's work</a></h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    
-                </div>
-               
-            </div>
-        </div>
-    </footer>
-    <!-- / END FOOTER DESIGN AREA -->
-
-   <!-- footer ection -->
-   <footer class="footer">
-    <div class="footer-content">
-        <div class="footer-section">
-            <h3>About Me</h3>
-            <p>UX Designer passionate about creating delightful user experiences.</p>
-        </div>
-        <div class="footer-section">
-            <h3>Quick Links</h3>
+        <div class="serviceGrid">
+          <article class="serviceCard reveal">
+            <span class="serviceCard__icon">✦</span>
+            <h3>Graphic design</h3>
+            <p>Identity systems, campaign graphics, marketing collateral, packaging, and presentation-ready visual language.</p>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
+              <li>Logo and identity systems</li>
+              <li>Brand guidelines and asset kits</li>
+              <li>Campaign visuals and social graphics</li>
             </ul>
-        </div>
-        <div class="footer-section">
-            <h3>Connect</h3>
+          </article>
+
+          <article class="serviceCard reveal reveal--delay1">
+            <span class="serviceCard__icon">◎</span>
+            <h3>UX / UI design</h3>
+            <p>Research-backed interfaces for products, dashboards, and digital journeys that need clarity, structure, and usability.</p>
             <ul>
-                <li><a href="https://www.behance.net/neethish17e309" target="_blank">Behance</i></a></li>
-                <li><a href="https://www.linkedin.com/in/neethish-kumar/" target="_blank">Linkedin</a></li>
-                <li><a href="mailto:neethish17@gmail.com" target="_blank">email</a></li>
-                <li><a href="mailto:neethish17@gmail.com" target="_blank">+44 7769056105</a></li>
+              <li>User flows and wireframes</li>
+              <li>High-fidelity UI systems</li>
+              <li>Prototype testing and refinement</li>
             </ul>
+          </article>
+
+          <article class="serviceCard reveal reveal--delay2">
+            <span class="serviceCard__icon">◻</span>
+            <h3>Website creation</h3>
+            <p>Modern, responsive websites built to communicate value clearly, support growth, and convert the right audience.</p>
+            <ul>
+              <li>Landing pages and portfolio sites</li>
+              <li>Marketing websites and web UI</li>
+              <li>Responsive front-end build</li>
+            </ul>
+          </article>
+
+          <article class="serviceCard reveal reveal--delay3">
+            <span class="serviceCard__icon">▶</span>
+            <h3>Video editing</h3>
+            <p>Short-form edits, promo content, motion-led visuals, and platform-ready video formats for digital campaigns.</p>
+            <ul>
+              <li>Social edits and launch reels</li>
+              <li>Motion design and transitions</li>
+              <li>Creative packaging for content</li>
+            </ul>
+          </article>
         </div>
+      </div>
+    </section>
+
+    <section id="work" class="section workSection" data-section data-label="Work">
+      <div class="wrap">
+        <div class="sectionHead sectionHead--split reveal">
+          <div>
+            <p class="eyebrow eyebrow--dark">Selected work</p>
+            <h2>Real case studies, not filler tiles</h2>
+            <!-- <p class="sectionLead">The fake gallery has been replaced with direct links to the uploaded case-study pages, grouped so the portfolio reads like a real studio site.</p> -->
+          </div>
+
+          <div class="filterBar" role="tablist" aria-label="Work filters">
+            <button class="filterChip is-active" type="button" data-filter="all" role="tab" aria-selected="true">All</button>
+            <button class="filterChip" type="button" data-filter="graphic-design" role="tab" aria-selected="false">Graphic Design</button>
+             <button class="filterChip" type="button" data-filter="ux-ui" role="tab" aria-selected="false">UX/UI</button>
+            <button class="filterChip" type="button" data-filter="websites" role="tab" aria-selected="false">Websites</button>
+            <button class="filterChip" type="button" data-filter="video-editing" role="tab" aria-selected="false">Video Editing</button>
+          </div>
+        </div>
+
+        <div class="projectGrid" data-gallery>
+          <a class="projectCard reveal" data-tags="graphic-design" href="paw-prints.html">
+            <div class="projectCard__visual projectCard__visual--paw">
+              <span class="projectCard__badge">Brand Identity</span>
+              <div class="projectCard__mark">PP</div>
+            </div>
+            <div class="projectCard__body">
+              <p class="projectCard__meta">Graphic design • Pet care</p>
+              <h3>Paw Prints</h3>
+              <p>A warm, premium identity system with logo, palette, applications, and rollout across touchpoints.</p>
+              <span class="projectCard__cta">View case study →</span>
+            </div>
+          </a>
+
+          <a class="projectCard reveal reveal--delay1" data-tags="graphic-design" href="shrigana.html">
+            <div class="projectCard__visual projectCard__visual--shrigana">
+              <span class="projectCard__badge">Brand Identity</span>
+              <div class="projectCard__mark">SG</div>
+            </div>
+            <div class="projectCard__body">
+              <p class="projectCard__meta">Graphic design • Wellness</p>
+              <h3>Shrigana</h3>
+              <p>A holistic wellness identity built around growth, trust, natural colour, and clean packaging-ready design.</p>
+              <span class="projectCard__cta">View case study →</span>
+            </div>
+          </a>
+
+          <a class="projectCard reveal reveal--delay2" data-tags="graphic-design" href="von.html">
+            <div class="projectCard__visual projectCard__visual--von">
+              <span class="projectCard__badge">Rebrand</span>
+              <div class="projectCard__mark">VON</div>
+            </div>
+            <div class="projectCard__body">
+              <p class="projectCard__meta">Graphic design • Sports</p>
+              <h3>VON</h3>
+              <p>A sharper sports brand rebrand using bold typography, high contrast, and stronger rollout logic.</p>
+              <span class="projectCard__cta">View case study →</span>
+            </div>
+          </a>
+
+          <a class="projectCard reveal" data-tags="graphic-design" href="social-media-posters.html">
+            <div class="projectCard__visual projectCard__visual--posters">
+              <span class="projectCard__badge">Poster Gallery</span>
+              <div class="projectCard__mark">DC</div>
+            </div>
+            <div class="projectCard__body">
+              <p class="projectCard__meta">Graphic design • Social media</p>
+              <h3>Digital Canvas</h3>
+              <p>A curated set of social media posters and isometric visuals arranged as two topic sections.</p>
+              <span class="projectCard__cta">View gallery →</span>
+            </div>
+          </a>
+
+          <a class="projectCard reveal reveal--delay1" data-tags="graphic-design" href="report-designs.html">
+            <div class="projectCard__visual projectCard__visual--reports">
+              <span class="projectCard__badge">Editorial Design</span>
+              <div class="projectCard__mark">RP</div>
+            </div>
+            <div class="projectCard__body">
+              <p class="projectCard__meta">Graphic design • Reports</p>
+              <h3>Report Design Portfolio</h3>
+              <p>A clean, narrative-led collection of annual report covers, spreads, and data-rich layouts.</p>
+              <span class="projectCard__cta">View report page →</span>
+            </div>
+          </a>
+
+           <a class="projectCard reveal" data-tags="ux-ui" href="globast.html">
+            <div class="projectCard__visual projectCard__visual--globast">
+              <span class="projectCard__badge">UX/UI Case Study</span>
+              <div class="projectCard__mark">GL</div>
+            </div>
+            <div class="projectCard__body">
+              <p class="projectCard__meta">UX/UI • Inclusive streaming</p>
+              <h3>Globast</h3>
+              <p>An inclusive streaming platform shaped around accessibility, subtitles, audio description, and guided testing.</p>
+              <span class="projectCard__cta">View case study →</span>
+            </div>
+          </a>
+
+          
+
+          <a class="projectCard reveal reveal--delay1" data-tags="ux-ui" href="designing-for-understanding.html">
+            <div class="projectCard__visual projectCard__visual--understanding">
+              <span class="projectCard__badge">UX Research</span>
+              <div class="projectCard__mark">DFU</div>
+            </div>
+            <div class="projectCard__body">
+              <p class="projectCard__meta">UX/UI • Research</p>
+              <h3>Designing for Understanding</h3>
+              <p>Mixed-methods UX research focused on improving elderly understanding of digital terms and conditions.</p>
+              <span class="projectCard__cta">View case study →</span>
+            </div>
+          </a>
+
+          <a class="projectCard reveal reveal--delay2" data-tags="ux-ui" href="verdura.html">
+            <div class="projectCard__visual projectCard__visual--verdura">
+              <span class="projectCard__badge">UX/UI Case Study</span>
+              <div class="projectCard__mark">VR</div>
+            </div>
+            <div class="projectCard__body">
+              <p class="projectCard__meta">UX/UI • EdTech</p>
+              <h3>Verdura</h3>
+              <p>A VR botany learning app using immersion, user testing, and three design iterations to tackle plant blindness.</p>
+              <span class="projectCard__cta">View case study →</span>
+            </div>
+          </a>
+
+          <a class="projectCard reveal" data-tags="websites" href="aam-palace.html">
+            <div class="projectCard__visual projectCard__visual--ahpalace">
+              <span class="projectCard__badge">Website Case Study</span>
+              <div class="projectCard__mark">AH</div>
+            </div>
+            <div class="projectCard__body">
+              <p class="projectCard__meta">Website • Event venue</p>
+              <h3>AAM Palace</h3>
+              <p>A premium digital experience for a marriage hall, designed to communicate scale, trust, and inquiry flow clearly.</p>
+              <span class="projectCard__cta">View case study →</span>
+            </div>
+          </a>
+
+          <a class="projectCard reveal reveal--delay1" data-tags="websites" href="tt-group.html">
+            <div class="projectCard__visual projectCard__visual--ttgroup">
+              <span class="projectCard__badge">Website Case Study</span>
+              <div class="projectCard__mark">TT</div>
+            </div>
+            <div class="projectCard__body">
+              <p class="projectCard__meta">Website • Multi-service business</p>
+              <h3>TT Group of Companies</h3>
+              <p>A structured corporate website that simplifies multiple service verticals into a clear, credible, and easy-to-navigate experience.</p>
+              <span class="projectCard__cta">View case study →</span>
+            </div>
+          </a>
+
+          <a class="projectCard reveal reveal--delay2" data-tags="graphic-design" href="ppt-presentations.html">
+            <div class="projectCard__visual projectCard__visual--presentations">
+              <span class="projectCard__badge">Presentation Design</span>
+              <div class="projectCard__mark">PPT</div>
+            </div>
+            <div class="projectCard__body">
+              <p class="projectCard__meta">Graphic design • PowerPoint</p>
+              <h3>PPT Presentations</h3>
+              <p>Professional PowerPoint decks featuring strategic layouts, visual systems, and impactful slide designs for corporate and marketing communications.</p>
+              <span class="projectCard__cta">View presentations →</span>
+            </div>
+          </a>
+
+          <a class="projectCard reveal reveal--delay3" data-tags="video-editing" href="video-editing-gallery.html">
+            <div class="projectCard__visual projectCard__visual--video">
+              <span class="projectCard__badge">Service Spotlight</span>
+              <div class="projectCard__mark">VID</div>
+            </div>
+            <div class="projectCard__body">
+              <p class="projectCard__meta">Video editing</p>
+              <h3>Launch edits and social cuts</h3>
+              <p>Promo edits, campaign reels, and motion-backed social formats designed to hold attention and package the message cleanly.</p>
+              <span class="projectCard__cta">Open video gallery →</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="section section--alt" data-section data-label="Process">
+      <div class="wrap">
+        <div class="sectionHead reveal">
+          <p class="eyebrow eyebrow--dark">Process</p>
+          <h2>A cleaner studio flow</h2>
+          <!-- <p class="sectionLead">The process section has been kept, tightened, and reframed to feel like a real creative engagement — not just placeholder copy.</p> -->
+        </div>
+
+        <ol class="processList">
+          <li class="processCard reveal">
+            <span class="processCard__num">01</span>
+            <div>
+              <h3>Discovery</h3>
+              <p>I map the business, audience, offer, and current friction before pushing visuals.</p>
+            </div>
+          </li>
+          <li class="processCard reveal reveal--delay1">
+            <span class="processCard__num">02</span>
+            <div>
+              <h3>Direction</h3>
+              <p>I define the visual, structural, and messaging direction so the work has a spine.</p>
+            </div>
+          </li>
+          <li class="processCard reveal reveal--delay2">
+            <span class="processCard__num">03</span>
+            <div>
+              <h3>Design</h3>
+              <p>We design the brand system, UI, website layout, or edit framework around that direction.</p>
+            </div>
+          </li>
+          <li class="processCard reveal reveal--delay3">
+            <span class="processCard__num">04</span>
+            <div>
+              <h3>Build / Edit</h3>
+              <p>We turn approved design into responsive pages, production assets, or final-cut content.</p>
+            </div>
+          </li>
+          <li class="processCard reveal">
+            <span class="processCard__num">05</span>
+            <div>
+              <h3>Launch / Handover</h3>
+              <p>You get organised files, working output, and a system that is easier to maintain and extend.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="about" class="section" data-section data-label="About">
+      <div class="wrap aboutGridWrap">
+        <div class="sectionHead reveal">
+          <p class="eyebrow eyebrow--dark">About</p>
+          <h2>Creative on the surface. Structured underneath.</h2>
+           <!-- <p class="sectionLead">This combined version keeps the original studio personality, but makes it more commercially useful. It now reads like a studio that can actually win work.</p> -->
+        </div>
+
+        <div class="aboutGrid">
+          <article class="aboutCard reveal">
+            <h3>What I do</h3>
+            <p>I create thoughtful, polished design work—from brand identities and graphic campaigns to edited video content that communicates clearly and looks strong.</p>
+          </article>
+          <article class="aboutCard reveal reveal--delay1">
+            <h3>What I bring</h3>
+            <p>Strategy-first approach grounded in real research and insight, paired with disciplined execution and attention to visual systems that scale.</p>
+          </article>
+          <article class="aboutCard reveal reveal--delay2">
+            <h3>Who I work with</h3>
+            <p>Brands, businesses, and digital products that value clarity, craftsmanship, and design that actually works. Available for freelance and project-based work.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section--contact" data-section data-label="Contact">
+      <div class="wrap contactWrap">
+        <div class="contactIntro reveal">
+          <p class="eyebrow eyebrow--light">Contact</p>
+          <h2>Let's build something that people remember.</h2>
+          <p class="sectionLead sectionLead--light">Tell me about your project, timeline, and goals. I can support brand identity, campaign design, social visuals, and editing-led content systems.</p>
+
+          <div class="contactActions contactActions--social">
+            <a href="mailto:neethish17@gmail.com" class="btn btn--light btn--icon">
+              <span>Email</span>
+            </a>
+            <a href="https://www.linkedin.com/in/neethish-kumar/?skipRedirect=true" target="_blank" rel="noopener noreferrer" class="btn btn--ghost-light btn--icon" aria-label="LinkedIn">
+              <span>LinkedIn</span>
+            </a>
+          </div>
+        </div>
+
+        <aside class="contactPanel reveal reveal--delay1" aria-label="Contact details">
+          <div class="contactPanel__card">
+            <span class="contactInfo__label">Email</span>
+            <a class="contactPanel__link" href="mailto:neethish17@gmail.com">neethish17@gmail.com</a>
+          </div>
+
+          <div class="contactPanel__card">
+            <span class="contactInfo__label">Based</span>
+            <strong>Canterbury, UK</strong>
+          </div>
+
+          <div class="contactPanel__card">
+            <span class="contactInfo__label">Availability</span>
+            <strong>Open for freelance and project-based work</strong>
+          </div>
+
+          <div class="contactPanel__card contactPanel__card--cta">
+            <span class="contactInfo__label">Resume</span>
+            <p>View my qualifications, experience, and design expertise in one document.</p>
+            <a href="resume.html" class="btn btn--light btn--icon">
+              <span>View resume</span>
+            </a>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__row">
+      <p>© <span data-year></span> design with sid. All rights reserved.</p>
+      <div class="footer__links">
+        <a href="#home" data-jump="#home">Top</a>
+        <a href="#work" data-jump="#work">Work</a>
+        <a href="#contact" data-jump="#contact">Contact</a>
+      </div>
     </div>
-    <div class="footer-bottom">
-        <p>&copy; Neethish Kumar Ramasamy | User Experience Designer.</p>
-    </div>
-</footer>
-    
-    <!-- JQUERY JS -->
-    <script src="assets/js/jquery-3.6.0.min.js"></script>
-    <!-- BOOTSTRAP JS-->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- APPEAR JS -->
-    <script src="assets/js/appear.min.js"></script>
-    <!-- MAGNIFICANT JS -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <!-- MOBILE MENU JS-->
-    <script src="assets/js/mobilemenu.js"></script>
-    <!-- GSAP AND LOCOMOTIV JS-->
-    <script src="assets/js/gsap.min.js"></script>
-    <script src="assets/js/ScrollTrigger.min.js"></script>
-    <script src="assets/js/lenis.js"></script>
-    <!-- SLICK JS-->
-    <script src="assets/js/slick.min.js"></script>
-    <!-- NICE SELECT JS-->
-    <script src="assets/js/jquery.nice-select.min.js"></script>
-    <!-- IMAGE LOADER JS-->
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <!-- ISOTOPE JS-->
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <!--  WOW ANIMATION JS-->
-    <script src="assets/js/wow.min.js"></script>
-    <!-- SCRIPT JS-->
-    <script src="assets/js/script.js"></script>
-
-
-
-    <script>
-        function openCity(evt, cityName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-    </script>
-
-
-<!-- tab button -->
-<script>
-    function openCity(evt, cityName) {
-      var i, tabcontent, tablinks;
-      tabcontent = document.getElementsByClassName("tabcontent");
-      for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-      }
-      tablinks = document.getElementsByClassName("tablinks");
-      for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-      }
-      document.getElementById(cityName).style.display = "block";
-      evt.currentTarget.className += " active";
-    }
-
-
-   
-    </script>
-
-    <!-- active btn -->
-<script>
-    var header = document.getElementById("tab1");
-var btns = header.getElementsByClassName("theme-btn2");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-  var current = document.getElementsByClassName("active");
-  current[0].className = current[0].className.replace(" active", "");
-  this.className += " active";
-  });
-}
-</script>
+  </footer>
 </body>
-
 </html>
+
+
